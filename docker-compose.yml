@@ -1,0 +1,27 @@
+version: "3"
+services:
+  build_mkdocs:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/docs/
+    command: mkdocs build
+
+  serve:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/docs/
+    command: mkdocs serve 
+  
+  deploy:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/docs/
+    command: mkdocs gh-deploy --force 
