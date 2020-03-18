@@ -1,15 +1,13 @@
-# 2020.1-Grupo5-Backend
+# StaySafe Documentação
 
-# GitHubPages
+## Link para a documentação
+* [https://fga-eps-mds.github.io/2020.1-stay-safe-docs/](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/)
 
-## Instructions
+## Comandos
 
-### Install mkdocs
-* <code>pip install mkdocs</code>
-* <code>pip install mkdocs-material</code>
+### Rodar localmente
+<pre><code>docker-compose up --build serve</code></pre>
 
-### Running mkdocs
-* <code>mkdocs serve</code>
+### Deploy
+<pre><code>docker-compose run --rm deploy</code></pre>
 
-### Deploying command:
-* <p><code>mkdocs gh-deploy --clean</code></p>
