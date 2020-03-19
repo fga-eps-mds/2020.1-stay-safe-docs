@@ -1,2 +1,2 @@
-# StaySafe
+# StaySafe - Documento de Visão
     Aplicativo ...
