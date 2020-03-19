@@ -48,3 +48,17 @@ O aplicativo pode redirecionar o usuário para uma delegacia mais próxima após
 ### 5.4. Ordenação de cidades por critérios diferentes
 
 As cidades podem ser ordenadas através de filtros escolhidos pelo usuário, como categorias de crimes ou mais Delegacias de Polícias em uma determinada de região.
+
+## 6. Restrições
+
+### 6.1. Restrições de Design
+
+...
+
+### 6.2. Restrições de Implementação
+
+...
+
+### 6.3. Restrições de Uso
+
+Para instalação e usabilidade do aplicativo é necessário um smartphone com o sistema operacional Android com acesso à Play Store. Além de acesso a conexão estável de internet para uso completo e atualizado do aplicativo.
