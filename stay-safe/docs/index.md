@@ -1,4 +1,16 @@
-# StaySafe - Documento de Visãos
+# StaySafe - Documento de Visão
+
+## 1. Introdução
+
+...
+
+## 2. Posicionamento
+
+...
+
+## 3. Perfil dos Usuários, Envolvidos e Mercado
+
+...
 
 ## 4. Definição do Produto
 
@@ -53,12 +65,37 @@ As cidades podem ser ordenadas através de filtros escolhidos pelo usuário, com
 
 ### 6.1. Restrições de Design
 
-...
+O aplicativo deve ter um design de alta compreensão e acessibilidade.
 
 ### 6.2. Restrições de Implementação
 
-...
+O aplicativo será implementado utilizando as linguagens Python, com o framework Flask, e Javascript, com o framework React Native. 
 
 ### 6.3. Restrições de Uso
 
 Para instalação e usabilidade do aplicativo é necessário um smartphone com o sistema operacional Android com acesso à Play Store. Além de acesso a conexão estável de internet para uso completo e atualizado do aplicativo.
+
+## 7. Critérios de Qualidade
+
+### 7.1. Testes unitários
+
+Serão utilizados testes unitários em cada serviço criado no back-end para garantir a alta qualidade do codigo.
+
+### 7.2. Usabilidade
+
+...
+
+## 8. Requisitos
+
+...
+
+## 9. Documentação Adicional
+
+...
+
+## 10. Referências
+
+https://www.ibm.com/support/knowledgecenter/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html
+
+https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/
+
