@@ -17,7 +17,7 @@
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
 
-## Known problems:
+## Known problems (if appropriate):
 <!--- Your PR will not always be perfect and it can still be accepted. List some points for improvement. -->
 <!--- If not appropriate, just delete this topic -->
 
