@@ -57,9 +57,54 @@ Com o histórico de já ter feito parte da lista dos países mais perigosos do m
 | Diferente de | Aplicações similares que não permitem filtro de crimes e interação com os usuários |
 | Nosso produto | Oferece uma visualização em mapa com filtros e alertas sobre crimes ocorridos com usuários próximos |
 
-## 3. Perfil dos Usuários, Envolvidos e Mercado
+## 3. Descrições da Parte Interessada e do Usuário
 
-...
+Esta seção fornece um perfil das partes interessadas e usuários envolvidos no projeto. 
+
+### 3.1 Resumo da parte interessada
+
+| Nome | Descrição | Responsabilidade | 
+|----|----|----|
+|Equipe de Desenvolvimento| Graduandos em Engenharia de Software, cursando a disciplina Métodos de desenvolvimento de Software, pela Universidade de Brasília | Desenvolvimento, testes, documentação e implementação do software |
+| Equipe de Gestão de Processo | Graduandos em Engenharia de Software, cursando a disciplina Engenharia de Produto de Software, pela Universidade de Brasília | Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto |
+|Equipe docente| Professor da Universidade de Brasília do curso de Engenharia de Software | Avaliar e orientar os estudantes de ambas as disciplinas |
+
+### 3.2 Resumo do usuário
+
+| Nome | Descrição | Responsabilidade |
+|----|----|----|
+| População | Público interessado em visualizar informações referentes à criminalidade | Utilizar a aplicação | 
+| Vítima / testemunha | Público interessado em denunciar um crime como vítima ou testemunha | Contribuir com a inserção de dados na aplicação |
+
+### 3.3 Ambiente do Usuário
+
+A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
+
+### 3.4 Perfis das partes interessadas
+
+|Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento |Problemas/comentários| 
+|---- |---- |---- |---- |---- |---- |----| 
+| Brenda Santos, Daniel Primo, Herick Portugues, Italo Alves, Lucas Boaventura, Luiz Pettengil, Tiago Samuel | Desenvolvimento de Software | Estudantes da Universidade de Brasília, cursando a disciplina de Métodos de Desenvolvimento de Software | Desenvolvimento, testes, documentação e implementação do software | Finalizar o desenvolvimento e realizar a entrega do software dentro dos prazos | Alto | - | 
+| Renan Schadt , Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília|Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto | - |
+| Hilmer Neri | Docente |Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto | - |
+
+### 3.5 Perfil do usuário
+
+|Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento| 
+|---- |---- |---- |---- |---- |---- |
+| População | Público interessado em visualizar informações referentes à criminalidade | Usuário | Utilizar a aplicação | Visualizar os dados de maneira simples e eficiente | Médio |
+| Vítima / Testemunha | Público interessado em denunciar um crime como vítima ou testemunha | Usuário | Contribuir com a inserção de dados na aplicação | Facilitar o processo de denúncia de um crime | Alto |
+
+### 3.6 Principais necessidades das partes interessadas ou do usuário
+
+| Necessidade|Prioridade |Interesse |Solução atual |Solução proposta | 
+| ----|----|---- |---- |---- |
+| Visualizar o grau de criminalidade de uma região | Alta | Visualizar índices de criminalidade com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de criminalidade por meio de mapas |
+| Auxiliar na denúncia de crimes | Alta | Guiar o usuário na denúncia de crimes | Pesquisar uma delegacia e fazer o boletim de ocorrência | Aplicação que indica e guia o usuário até a delegacia mais próxima, além de fornecer um atalho para realizar o boletim de ocorrência online | 
+
+### 3.7 Alternativas e concorrência
+
+Embora já existam propostas semelhantes, outras aplicações não obtiveram bons resultados e avaliações positivas do público, tanto por problemas técnicos quanto por não possuir tantas funcionalidades, como o cadastro de ocorrências pelos usuários, mapas de calor e filtragem de crimes.
 
 ## 4. Definição do Produto
 
