@@ -2,7 +2,36 @@
 
 ## 1. Introdução
 
-...
+O documento de visão define o escopo de alto nível do produto, o propósito do software a ser desenvolvido e seu valor mercadológico. Este visa estabelecer e nivelar as expectativas dos envolvidos sobre o que exatamente é o software em questão.
+
+### 1.1 Proposta
+
+Este documento tem como objetivo estabelecer um posicionamento sobre a aplicação mobile **Stay Safe**, trazendo as características, utilidades e o processo de desenvolvimento como um todo. Visa promover o entendimento fácil do leitor, seja ele usuário ou desenvolvedor, expondo suas funcionalidades e definindo os principais requisitos.
+
+### 1.2 Escopo
+
+Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade de estatísticas relacionadas à incidência de crimes por região, de forma a facilitar a visualização pela sociedade, além de possibilitar o registro e alerta de ocorrências.
+
+### 1.3 Definições, Acrônimos e Abreviações
+
+* **UnB** - Universidade de Brasília
+* **FGA** - Faculdade do Gama (UnB)
+* **MDS** - Métodos de Desenvolvimento de Software
+* **EPS** - Engenharia de Produto de Software
+* **Stay Safe** - Nome do aplicativo a ser desenvolvido
+* **SSP** - Secretaria de Segurança Pública
+
+### 1.4 Referências
+
+IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 19 mar. 2020;
+
+MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João; MENEZES, Leticia; GUILHERME, Luiz; SCHADT, Renan; VINICIUS, Rômulo; HUGO, Victor. Projeto translate.me: Documento de Visão. Disponível em: https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/. Acesso em: 19 mar. 2020;
+
+MUNIZ, Amanda; RIOS, Calebe; LIMA, Eduardo; DUARTE, Indiara; RIBEIRO, Luciana; TAIRA, Luís; GOUVEIA, Micaella; BUTERS, Samuel; PATROCINIO, Sofia. Projeto Gaia: Documento de Visão. Disponível em: https://github.com/fga-eps-mds/2019.1-Gaia/blob/master/docs/produto/DocVisao.md. Acesso em: 20 mar. 2020;
+
+### 1.5 Visão Geral
+
+Este documento visa descrever detalhadamente as características da aplicação, apresentando uma visão clara dos desenvolvedores e objetivos. Para isso, serão apresentados tópicos referentes a descrição do problema a ser solucionado, posicionamento do produto em relação ao mercado, as partes interessadas e usuários, a definição do produto: funcionalidades e restrições, e requisitos para a aplicação do produto.
 
 ## 2. Posicionamento
 
@@ -92,10 +121,3 @@ Serão utilizados testes unitários em cada serviço criado no back-end para gar
 ## 9. Documentação Adicional
 
 ...
-
-## 10. Referências
-
-https://www.ibm.com/support/knowledgecenter/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html
-
-https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/
-
