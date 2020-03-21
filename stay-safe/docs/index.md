@@ -35,7 +35,27 @@ Este documento visa descrever detalhadamente as características da aplicação,
 
 ## 2. Posicionamento
 
-...
+### 2.1 Oportunidade de Negócio
+
+Com o histórico de já ter feito parte da lista dos países mais perigosos do mundo, embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da perículosidade de uma região e contribuir com a inserção de dados, caso se torne vítima ou testemunha.
+
+### 2.2 Instrução do Problema
+
+| O problema de |Não saber o grau de criminalidade em determinada região |
+|----|----|
+| Afeta | Os cidadãos |
+| Cujos impactos são | O descuido ao transitar nessas regiões, facilitando a reincidência dos crimes mais comuns |
+| Uma boa solução seria | Uma aplicação que informasse os índices de criminalidade de cada região |
+
+### 2.3 Instrução de Posição do Produto
+
+| Para | Os cidadãos |
+|----|----|
+| Que | Desejam manter-se informados sobre os índices de criminalidade e contribuir com as estatísticas |
+| O Stay Safe | É um aplicativo mobile |
+| Que | permite que a população visualize dados da segurança pública e fornecidos pelos usuários e registre novas ocorrências |
+| Diferente de | Aplicações similares que não permitem filtro de crimes e interação com os usuários |
+| Nosso produto | Oferece uma visualização em mapa com filtros e alertas sobre crimes ocorridos com usuários próximos |
 
 ## 3. Perfil dos Usuários, Envolvidos e Mercado
 
