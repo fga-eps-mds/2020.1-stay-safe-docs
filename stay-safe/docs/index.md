@@ -4,15 +4,15 @@
 
 O documento de visão define o escopo de alto nível do produto, o propósito do software a ser desenvolvido e seu valor mercadológico. Este visa estabelecer e nivelar as expectativas dos envolvidos sobre o que exatamente é o software em questão.
 
-### 1.1 Proposta
+### 1.1. Proposta
 
 Este documento tem como objetivo estabelecer um posicionamento sobre a aplicação mobile **Stay Safe**, trazendo as características, utilidades e o processo de desenvolvimento como um todo. Visa promover o entendimento fácil do leitor, seja ele usuário ou desenvolvedor, expondo suas funcionalidades e definindo os principais requisitos.
 
-### 1.2 Escopo
+### 1.2. Escopo
 
 Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade de estatísticas relacionadas à incidência de crimes por região, de forma a facilitar a visualização pela sociedade, além de possibilitar o registro e alerta de ocorrências.
 
-### 1.3 Definições, Acrônimos e Abreviações
+### 1.3. Definições, Acrônimos e Abreviações
 
 * **UnB** - Universidade de Brasília
 * **FGA** - Faculdade do Gama (UnB)
@@ -21,7 +21,7 @@ Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade
 * **Stay Safe** - Nome do aplicativo a ser desenvolvido
 * **SSP** - Secretaria de Segurança Pública
 
-### 1.4 Referências
+### 1.4. Referências
 
 IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 19 mar. 2020;
 
@@ -29,17 +29,17 @@ MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 
 MUNIZ, Amanda; RIOS, Calebe; LIMA, Eduardo; DUARTE, Indiara; RIBEIRO, Luciana; TAIRA, Luís; GOUVEIA, Micaella; BUTERS, Samuel; PATROCINIO, Sofia. Projeto Gaia: Documento de Visão. Disponível em: https://github.com/fga-eps-mds/2019.1-Gaia/blob/master/docs/produto/DocVisao.md. Acesso em: 20 mar. 2020;
 
-### 1.5 Visão Geral
+### 1.5. Visão Geral
 
 Este documento visa descrever detalhadamente as características da aplicação, apresentando uma visão clara dos desenvolvedores e objetivos. Para isso, serão apresentados tópicos referentes a descrição do problema a ser solucionado, posicionamento do produto em relação ao mercado, as partes interessadas e usuários, a definição do produto: funcionalidades e restrições, e requisitos para a aplicação do produto.
 
 ## 2. Posicionamento
 
-### 2.1 Oportunidade de Negócio
+### 2.1. Oportunidade de Negócio
 
 Com o histórico de já ter feito parte da lista dos países mais perigosos do mundo, embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da perículosidade de uma região e contribuir com a inserção de dados, caso se torne vítima ou testemunha.
 
-### 2.2 Instrução do Problema
+### 2.2. Instrução do Problema
 
 | O problema de |Não saber o grau de criminalidade em determinada região |
 |----|----|
@@ -47,7 +47,7 @@ Com o histórico de já ter feito parte da lista dos países mais perigosos do m
 | Cujos impactos são | O descuido ao transitar nessas regiões, facilitando a reincidência dos crimes mais comuns |
 | Uma boa solução seria | Uma aplicação que informasse os índices de criminalidade de cada região |
 
-### 2.3 Instrução de Posição do Produto
+### 2.3. Instrução de Posição do Produto
 
 | Para | Os cidadãos |
 |----|----|
@@ -61,7 +61,7 @@ Com o histórico de já ter feito parte da lista dos países mais perigosos do m
 
 Esta seção fornece um perfil das partes interessadas e usuários envolvidos no projeto. 
 
-### 3.1 Resumo da parte interessada
+### 3.1. Resumo da parte interessada
 
 | Nome | Descrição | Responsabilidade | 
 |----|----|----|
@@ -69,18 +69,18 @@ Esta seção fornece um perfil das partes interessadas e usuários envolvidos no
 | Equipe de Gestão de Processo | Graduandos em Engenharia de Software, cursando a disciplina Engenharia de Produto de Software, pela Universidade de Brasília | Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto |
 |Equipe docente| Professor da Universidade de Brasília do curso de Engenharia de Software | Avaliar e orientar os estudantes de ambas as disciplinas |
 
-### 3.2 Resumo do usuário
+### 3.2. Resumo do usuário
 
 | Nome | Descrição | Responsabilidade |
 |----|----|----|
 | População | Público interessado em visualizar informações referentes à criminalidade | Utilizar a aplicação | 
 | Vítima / testemunha | Público interessado em denunciar um crime como vítima ou testemunha | Contribuir com a inserção de dados na aplicação |
 
-### 3.3 Ambiente do Usuário
+### 3.3. Ambiente do Usuário
 
 A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
 
-### 3.4 Perfis das partes interessadas
+### 3.4. Perfis das partes interessadas
 
 |Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento |Problemas/comentários| 
 |---- |---- |---- |---- |---- |---- |----| 
@@ -88,21 +88,21 @@ A aplicação poderá ser acessada por meio de smartphones com sistema operacion
 | Renan Schadt , Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília|Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto | - |
 | Hilmer Neri | Docente |Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto | - |
 
-### 3.5 Perfil do usuário
+### 3.5. Perfil do usuário
 
 |Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento| 
 |---- |---- |---- |---- |---- |---- |
 | População | Público interessado em visualizar informações referentes à criminalidade | Usuário | Utilizar a aplicação | Visualizar os dados de maneira simples e eficiente | Médio |
 | Vítima / Testemunha | Público interessado em denunciar um crime como vítima ou testemunha | Usuário | Contribuir com a inserção de dados na aplicação | Facilitar o processo de denúncia de um crime | Alto |
 
-### 3.6 Principais necessidades das partes interessadas ou do usuário
+### 3.6. Principais necessidades das partes interessadas ou do usuário
 
 | Necessidade|Prioridade |Interesse |Solução atual |Solução proposta | 
 | ----|----|---- |---- |---- |
 | Visualizar o grau de criminalidade de uma região | Alta | Visualizar índices de criminalidade com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de criminalidade por meio de mapas |
 | Auxiliar na denúncia de crimes | Alta | Guiar o usuário na denúncia de crimes | Pesquisar uma delegacia e fazer o boletim de ocorrência | Aplicação que indica e guia o usuário até a delegacia mais próxima, além de fornecer um atalho para realizar o boletim de ocorrência online | 
 
-### 3.7 Alternativas e concorrência
+### 3.7. Alternativas e concorrência
 
 Embora já existam propostas semelhantes, outras aplicações não obtiveram bons resultados e avaliações positivas do público, tanto por problemas técnicos quanto por não possuir tantas funcionalidades, como o cadastro de ocorrências pelos usuários, mapas de calor e filtragem de crimes.
 
@@ -177,12 +177,20 @@ Serão utilizados testes unitários em cada serviço criado no back-end para gar
 
 ### 7.2. Usabilidade
 
-...
+O aplicativo busca obter um design intuitivo, se baseando no padrão já conhecido do Google Maps para os mapas, e uma interface de fácil compreensão para o usuário. 
 
 ## 8. Requisitos
 
-...
-
-## 9. Documentação Adicional
-
-...
+| ID | A aplicação deve | Priorização |
+|---|---|---|
+| RF01 | Exibir estatísticas de crime dos estados de SP e DF | Must |
+| RF02 | Exibir mapa de calor de acordo com a fonte e o filtro escolhido pelo usuário | Must |
+| RF03 | Permitir cadastro e login de usuários | Must |
+| RF04 | Permitir visualização e edição do perfil | Should |
+| RF05 | Permitir cadastro de locais frequentados | Should |
+| RF06 | Permitir inserção de crime pelo usuário | Must |
+| RF07 | Fornecer dicas para o usuário quando ele registrar um crime | Could |
+| RF08 | Mostrar histórico de crimes da delegacia ou cidade escolhida | Should |
+| RF09 | Classificar cidades ou regiões usando os dados obtidos | Should |
+| RF10 | Exibir crimes registrados por usuários no mapa | Must |
+| RF11 | Notificar a ocorrência de crimes próximos | Could |
