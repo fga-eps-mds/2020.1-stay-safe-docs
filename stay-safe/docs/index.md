@@ -1,5 +1,19 @@
 # StaySafe - Documento de Visão
 
+## Histórico de Revisão
+
+| Data | Versão| Descrição | Autor |
+|----|----|----|----|
+| 19/03/2020 | 1.0 | Adicionando Definição do Produto | Lucas e Tiago |
+| 19/03/2020 | 1.1 | Adicionando Funcionalidades do Produto | Lucas e Tiago |
+| 19/03/2020 | 1.2 | Adicionando Restrições | Lucas e Tiago |
+| 20/03/2020 | 1.3 | Adicionando Restrições de Design, Segurança e Testes Unitários | Lucas e Tiago |
+| 20/03/2020 | 1.4 | Adicionando Introdução | Brenda e Hérick |
+| 20/03/2020 | 1.5 | Adicionando Planejamento | Brenda e Hérick |
+| 21/03/2020 | 1.6 | Adicionando Descrições da Parte Interessada e Usuário | Brenda e Hérick |
+| 22/03/2020 | 1.7 | Adicionando Usabilidade e Requisitos | Brenda, Hérick, Lucas e Tiago |
+| 22/03/2020 | 1.8 | Revisando Documento | Brenda, Hérick, Lucas e Tiago |
+
 ## 1. Introdução
 
 O documento de visão define o escopo de alto nível do produto, o propósito do software a ser desenvolvido e seu valor mercadológico. Este visa estabelecer e nivelar as expectativas dos envolvidos sobre o que exatamente é o software em questão.
@@ -18,7 +32,7 @@ Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade
 * **FGA** - Faculdade do Gama (UnB)
 * **MDS** - Métodos de Desenvolvimento de Software
 * **EPS** - Engenharia de Produto de Software
-* **Stay Safe** - Nome do aplicativo a ser desenvolvido
+* **Stay Safe** - Nome do aplicativo mobile a ser desenvolvido
 * **SSP** - Secretaria de Segurança Pública
 
 ### 1.4. Referências
@@ -31,7 +45,7 @@ MUNIZ, Amanda; RIOS, Calebe; LIMA, Eduardo; DUARTE, Indiara; RIBEIRO, Luciana; T
 
 ### 1.5. Visão Geral
 
-Este documento visa descrever detalhadamente as características da aplicação, apresentando uma visão clara dos desenvolvedores e objetivos. Para isso, serão apresentados tópicos referentes a descrição do problema a ser solucionado, posicionamento do produto em relação ao mercado, as partes interessadas e usuários, a definição do produto: funcionalidades e restrições, e requisitos para a aplicação do produto.
+Este documento está organizado de acordo com a metodologia **RUP**, o *Rational Unified Process*, definindo detalhadamente as características da aplicação, apresentando uma visão clara dos desenvolvedores e objetivos. Para isso, serão apresentados tópicos referentes a descrição do problema a ser solucionado, posicionamento do produto em relação ao mercado, as partes interessadas e usuários, a definição do produto: funcionalidades e restrições, e requisitos para a aplicação do produto.
 
 ## 2. Posicionamento
 
@@ -82,11 +96,11 @@ A aplicação poderá ser acessada por meio de smartphones com sistema operacion
 
 ### 3.4. Perfis das partes interessadas
 
-|Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento |Problemas/comentários| 
-|---- |---- |---- |---- |---- |---- |----| 
-| Brenda Santos, Daniel Primo, Herick Portugues, Italo Alves, Lucas Boaventura, Luiz Pettengil, Tiago Samuel | Desenvolvimento de Software | Estudantes da Universidade de Brasília, cursando a disciplina de Métodos de Desenvolvimento de Software | Desenvolvimento, testes, documentação e implementação do software | Finalizar o desenvolvimento e realizar a entrega do software dentro dos prazos | Alto | - | 
-| Renan Schadt , Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília|Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto | - |
-| Hilmer Neri | Docente |Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto | - |
+|Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento |
+|---- |---- |---- |---- |---- |---- |
+| Brenda Santos, Daniel Primo, Herick Portugues, Italo Alves, Lucas Boaventura, Luiz Pettengil, Tiago Samuel | Desenvolvimento de Software | Estudantes da Universidade de Brasília, cursando a disciplina de Métodos de Desenvolvimento de Software | Desenvolvimento, testes, documentação e implementação do software | Finalizar o desenvolvimento e realizar a entrega do software dentro dos prazos | Alto |
+| Renan Schadt , Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília|Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto |
+| Hilmer Neri | Docente |Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto |
 
 ### 3.5. Perfil do usuário
 
@@ -112,19 +126,19 @@ O **Stay Safe** trata-se de um aplicativo mobile para Android que busca contribu
 
 ### 4.1. Perspectiva do Produto
 
-O Produto tem como principal característica ajudar as pessoas informando sobre áreas de maior risco de acordo com a categorização do crime. Com diferenciais na vizualização dos dados criminais em mapas através de filtros e notificações sobre crimes ocorridos com outros usuários.
+O Produto tem como principal característica ajudar a população informando sobre áreas de maior risco de acordo com a categorização do crime. Com diferenciais na vizualização dos dados criminais em mapas através de filtros e notificações sobre crimes ocorridos com outros usuários.
 
 ### 4.2. Resumo dos Recursos
 
-Dentre os principais recursos oferecidos pelo **Stay Safe** estão os serviços de cadastro, login e logout de usuário, vizualização de dados de crimes e delegacias através dos mapas e seus filtros, cadastro/vizualização/edição de ocorrências por um usuário, redirecionamento para delegacias mais próximas ou para realização do boletim de ocorrência digital, ordenação de cidades por critérios diferentes.
+Dentre os principais recursos oferecidos pelo **Stay Safe** estão os serviços de cadastro, login e logout de usuário, vizualização de dados de crimes e delegacias através dos mapas e seus filtros, cadastro/vizualização/edição de ocorrências por um usuário, redirecionamento para delegacias mais próximas ou para realização do boletim de ocorrência digital e ordenação de cidades por diferentes critérios.
 
 ## 5. Funcionalidades do Produto
 
-Os recursos e funcionalidades do aplicativo mobile **Stay Safe**  compreendem serviços implementados, buscando atender as necessidades identificadas dos usuários do aplicativo, aqui descritas em ordem prioridade.
+Os recursos e funcionalidades do **Stay Safe**  compreendem serviços implementados, buscando atender as necessidades identificadas dos usuários do aplicativo, aqui descritas em ordem prioridade.
 
 ### 5.1. Login e Cadastro
 
-A aplicação possui um sistema para cadastro de usuários em conexão direta com o sistema de Login, fazendo uso tanto de um método nativo para o fluxo de registro, quanto métodos que integrem informações de outras aplicações (como Facebook ou Google), permitindo acesso facilitado ao usuário.
+A aplicação possui um sistema para cadastro de usuários em conexão direta com o sistema de Login, fazendo uso tanto de um método nativo para o fluxo de registro, quanto métodos que integrem informações de outras aplicações (Google), permitindo acesso facilitado ao usuário.
 
 ### 5.2. Vizualização de mapas
 
@@ -145,13 +159,13 @@ Os mapas exibidos também mostrarão as delegacias que estão dentro do campo de
 
 ### 5.3. Cadastro de ocorrências por um usuário
 
-Possibilidade de cadastro de ocorrências por um usuário relatando o tipo de crime, horário e local. Sendo esse exibido no mapa para outros usuários.
+Possibilidade de cadastro de ocorrências por um usuário relatando o tipo de crime, horário e local. Sendo esta exibido no mapa para outros usuários.
 
 #### 5.3.1. Redirecionamento após cadastro de ocorrência
 
-O aplicativo pode redirecionar o usuário para uma delegacia mais próxima após o registro de uma ocorrência para a realização do B.O. ou redirecionar para o B.O. Eletrônico, que pode ser realizado online para crimes específicos.
+O aplicativo pode redirecionar o usuário para uma delegacia mais próxima após o registro de uma ocorrência para a realização do Boletim de Ocorrência presencial, ou redirecionar para o eletrônico, que pode ser realizado para crimes específicos.
 
-### 5.4. Ordenação de cidades por critérios diferentes
+### 5.4. Ordenação de cidades por diferentes critérios
 
 As cidades podem ser ordenadas através de filtros escolhidos pelo usuário, como categorias de crimes ou mais Delegacias de Polícias em uma determinada de região.
 
@@ -167,17 +181,17 @@ O aplicativo será implementado utilizando as linguagens Python, com o framework
 
 ### 6.3. Restrições de Uso
 
-Para instalação e usabilidade do aplicativo é necessário um smartphone com o sistema operacional Android com acesso à Play Store. Além de acesso a conexão estável de internet para uso completo e atualizado do aplicativo.
+Para instalação e usabilidade do aplicativo é necessário um smartphone com o sistema operacional Android com acesso à Play Store, além de acesso a conexão estável de internet para uso completo e atualizado do aplicativo.
 
 ## 7. Critérios de Qualidade
 
 ### 7.1. Testes unitários
 
-Serão utilizados testes unitários em cada serviço criado no back-end para garantir a alta qualidade do codigo.
+Serão utilizados testes unitários em cada serviço criado no back-end para garantir a manutenabilidade e o alto desempenho da aplicação.
 
 ### 7.2. Usabilidade
 
-O aplicativo busca obter um design intuitivo, se baseando no padrão já conhecido do Google Maps para os mapas, e uma interface de fácil compreensão para o usuário. 
+O aplicativo busca obter um design intuitivo, se baseando no padrão já conhecido do Google Maps para os mapas e uma interface de fácil compreensão para o usuário. 
 
 ## 8. Requisitos
 
