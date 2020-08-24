@@ -18,7 +18,7 @@
 ## 3. Objetivos
 Sprint inicial do projeto com o objetivo de definir o tema, escolher as tecnologias a serem utilizadas no projeto, iniciar as configurações do ambiente de desenvolvimento e habituar a equipe de MDS com as linguagens, frameworks e ferramentas que serão usados no decorrer do semestre.
 
-Para alcançar os objetivos descritos acima as histórias de MDS consistem em treinamentos e documentos iniciais, já às de EPS são relacionadas a configurações e preparação de ambiente.
+Para alcançar os objetivos descritos acima as histórias de MDS consistem em treinamentos e documentos iniciais, já as de EPS são relacionadas a configurações necessárias para documentação, planejamento e gerenciamento do projeto.
 
 ## 4. Histórias e Pareamento
 
