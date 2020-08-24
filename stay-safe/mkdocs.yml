@@ -1,4 +1,4 @@
-site_name: StaySafe
+site_name: Stay Safe
 theme:
   name: 'material'
 dev_addr: '0.0.0.0:8000'
