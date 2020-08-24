@@ -5,7 +5,7 @@
 **Data de Início:** 18/08/2020  
 **Data de Término:** 23/08/2020  
 **Duração:** 5 dias  
-**Pontos Planejados:** 33 pontos  
+**Pontos Planejados:** 35 pontos  
 **Membros Presentes:** Todos
 
 ## 2. Papéis
@@ -33,9 +33,9 @@ Para alcançar os objetivos descritos acima as histórias de MDS consistem em tr
 **Pontuação:** 5 
 4. **História:** [#5 - Create product and roles roadmap](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/5)  
 **Responsáveis:** Renan Schadt, Rossicler Júnior e Sara Silva  
-**Pontuação:** 3   
+**Pontuação:** 5     
 5. **História:** [#6 - Create template for PRs and issues](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/6)  
-**Responsáveis:** Renan Schadt e Sara Silva
+**Responsáveis:** Renan Schadt e Sara Silva  
 **Pontuação:** 1   
 6. **História:** [#8 - Configure mkdocs](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/8)  
 **Responsáveis:** Rossicler Júnior   

@@ -24,7 +24,7 @@
 **Status:** Concluído
 4. **História:** [#5 - Create product and roles roadmap](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/5)  
 **Responsáveis:** Renan Schadt, Rossicler Júnior e Sara Silva  
-**Pontuação:** 3    
+**Pontuação:** 5      
 **Status:** Concluído
 5. **História:** [#6 - Create template for PRs and issues](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/6)  
 **Responsáveis:** Renan Schadt e Sara Silva  
@@ -49,7 +49,7 @@
 ### Pontos Positivos:
 * O grupo aproveitou o período presencial no início do semestre passado para se conhecer, interagir e começar o planejamento do projeto
 * A composição do grupo não foi modificada
-* Foi possível manter o tema que havia sido aprovado no semestre passado
+* Foi possível manter o tema que havia sido aprovado antes da pandemia
 * Parte da equipe treinou linguagens e frameworks durante a quarentena
 * Toda equipe motivada para fazer a disciplina 
 * MDS gostou da ideia de pareamento 
@@ -90,6 +90,6 @@ Os treinamentos foram realizados e MDS apresentou mini projetos usando as tecnol
 
 O **Documento de Visão** está em estado de revisão, uma falha de comunicação entre EPS e MDS fez com que o Pull Request fosse aberto tardiamente, algumas alterações foram solicitadas e estão sendo feitas no documento, a nova previsão de entrega é no início da Sprint 1.
 
-O **Roadmap de Produto** elaborado antes da pandemia foi revisitado e adaptado para o semestre corrente. Novas alterações deverão ser feitas na próxima sprint em decorrência da elaboração e priorização do **Product Backlog**.
+O **Roadmap de Produto** elaborado antes da pandemia foi revisitado e adaptado para as datas atualizadas do semestre. Novas alterações deverão ser feitas na próxima sprint em decorrência da elaboração e priorização do **Product Backlog**.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
