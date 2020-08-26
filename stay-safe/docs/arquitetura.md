@@ -16,16 +16,49 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 * **HTTP** - *Hypertext Transfer Protocol*: protocolo de transferência e comunicação de dados.
 * **Backend** - Parte da aplicação responsável pela conexão com o banco de dados e gerência das informações que serão enviadas ao frontend.
 * **Frontend** - Parte da aplicação responsável pela interação com o usuário, utilizando recursos consumidos do backend.
+* **SSP** - Secretaria de Estado de Segurança Pública
 
 ## 2. Representação da Arquitetura
 
 ### 2.1. Diagrama de Relações
+
+![Diagrama Geral](./images/architecture/geral.png)
+
+#### 2.1.1. Frontend
+
+![Diagrama Frontend](./images/architecture/frontend.png)
+
+#### 2.1.2. Serviço da SSP
+
+![Diagrama SSP Service](./images/architecture/secretary-service.png)
+
+#### 2.1.3. Serviço do Usuário
+
+![Diagrama User Service](./images/architecture/user-service.png)
+
 ### 2.2. Flask
+
+Flask é um framework de aplicativos web em Python. Foi designado para se ter um início de projeto fácil e rápido, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto. Para saber mais acesse a documentação de Flask [aqui](https://flask.palletsprojects.com/en/1.1.x/#).
+
 ### 2.3. React Native
+
+React Native é um framework de JavaScript para desenvolver aplicações nativas tanto para Android como para IOS. É baseada em React, uma biblioteca do Facebook criada para desenvolver interfaces de usuário, porém em vez de adaptar o código para browsers, ele adapta para dispositivos móveis. Para saber mais acesse o website do React Native clicando [aqui](https://reactnative.dev/).
+
 ### 2.4. API Google Maps
+
+A API do Google Maps foi utilizada para se obter os mapas da aplicação, onde será feita a inclusão dos marcadores de crimes por parte dos usuários e a inclusão das demarcações dos estados/cidades/bairros que irão possuir as características com base nos dados obtidos da SSP. A documentação da API pode ser encontrada [aqui](https://developers.google.com/maps/documentation?hl=pt-br).
+
 ### 2.5. SSP
+
+A Secretaria de Segurança Pública do Distrito Federal e do Estado de São Paulo são as maiores fontes dos dados obtidos para a aplicação. Os dados são disponibilizados nos respectivos websites e iremos utilizar crawlers para a obtenção dos mesmos. Com esses dados podemos implementar as funcionalidades do aplicativo, mostrando de uma forma mais amigável ao usuário final. Os websites podem ser acessados aqui: [DF](http://www.ssp.df.gov.br/) [SP](https://www.ssp.sp.gov.br/).
+
 ### 2.6. PostgreSQL
+
+PostgreSQL é um banco de dados relacional open source que suporta grande parte do padrão SQL. Ele será utilizado na API dos usuários, onde irá ser um banco com mais relações e mais definido. É possível saber mais acessando seu website [aqui](https://www.postgresql.org/).
+
 ### 2.7. MongoDB
+
+MongoDB é um banco de dados orientado a documentos não relacional caracterizado como NoSQL. Ele possui uma maior versatilidade na hora de armazenar os dados. Foi escolhido para armazenar os dados obtidos na SSP e conversar com o microserviço dos crawlers. É possível acessar seu website clicando [aqui](https://www.mongodb.com/).
 
 ## 3. Requisitos e Restrições de Arquitetura
 
@@ -84,3 +117,4 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 | 26/08/2020 | 0.1 | Adicionando Introdução | Brenda e Hérick |
 | 26/08/2020 | 0.2 | Adicionando Requisitos e Restrições de Arquitetura | Brenda e Hérick |
 | 26/08/2020 | 0.3 | Adicionando Visão de Implementação | Brenda e Hérick |
+| 26/08/2020 | 0.4 | Adicionando Representação da Arquitetura | Tiago |
