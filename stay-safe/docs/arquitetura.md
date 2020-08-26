@@ -28,6 +28,14 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ## 3. Requisitos e Restrições de Arquitetura
 
+* Aplicação deve ser construída sobre a arquitetura de microsserviços, na qual o backend será desenvolvido em Flask e o frontend em React Native.
+
+* O aplicativo será funcional em smartphones com o sistema operacional Android e acesso à Play Store, necessita de conexão estável de internet para uso completo e atualizado do aplicativo.
+
+* A API secretary-service deve ser desenvolvida para consumir dados de diferentes secretarias, visto que cada estado expõe seus dados de maneira diferente.
+
+* O serviço de mapas da aplicação será fornecido por uma API externa.
+
 ## 4. Visão de Implementação
 
 ### 4.1. User-Service
