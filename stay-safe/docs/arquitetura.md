@@ -110,6 +110,28 @@ MongoDB é um banco de dados orientado a documentos não relacional caracterizad
 
 ## 5. Referências
 
+* https://flask.palletsprojects.com/en/1.1.x/#
+
+* https://reactnative.dev/
+
+* https://developers.google.com/maps/documentation?hl=pt-br
+
+* http://www.ssp.df.gov.br/
+
+* https://www.ssp.sp.gov.br/
+
+* https://www.postgresql.org/
+
+* https://www.mongodb.com/
+
+* https://fga-eps-mds.github.io/2018.2-IndicaAi//docs/2018/08/28/architecture-doc.html
+
+* https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project/architecture-document/#5-visao-de-implementacao
+
+* https://translate-me.github.io/docs/documentos/projeto/doc_de_arquitetura/
+
+* https://fga-desenho-2019-2.github.io/Wiki/seminario5/arquitetura/
+
 ## Histórico de Revisão
 
 | Data | Versão| Descrição | Autor |
@@ -118,3 +140,4 @@ MongoDB é um banco de dados orientado a documentos não relacional caracterizad
 | 26/08/2020 | 0.2 | Adicionando Requisitos e Restrições de Arquitetura | Brenda e Hérick |
 | 26/08/2020 | 0.3 | Adicionando Visão de Implementação | Brenda e Hérick |
 | 26/08/2020 | 0.4 | Adicionando Representação da Arquitetura | Tiago |
+| 26/08/2020 | 0.5 | Adicionando Referências | Luiz |
