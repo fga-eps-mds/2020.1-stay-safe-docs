@@ -26,27 +26,27 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ### 2.2. Flask
 
-Flask é um framework de aplicativos web em Python. Foi designado para se ter um início de projeto fácil e rápido, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto. Para saber mais acesse a documentação de Flask [aqui](https://flask.palletsprojects.com/en/1.1.x/#).
+[Flask](https://flask.palletsprojects.com/en/1.1.x/#) é um framework de aplicativos web em Python. Foi designado para se ter um início de projeto fácil e rápido, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto.
 
 ### 2.3. React Native
 
-React Native é um framework de JavaScript para desenvolver aplicações nativas tanto para Android como para IOS. É baseada em React, uma biblioteca do Facebook criada para desenvolver interfaces de usuário, porém em vez de adaptar o código para browsers, ele adapta para dispositivos móveis. Para saber mais acesse o website do React Native clicando [aqui](https://reactnative.dev/).
+[React Native](https://reactnative.dev/) é um framework de JavaScript para desenvolver aplicações nativas tanto para Android como para IOS. É baseada em React, uma biblioteca do Facebook criada para desenvolver interfaces de usuário, porém em vez de adaptar o código para browsers, ele adapta para dispositivos móveis.
 
 ### 2.4. API Google Maps
 
-A API do Google Maps foi utilizada para se obter os mapas da aplicação, onde será feita a inclusão dos marcadores de crimes por parte dos usuários e a inclusão das demarcações dos estados/cidades/bairros que irão possuir as características com base nos dados obtidos da SSP. A documentação da API pode ser encontrada [aqui](https://developers.google.com/maps/documentation?hl=pt-br).
+A [API do Google Maps](https://developers.google.com/maps/documentation?hl=pt-br) foi utilizada para se obter os mapas da aplicação, onde será feita a inclusão dos marcadores de crimes por parte dos usuários e a inclusão das demarcações dos estados/cidades/bairros de acordo com os dados obtidos da SSP.
 
 ### 2.5. SSP
 
-A Secretaria de Segurança Pública do Distrito Federal e do Estado de São Paulo são as maiores fontes dos dados obtidos para a aplicação. Os dados são disponibilizados nos respectivos websites e iremos utilizar crawlers para a obtenção dos mesmos. Com esses dados podemos implementar as funcionalidades do aplicativo, mostrando de uma forma mais amigável ao usuário final. Os websites podem ser acessados aqui: [DF](http://www.ssp.df.gov.br/) [SP](https://www.ssp.sp.gov.br/).
+A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.br/) e do [Estado de São Paulo](https://www.ssp.sp.gov.br/) são as maiores fontes dos dados obtidos para a aplicação. Os dados são disponibilizados nos respectivos websites e iremos utilizar crawlers para a obtenção dos mesmos. Com esses dados podemos implementar as funcionalidades do aplicativo, mostrando de uma forma mais amigável ao usuário final.
 
 ### 2.6. PostgreSQL
 
-PostgreSQL é um banco de dados relacional open source que suporta grande parte do padrão SQL. Ele será utilizado na API dos usuários, onde irá ser um banco com mais relações e mais definido. É possível saber mais acessando seu website [aqui](https://www.postgresql.org/).
+[PostgreSQL](https://www.postgresql.org/) é um banco de dados relacional open source que suporta grande parte do padrão SQL. Ele será utilizado na API dos usuários, onde irá ser um banco com mais relações e mais definido.
 
 ### 2.7. MongoDB
 
-MongoDB é um banco de dados orientado a documentos não relacional caracterizado como NoSQL. Ele possui uma maior versatilidade na hora de armazenar os dados. Foi escolhido para armazenar os dados obtidos na SSP e conversar com o microserviço dos crawlers. É possível acessar seu website clicando [aqui](https://www.mongodb.com/).
+[MongoDB](https://www.mongodb.com/) é um banco de dados orientado a documentos não relacional caracterizado como NoSQL. Ele possui uma maior versatilidade na hora de armazenar os dados. Foi escolhido para armazenar os dados obtidos na SSP e conversar com o microserviço dos crawlers. É possível acessar seu website clicando.
 
 ## 3. Requisitos e Restrições de Arquitetura
 
@@ -94,31 +94,17 @@ MongoDB é um banco de dados orientado a documentos não relacional caracterizad
 * **screens/** - Contêm as telas da aplicação.
 * **utils/** - Armazena funções reutilizáveis que serão disponibilizadas para todo o projeto. 
 * **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
-* **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto. 
+* **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto.
 
 ## 5. Referências
 
-* https://flask.palletsprojects.com/en/1.1.x/#
+JUNIOR, Cleber; LUI, Brian; HORINOUCHI, Lucas; SOUZA, Rômulo; HERONILDO, Francisco; TOYOSHIMA, Filipe; ALVES, Vitor; APOLINÁRIO, Jacó. Projeto HubCare: Documento de Arquitetura. Disponível em: https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project/architecture-document/#5-visao-de-implementacao. Acesso em: 26 ago. 2020;
 
-* https://reactnative.dev/
+LIMA, Alan; BERNARDO, Elias; MARQUES, Guilherme; BARREIROS, Leonardo; BLANCO, Matheus; FÉO, Pedro; RODRIGUES, Pedro; KADER, Saleh; SILVA, Sara; ALCÂNTARA, Shayane. Projeto QR Comer: Documento de Arquitetura. Disponível em: https://fga-desenho-2019-2.github.io/Wiki/seminario5/arquitetura/. Acesso em: 26 ago. 2020;
 
-* https://developers.google.com/maps/documentation?hl=pt-br
+MENDES, Iasmin; VALÉRIO, Renato; JOÃO, Lucas; DAVI, Gabriel; SOUZA, Sousa; MACIEL, Lucas; FERNANDES, Weiller; GOMES, Matheus. Projeto Indica AI: Documento de Arquitetura. Disponível em: https://fga-eps-mds.github.io/2018.2-IndicaAi//docs/2018/08/28/architecture-doc.html. Acesso em: 26 ago. 2020;
 
-* http://www.ssp.df.gov.br/
-
-* https://www.ssp.sp.gov.br/
-
-* https://www.postgresql.org/
-
-* https://www.mongodb.com/
-
-* https://fga-eps-mds.github.io/2018.2-IndicaAi//docs/2018/08/28/architecture-doc.html
-
-* https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project/architecture-document/#5-visao-de-implementacao
-
-* https://translate-me.github.io/docs/documentos/projeto/doc_de_arquitetura/
-
-* https://fga-desenho-2019-2.github.io/Wiki/seminario5/arquitetura/
+MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João; MENEZES, Leticia; GUILHERME, Luiz; SCHADT, Renan; VINICIUS, Rômulo; HUGO, Victor. Projeto Translate.me: Documento de Arquitetura. Disponível em: https://translate-me.github.io/docs/documentos/projeto/doc_de_arquitetura/. Acesso em: 26 ago. 2020;
 
 ## Histórico de Revisão
 
@@ -129,3 +115,4 @@ MongoDB é um banco de dados orientado a documentos não relacional caracterizad
 | 26/08/2020 | 0.3 | Adicionando Visão de Implementação | Brenda e Hérick |
 | 26/08/2020 | 0.4 | Adicionando Representação da Arquitetura | Tiago |
 | 26/08/2020 | 0.5 | Adicionando Referências | Luiz |
+| 26/08/2020 | 0.6 | Revisando Documento | Brenda, Luiz, Hérick, Tiago |
