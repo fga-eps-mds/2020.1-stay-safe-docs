@@ -24,18 +24,6 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ![Diagrama Geral](./images/architecture/geral.png)
 
-#### 2.1.1. Frontend
-
-![Diagrama Frontend](./images/architecture/frontend.png)
-
-#### 2.1.2. Serviço da SSP
-
-![Diagrama SSP Service](./images/architecture/secretary-service.png)
-
-#### 2.1.3. Serviço do Usuário
-
-![Diagrama User Service](./images/architecture/user-service.png)
-
 ### 2.2. Flask
 
 Flask é um framework de aplicativos web em Python. Foi designado para se ter um início de projeto fácil e rápido, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto. Para saber mais acesse a documentação de Flask [aqui](https://flask.palletsprojects.com/en/1.1.x/#).
