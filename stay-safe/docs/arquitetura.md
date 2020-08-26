@@ -12,7 +12,8 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ### 1.3. Definições, Acrônimos e Abreviações
 
-* **API** - Application Programming Interface: conjunto de rotinas e padrões de programação que viabiliza a comunicação entre dois sistemas ou plataformas distintas.
+* **API** - *Application Programming Interface*: conjunto de rotinas e padrões de programação que viabiliza a comunicação entre dois sistemas ou plataformas distintas.
+* **HTTP** - *Hypertext Transfer Protocol*: protocolo de transferência e comunicação de dados.
 * **Backend** - Parte da aplicação responsável pela conexão com o banco de dados e gerência das informações que serão enviadas ao frontend.
 * **Frontend** - Parte da aplicação responsável pela interação com o usuário, utilizando recursos consumidos do backend.
 
@@ -32,7 +33,7 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 * O aplicativo será funcional em smartphones com o sistema operacional Android e acesso à Play Store, necessita de conexão estável de internet para uso completo e atualizado do aplicativo.
 
-* A API secretary-service deve ser desenvolvida para consumir dados de diferentes secretarias, visto que cada estado expõe seus dados de maneira diferente.
+* A API secretary-service deve ser desenvolvida para consumir dados de diferentes secretarias, portanto deve ser facilmente escalável.
 
 * O serviço de mapas da aplicação será fornecido por uma API externa.
 
@@ -41,38 +42,38 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 ### 4.1. User-Service
 ![User-Service](images/architecture/user-service.png)
 
-* **src/** -
-* **main.py** - 
-* **settings.py** -
-* **views/** -
-* **controllers/** -
-* **utils/** -
-* **tests/** -
-* **db/** -
+* **src/** - Pasta raiz do projeto que contém todo o código fonte da API.
+* **main.py** - Arquivo que controla a execução do programa e direciona as chamadas para outras funções.
+* **settings.py** - Arquivo que contém todas as configurações do servidor e do banco de dados.
+* **views/** - Implementa os endpoints e define quais métodos HTTP serão utilizados.
+* **controllers/** - Camada responsável pelo fluxo do usuário na aplicação.  Esta é usada para comunicação com a camada DB enviando informações para a View.
+* **utils/** - Armazena funções reutilizáveis que serão disponibilizadas para todo o projeto. 
+* **tests/** - Inclui os testes unitários realizados dentro da API.
+* **db/** - Realiza a comunicação com o banco de dados relacional.
 
 ### 4.2. Secretary-Service
 ![Secretary-Service](images/architecture/secretary-service.png)
 
-* **src/**
-* **main.py** - 
-* **settings.py** -
-* **views/** -
-* **controllers/** -
-* **utils/** -
-* **tests/** -
-* **db/** -
-* **crawler/** -
+* **src/** - Pasta raiz do projeto que contém todo o código fonte da API.
+* **main.py** - Arquivo que controla a execução do programa e direciona as chamadas para outras funções.
+* **settings.py** - Arquivo que contém todas as configurações do servidor e do banco de dados.
+* **views/** - Implementa os endpoints e define quais métodos HTTP serão utilizados.
+* **controllers/** - Camada responsável pelo fluxo do usuário na aplicação.  Esta é usada para comunicação com a camada DB enviando informações para a View.
+* **utils/** - Armazena funções reutilizáveis que serão disponibilizadas para todo o projeto. 
+* **tests/** - Inclui os testes unitários realizados dentro da API.
+* **db/** - Realiza a comunicação com o banco de dados não relacional.
+* **crawler/** - Responsável pela implementação dos crawlers que realizarão a extração metódica e automatizada de dados da Web. 
 
-### 4.3. Frontend - React Native
+### 4.3. Frontend
 ![Frontend](images/architecture/frontend.png)
 
-* **src/** -
-* **index.js** -
-* **config/** -
-* **screens/** -
-* **utils/** -
-* **components/** -
-* **public/assets/** -
+* **src/** - Pasta raiz do projeto que contém todo o código fonte da aplicação.
+* **index.js** - Arquivo que controla a execução do programa e direciona as chamadas para outras funções.
+* **config.js** - Responsável por armazenar diferentes variáveis e a configuração da aplicação.
+* **screens/** - Contêm as telas da aplicação.
+* **utils/** - Armazena funções reutilizáveis que serão disponibilizadas para todo o projeto. 
+* **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
+* **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto. 
 
 ## 5. Referências
 
@@ -81,3 +82,5 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 | Data | Versão| Descrição | Autor |
 |----|----|----|----|
 | 26/08/2020 | 0.1 | Adicionando Introdução | Brenda e Hérick |
+| 26/08/2020 | 0.2 | Adicionando Requisitos e Restrições de Arquitetura | Brenda e Hérick |
+| 26/08/2020 | 0.3 | Adicionando Visão de Implementação | Brenda e Hérick |
