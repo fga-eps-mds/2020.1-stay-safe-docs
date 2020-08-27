@@ -24,6 +24,8 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ![Diagrama Geral](./images/architecture/geral.png)
 
+A aplicação irá ter um frontend feito em React Native, dois microserviços em seu backend e irá fazer o uso da API do Google Maps para os mapas do aplicativo. Um dos microserviços é o User Service, que constitui em uma API REST desenvolvida em Flask, que irá tratar todos os dados dos usuários, mais pins reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL. O segundo microserviço é o Secretary Service, que consiste em um sistema também desenvolvido em Flask que obtém as informações dos websites da SSP por meio de crawlers e as armazena em um banco de dados não relacional, MongoDB. Por fim o app irá utilizar a API do Google Maps para implementar os mapas na aplicação. Todas essas comunicações entre os serviços serão feita a partir de protocolos HTTP.
+
 ### 2.2. Flask
 
 [Flask](https://flask.palletsprojects.com/en/1.1.x/#) é um framework de aplicativos web em Python. Foi designado para se ter um início de projeto fácil e rápido, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto.
