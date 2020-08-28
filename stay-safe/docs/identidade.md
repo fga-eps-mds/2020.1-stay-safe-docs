@@ -17,5 +17,18 @@ Todos os textos do App devem estar na fonte Trueno, cuja ausência de serifas e 
 
 ## 4. Cores
 <img src="../docs/images/cores.jpeg" alt="My cool logo"/>
-Em prol do tom de confiança, e segurança, a cor verde indigo foi escolhida como cor primária para os elementos da aplicação.
+
+### **4.1** Cores Primárias
+ Em prol do tom de confiança, e segurança, a cor azul escuro foi escolhida como cor primária para os elementos da aplicação.
+
+### **#010A26 - Azul Escuro**
+
+### **4.2** Cores Secundárias
+Como acompanhamento para a cor Azul Escuro principal, as demais cores agem como auxílio, compondo ainda a ideia de segurança transmitida e contrastando com o tom principal, auxiliando no uso e identificação de diferenças de coloração por pessoas com vertentes do daltonismo.
+
+### **#01640 - Azul Ciano Escuro**
+### **#B6D6F2 - Azul Ciano Claro**
+### **#FFFFFF - Branco**
+### **#E83338 - Cor de Rosa Avermelhado**
+
 
