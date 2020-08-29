@@ -8,6 +8,6 @@
 ### Rodar localmente
 <pre><code>docker-compose up --build serve</code></pre>
 
-### Deploy
+### Deploy (*Somente rodar esse comando na master*)
 <pre><code>docker-compose run --rm deploy</code></pre>
 
