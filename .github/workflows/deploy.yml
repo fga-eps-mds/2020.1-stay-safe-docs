@@ -1,4 +1,4 @@
-name: Jekyll site CD
+name: Jekyll site CI/CD
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-
+      
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
