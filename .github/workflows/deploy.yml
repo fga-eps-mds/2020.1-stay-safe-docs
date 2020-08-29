@@ -1,0 +1,17 @@
+name: Jekyll site CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Deploy MkDocs
+      # You may pin to the exact commit or the version.
+      # uses: mhausenblas/mkdocs-deploy-gh-pages@6cb179823e8d7f808120576431456e1008b92533
+      uses: mhausenblas/mkdocs-deploy-gh-pages@1.13
