@@ -4,7 +4,7 @@ RUN pip3 install mkdocs
 RUN pip3 install mkdocs-material
 
 COPY ./ docs/
-WORKDIR ./docs/stay-safe
+WORKDIR ./docs/
 
 EXPOSE 8000
 
