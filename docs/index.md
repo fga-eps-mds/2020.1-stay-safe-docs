@@ -1,2 +1,2 @@
 # Stay Safe
-    Aplicativo ...
+    Aplicativo ..
