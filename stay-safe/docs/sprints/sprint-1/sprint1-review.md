@@ -1,12 +1,13 @@
 # Análise e Retrospectiva
 
 ## 1. Visão Geral
-**Número da Sprint:** 0  
-**Data de Início:** 18/08/2020  
-**Data de Término:** 22/08/2020  
-**Duração:** 4 dias  
-**Pontos Planejados:** 35 pontos  
-**Pontos Entregues:** 27 pontos  
+**Número da Sprint:** 1  
+**Data de Início:** 23/08/2020  
+**Data de Término:** 29/08/2020  
+**Duração:** 7 dias  
+**Pontos Planejados:** 68 pontos  
+**Pontos Entregues:** 60 pontos  
+**Dívida Técnica:** 8 pontos  
 **Membros Presentes:** Todos
 
 ## 2. Resultados
@@ -20,7 +21,7 @@
 **Status:** Concluído  
 3. **História:** [#11 - Definição de Arquitetura](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/11)  
 **Responsáveis:** Sara   
-**Pontuação:** 8 
+**Pontuação:** 8  
 **Status:** Concluído   
 4. **História:** [#12 - Treinamento de Flask](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/12)  
 **Responsáveis:** Sara  
@@ -32,44 +33,48 @@
 **Status:** Concluído  
 6. **História:** [#15 - Definição da Licença](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/15)  
 **Responsáveis:** Renan, Rossicler, Sara    
-**Pontuação:** 2
+**Pontuação:** 2  
 **Status:** Concluído  
 7. **História:** [#16 - Criação do Product Backlog](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/16)  
 **Responsáveis:** Renan, Rossicler, Sara   
-**Pontuação:** 13
+**Pontuação:** 13  
 **Status:** Concluído  
 8. **História:** [#17 - Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/17)  
 **Responsáveis:** Renan, Rossicler, Sara     
-**Pontuação:** 8
+**Pontuação:** 8  
 **Status:** Não Concluído  
 9. **História:** [#18 - Documentação de Sprints](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/18)  
 **Responsáveis:** Renan     
-**Pontuação:** 3
+**Pontuação:** 3  
 **Status:** Concluído  
 10. **História:** [#19 - Documento de Arquitetura](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/19)  
 **Responsáveis:** Lucas, Brenda, Luiz, Tiago, Hérick  
-**Pontuação:** 8
+**Pontuação:** 8  
 **Status:** Concluído 
 
 ## 3. Velocity
-![Velocity Sprint 0](../../images/sprints/sprint-0/Velocity-Sprint0.png "Velocity Sprint 0")
+![Velocity Sprint 1](../../images/sprints/sprint-1/Velocity-Sprint1.png "Velocity Sprint 1")
 
 ## 4. Burndown
-![Burndown Sprint 0](../../images/sprints/sprint-0/Burndown-Sprint0.png "Burndown Sprint 0")
+![Burndown Sprint 1](../../images/sprints/sprint-1/Burndown-Sprint1.png "Burndown Sprint 1")
 
-## 5. Retrospectiva
+## 5. Histórico de Contribuição
+![Commit History Sprint 1](../../images/sprints/sprint-1/Commit-Sprint1.png "Commit History Sprint 1")
+
+## 6. Retrospectiva
 ### Pontos Positivos:
-* Uma sprint bem produtiva
-* Hilmer nos elogiou
-* A interação do grupo está muito boa e cumprimos quase tudo que foi proposto em bons prazos, sem ser mt em cima da hora
-* O time ta ajudando bastante, sempre que alguem precisa de ajuda :) (time solicito)
+* Sprint produtiva, muitos pontos entregues
+* Elogio do professor
+* Interação do grupo está melhorando
+* Atividades entregues dentro do prazo, permitindo revisão e correções com mais calma
+* Time solícito na hora de ajudar os colegas
 * Capacidade da equipe de contornar uma situação adversa
 
 ### Pontos Negativos:
-* O momento ainda é tenso, alguns membros e/ou familiares tiveram problemas pessoais ou de saúde e não estavam tão bem pra participar
+* Alguns membros e/ou familiares tiveram problemas pessoais ou de saúde e não puderam ser tão participativos
 * Adaptação ao EAD
-* Reuniões extensas
-* Alguns membros ainda não estão adaptados ao ritmo de reunião e daily
+* Reuniões extensas e repetitivas
+* Alguns membros estão esquecendo das dailies
 * Issues criadas tardiamente
 
 ### Melhorias:
@@ -77,31 +82,27 @@
 * Configurar bot para lembretes de dailies
 * Criar issues na reunião
 
+## 7. Quadro de Conhecimentos
+![Quadro de Conhecimentos Sprint 1](../../images/sprints/sprint-1/QuadroConhecimento-Sprint1.png "Quadro de Conhecimentos Sprint 1")
 
-## 6. Quadro de Conhecimentos
-Março de 2020:
-![Quadro de Conhecimentos em Março de 2020](../../images/sprints/sprint-0/QuadroConhecimento-Antigo.png "Quadro de Conhecimentos em Março de 2020")
-Agosto de 2020:
-![Quadro de Conhecimentos em Agosto de 2020](../../images/sprints/sprint-0/QuadroConhecimento-Sprint0.png "Quadro de Conhecimentos em Agosto de 2020")
-
-## 7. Análise do Scrum Master
+## 8. Análise do Scrum Master
 ### Time
-Primeira sprint do projeto marcada pelas turbulências da pandemia, apesar desta a equipe está bem unida, animada para matéria e empolgada com o tema escolhido. 
+Segunda sprint do projeto marcada pela melhora na interação geral entre os membros e alta produtividade da equipe. 
 
-A maioria dos pontos negativos citados na retrospectiva foge do controle da equipe, só um deles é passível de intervenção (visão de produto não homogênea entre os membros) e para isso uma nova reunião para tratar sobre o produto será marcada com objetivo de coletar mais ideias, propor novas funcionalidades e alinhar a visão de todos os membros a respeito do software que será construído.
+Durante a sprint dois membros tiveram problemas de saúde, um deles conseguiu levar suas atividades em um ritmo mais lento e o outro precisou da semana para se recuperar completamente. O time respondeu bem a essa situação e a grande maioria das atividades planejadas foram entregues.
 
 ### Métricas
-Em decorrência da pandemia e do semestre interrompido o **Burndown** da Sprint 0 compreende do mês de Março até o mês Agosto, o que não reflete a realidade, visto que na maior parte desse tempo o projeto estava parado.
+O **Burndown** da Sprint 1 já mostra algumas entregas no meio da sprint, ainda não é o ideal que a equipe espera atingir, mas houve uma melhora significativa em relação a Sprint 0.
 
-O **Velocity** atual da equipe é de 27 pontos, a expectativa é que esse número aumente nas próximas sprints.
+O **Velocity** atual da equipe é de 43.5 pontos com duas sprints fechadas e 87 pontos entregues no total. Esperamos que esse número aumente e se estabilize em torno de 50 pontos.
 
-A inclusão de dois **Quadros de Conhecimento** foi feita para mostrar a evolução de alguns membros durante a pandemia.
+O **Quadro de Conhecimento** da Sprint 1 mostra uma  pequena evolução de conhecimento dos membros em React Native e Flask. Frameworks que foram apresentados em treinamentos durante a sprint.
 
 ### Histórias
-Os treinamentos foram realizados e MDS apresentou mini projetos usando as tecnologias em questão, mostrando compromentimento em aprender as ferramentas que serão usadas ao longo da disciplina.
+Os três grandes objetivos da sprint foram definir e documentar a arquitetura e criar o backlog do produto. Estes foram concluídos com sucesso, mas acabaram tomando mais tempo que o esperado e impedindo a equipe de finalizar o **Termo de Abertura do Projeto**, que será levado como dívida técnica para Sprint 2.
 
-O **Documento de Visão** está em estado de revisão, uma falha de comunicação entre EPS e MDS fez com que o Pull Request fosse aberto tardiamente, algumas alterações foram solicitadas e estão sendo feitas no documento, a nova previsão de entrega é no início da Sprint 1.
+A dívida técnica proveniente da Sprint 0 foi concluída ainda no começo da Sprint.
 
-O **Roadmap de Produto** elaborado antes da pandemia foi revisitado e adaptado para as datas atualizadas do semestre. Novas alterações deverão ser feitas na próxima sprint em decorrência da elaboração e priorização do **Product Backlog**.
+Os treinamentos explicaram o fluxo básico dos frameworks e contaram com participação tanto de EPS como MDS.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
