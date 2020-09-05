@@ -1,4 +1,4 @@
-# Análise e Retrospectiva Sprint 0
+# Análise e Retrospectiva
 
 ## 1. Visão Geral
 **Número da Sprint:** 0  
@@ -40,10 +40,10 @@
 **Status:** Concluído
 
 ## 3. Velocity
-![Velocity Sprint 0](../images/sprints/Velocity-Sprint0.png "Velocity Sprint 0")
+![Velocity Sprint 0](../../images/sprints/sprint-0/Velocity-Sprint0.png "Velocity Sprint 0")
 
 ## 4. Burndown
-![Burndown Sprint 0](../images/sprints/Burndown-Sprint0.png "Burndown Sprint 0")
+![Burndown Sprint 0](../../images/sprints/sprint-0/Burndown-Sprint0.png "Burndown Sprint 0")
 
 ## 5. Retrospectiva
 ### Pontos Positivos:
@@ -68,9 +68,9 @@
 
 ## 6. Quadro de Conhecimentos
 Março de 2020:
-![Quadro de Conhecimentos em Março de 2020](../images/sprints/QuadroConhecimento-Antigo.png "Quadro de Conhecimentos em Março de 2020")
+![Quadro de Conhecimentos em Março de 2020](../../images/sprints/sprint-0/QuadroConhecimento-Antigo.png "Quadro de Conhecimentos em Março de 2020")
 Agosto de 2020:
-![Quadro de Conhecimentos em Agosto de 2020](../images/sprints/QuadroConhecimento-Sprint0.png "Quadro de Conhecimentos em Agosto de 2020")
+![Quadro de Conhecimentos em Agosto de 2020](../../images/sprints/sprint-0/QuadroConhecimento-Sprint0.png "Quadro de Conhecimentos em Agosto de 2020")
 
 ## 7. Análise do Scrum Master
 ### Time
