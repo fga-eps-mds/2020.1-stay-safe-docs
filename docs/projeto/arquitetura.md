@@ -101,10 +101,70 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
 * **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto.
 
-## 5. Esquema de Dados 
-![DE-R](images/architecture/user-service-DER.jpg)
+## 5. Dados 
 
-![Lógico](images/architecture/user-service-logic.jpg)
+### Dados das secretarias
+Os dados das secretarias serão armazenados no MongoDB em que cada estado será uma *collection* ou tabela. Os objetos na tabela serão como no exemplo abaixo:
+
+```json
+{
+    "_id": 1,
+    "capture_data": "04/08/2020",
+    "period": {
+        "start": "01/2020",
+        "end": "07/2020"
+    },
+    "cities": [
+        {
+            "Águas Claras": [
+                {
+                    "crime_nature": "Latrocinio",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo a Transeunte",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo de Veiculo",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo de Residencia",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Estupro",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Trafico de Entorpecentes",
+                    "quantity": 8
+                }
+            ],
+        },
+        {
+            "Arniqueira": [
+                {
+                    "crime_nature": "Latrocinio",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo a Transeunte",
+                    "quantity": 8
+                }
+            ]
+        }
+    ]
+}
+```
+
+### Dado dos usuários
+
+Os dados do usuário serão armazenados no PostgreSQL com a seguint modelagem:
+![DE-R](../images/architecture/user-service-DER.jpg)
+
+![Lógico](../images/architecture/user-service-logic.jpg)
 
 ## 6. Referências
 
@@ -127,3 +187,4 @@ MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 26/08/2020 | 0.5 | Adicionando Referências | Luiz |
 | 26/08/2020 | 0.6 | Revisando Documento | Brenda, Luiz, Hérick, Tiago |
 | 29/08/2020 | 1.0 | Revisão e algumas correções | Sara |
+| 05/09/2020 | 2.0 | Adicionando modelagem dos dados | Sara e Renan |
