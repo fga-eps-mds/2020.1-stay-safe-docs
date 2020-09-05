@@ -46,3 +46,9 @@ Serão apresentados os **perfis escolhidos**, seguidos de seus respectivos **Map
 ### **Idade:** 21 Anos
 
 ![Mapa da Empatia](images/personas/unb.png)
+
+## 4. Objetivo
+Apresentando o **Mapa da Empatia** de cada perfil selecionado, é possivel descobrir quais as **dores** e **desejos** do público alvo, e isso é fundamental para a aplicação mobile ser desenvolvida como a solução que irá trazer a transformação a cada **persona**.
+
+
+
