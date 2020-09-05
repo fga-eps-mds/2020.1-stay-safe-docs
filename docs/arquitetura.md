@@ -101,7 +101,12 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
 * **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto.
 
-## 5. Referências
+## 5. Esquema de Dados 
+![DE-R](images/architecture/user-service-DER.jpg)
+
+![Lógico](images/architecture/user-service-logic.jpg)
+
+## 6. Referências
 
 JUNIOR, Cleber; LUI, Brian; HORINOUCHI, Lucas; SOUZA, Rômulo; HERONILDO, Francisco; TOYOSHIMA, Filipe; ALVES, Vitor; APOLINÁRIO, Jacó. Projeto HubCare: Documento de Arquitetura. Disponível em: https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project/architecture-document/#5-visao-de-implementacao. Acesso em: 26 ago. 2020;
 
