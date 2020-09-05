@@ -1,4 +1,4 @@
-# Planejamento Sprint 0
+# Planejamento
 
 ## 1. Visão Geral
 **Número da Sprint:** 0  

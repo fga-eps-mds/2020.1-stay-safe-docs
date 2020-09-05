@@ -4,7 +4,7 @@
 O presente documento define os aspectos principais para a definição de persona, ou o publico alvo.
 
 ## 2. Mapa da Empatia
-Será utilizado para facíl vizualização das principais características das personas o Mapa da Empatia, representado pela **figura**:
+Será utilizado para fácil visualização das principais características das personas o Mapa da Empatia, representado pela **figura**:
 ![Mapa da Empatia](images/personas/empatia.png)
 
 
