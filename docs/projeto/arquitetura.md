@@ -23,7 +23,7 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ### 2.1. Diagrama Geral
 
-![Diagrama Geral](./images/architecture/geral.png)
+![Diagrama Geral](../images/architecture/geral.png)
 
 A aplicação terá um frontend feito em React Native, dois microserviços em seu backend e irá fazer o uso da API do Google Maps para os mapas do aplicativo. Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que irá tratar todos os dados dos usuários, mais pins reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL. O segundo microserviço é o Secretary Service, que consiste em um sistema também desenvolvido em Flask que obtém as informações dos websites da SSP por meio de crawlers e as armazena em um banco de dados não relacional, MongoDB. Por fim o aplicativo irá utilizar a API do Google Maps para implementar os mapas na aplicação. As comunicações entre todos os componentes serão feitas com o protocolo HTTP.
 
@@ -66,7 +66,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 ## 4. Visão de Implementação
 
 ### 4.1. User-Service
-![User-Service](images/architecture/user-service.png)
+![User-Service](../images/architecture/user-service.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **main.py** - Arquivo que controla a execução do serviço.
@@ -78,7 +78,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **database/** - Camada que realiza a comunicação com o banco de dados relacional.
 
 ### 4.2. Secretary-Service
-![Secretary-Service](images/architecture/secretary-service.png)
+![Secretary-Service](../images/architecture/secretary-service.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **main.py** - Arquivo que controla a execução do serviço.
@@ -91,7 +91,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **crawler/** - Responsável pela implementação dos crawlers que realizarão a extração metódica e automatizada de dados das SSPs. 
 
 ### 4.3. Frontend
-![Frontend](images/architecture/frontend.png)
+![Frontend](../images/architecture/frontend.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **index.js** - Arquivo que controla a execução da aplicação.

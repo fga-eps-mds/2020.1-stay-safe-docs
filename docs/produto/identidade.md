@@ -6,7 +6,7 @@ O presente documento define aspectos visuais para a implementação e divulgaç�
 ## 2. Logo
 A iconografia da logo remete a um escudo, trazendo a sensação de proteção e contribuindo para a mensagem que o aplicativo transmite.
 
-![Logo](images/visual-identity/logo.png)
+![Logo](../images/visual-identity/logo.png)
 
 A logo deve estar nas fontes Cunia e Age, sendo uma forma eficiente de representar a marca para os usuários. Não utilizar outras cores ou versões.
 
@@ -21,7 +21,7 @@ Todos os textos do App devem estar na fonte Trueno, cuja ausência de serifas e 
 -**Trueno Regular**: Utilizada para textos em geral.  
 
 ## 4. Paleta de cores
-![Cores](images/visual-identity/cores.jpeg)
+![Cores](../images/visual-identity/cores.jpeg)
  
 
 ### 4.1 Cores Primárias
