@@ -1,7 +1,7 @@
 # Termo de Abertura do Projeto
 
 ## 1. Introdução
-O Termo de Abertura do Projeto (TAP) é definido pelo PMBOK como um "documento que autoriza formalmente a existência de um projeto, e dá ao seu gerente a autoridade de aplicar recursos organizacionais para as atividades do projeto." (PMI, 2004, 368)
+O Termo de Abertura do Projeto (TAP) é definido pelo Project Management Body of Knowledge (PMBOK) como um "documento que autoriza formalmente a existência de um projeto, e dá ao seu gerente a autoridade de aplicar recursos organizacionais para as atividades do projeto." (PMI, 2004, 368)
 
 Este documento engloba informações envolvendo escopo, orçamento, marcos e partes interessadas do projeto Stay Safe. 
 
