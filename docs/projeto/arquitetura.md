@@ -23,7 +23,7 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 
 ### 2.1. Diagrama Geral
 
-![Diagrama Geral](./images/architecture/geral.png)
+![Diagrama Geral](../images/architecture/geral.png)
 
 A aplicação terá um frontend feito em React Native, dois microserviços em seu backend e irá fazer o uso da API do Google Maps para os mapas do aplicativo. Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que irá tratar todos os dados dos usuários, mais pins reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL. O segundo microserviço é o Secretary Service, que consiste em um sistema também desenvolvido em Flask que obtém as informações dos websites da SSP por meio de crawlers e as armazena em um banco de dados não relacional, MongoDB. Por fim o aplicativo irá utilizar a API do Google Maps para implementar os mapas na aplicação. As comunicações entre todos os componentes serão feitas com o protocolo HTTP.
 
@@ -66,7 +66,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 ## 4. Visão de Implementação
 
 ### 4.1. User-Service
-![User-Service](images/architecture/user-service.png)
+![User-Service](../images/architecture/user-service.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **main.py** - Arquivo que controla a execução do serviço.
@@ -78,7 +78,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **database/** - Camada que realiza a comunicação com o banco de dados relacional.
 
 ### 4.2. Secretary-Service
-![Secretary-Service](images/architecture/secretary-service.png)
+![Secretary-Service](../images/architecture/secretary-service.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **main.py** - Arquivo que controla a execução do serviço.
@@ -91,7 +91,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **crawler/** - Responsável pela implementação dos crawlers que realizarão a extração metódica e automatizada de dados das SSPs. 
 
 ### 4.3. Frontend
-![Frontend](images/architecture/frontend.png)
+![Frontend](../images/architecture/frontend.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **index.js** - Arquivo que controla a execução da aplicação.
@@ -101,7 +101,72 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 * **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
 * **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto.
 
-## 5. Referências
+## 5. Dados 
+
+### Dados das secretarias
+Os dados das secretarias serão armazenados no MongoDB em que cada estado será uma *collection* ou tabela. Os objetos na tabela serão como no exemplo abaixo:
+
+```json
+{
+    "_id": 1,
+    "capture_data": "04/08/2020",
+    "period": {
+        "start": "01/2020",
+        "end": "07/2020"
+    },
+    "cities": [
+        {
+            "Águas Claras": [
+                {
+                    "crime_nature": "Latrocinio",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo a Transeunte",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo de Veiculo",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo de Residencia",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Estupro",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Trafico de Entorpecentes",
+                    "quantity": 8
+                }
+            ],
+        },
+        {
+            "Arniqueira": [
+                {
+                    "crime_nature": "Latrocinio",
+                    "quantity": 8
+                },
+                {
+                    "crime_nature": "Roubo a Transeunte",
+                    "quantity": 8
+                }
+            ]
+        }
+    ]
+}
+```
+
+### Dado dos usuários
+
+Os dados do usuário serão armazenados no PostgreSQL com a seguint modelagem:
+![DE-R](../images/architecture/user-service-DER.jpg)
+
+![Lógico](../images/architecture/user-service-logic.jpg)
+
+## 6. Referências
 
 JUNIOR, Cleber; LUI, Brian; HORINOUCHI, Lucas; SOUZA, Rômulo; HERONILDO, Francisco; TOYOSHIMA, Filipe; ALVES, Vitor; APOLINÁRIO, Jacó. Projeto HubCare: Documento de Arquitetura. Disponível em: https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project/architecture-document/#5-visao-de-implementacao. Acesso em: 26 ago. 2020;
 
@@ -122,3 +187,4 @@ MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 26/08/2020 | 0.5 | Adicionando Referências | Luiz |
 | 26/08/2020 | 0.6 | Revisando Documento | Brenda, Luiz, Hérick, Tiago |
 | 29/08/2020 | 1.0 | Revisão e algumas correções | Sara |
+| 05/09/2020 | 2.0 | Adicionando modelagem dos dados | Sara e Renan |
