@@ -1,9 +1,18 @@
-# Documentação Stay Safe
+# Stay Safe
 
-## Link para a documentação
-* [https://fga-eps-mds.github.io/2020.1-stay-safe-docs/](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/)
+Repostório para [documentação](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/) do projeto Stay Safe
 
-## Comandos
+## Rodar localmente
 
-### Rodar localmente
-<pre><code>docker-compose up --build serve</code></pre>
+### Dependências
+* [docker](https://docs.docker.com/get-docker/)
+* [docker-compose](https://docs.docker.com/compose/install/)
+
+### Comandos
+* Para compilar:
+<pre><code>docker-compose build</code></pre>
+
+* Para rodar: 
+<pre><code>docker-compose up</code></pre>
+
+* Acesse a url local http://0.0.0.0:8000/
