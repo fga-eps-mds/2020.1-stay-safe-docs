@@ -56,44 +56,44 @@ Baseando-se nas estimativas de impacto e probabilidade é possível calcular a p
 ## 4. Identificação dos Riscos
 
 ### R01 - Dificuldades da equipe com as novas tecnologias inseridas
-Causa: Inexperiência de alguns membros
-Consequência: Surgimento de dividas técnicas pela dificuldade em realizar os objetivos propostos
-Impacto: 4
-Probabilidade: 4
-Prioridade: 16
-Categoria: Técnico
-Ação Preventiva: Seleção de alunos que já tenham tido algum contato com as tecnologias
-Ação Reativa: Realização de treinamentos e pareamentos efetivos
+**Causa:** Inexperiência de alguns membros
+**Consequência:** Surgimento de dividas técnicas pela dificuldade em realizar os objetivos propostos
+**Impacto:** 4
+**Probabilidade:** 4
+**Prioridade:** 16
+**Categoria:** Técnico
+**Ação Preventiva:** Seleção de alunos que já tenham tido algum contato com as tecnologias
+**Ação Reativa:** Realização de treinamentos e pareamentos efetivos
 
 ### R02 - Divergência de horários entre membros da equipe
-Causa: Membros com grades horárias muito distintas
-Consequência: Dificuldade para reunir toda a equipe e relizar os pareamentos
-Impacto: 4
-Probabilidade: 5 
-Prioridade: 20
-Categoria: Gerência
-Ação Preventiva: Elaboração de planilhas de controle de horários
-Ação Reativa: Planejar os pareamentos e reuniões baseado na planilha de horários
+**Causa:** Membros com grades horárias muito distintas
+**Consequência:** Dificuldade para reunir toda a equipe e relizar os pareamentos
+**Impacto:** 4
+**Probabilidade:** 5 
+**Prioridade:** 20
+**Categoria:** Gerência
+**Ação Preventiva:** Elaboração de planilhas de controle de horários
+**Ação Reativa:** Planejar os pareamentos e reuniões baseado na planilha de horários
 
 ### R03 - Desistência da disciplina
-Causa: Sobrecarga dos alunos
-Consequência: Equipe desfalcada e sobrecarga dos membros que permanecem na matéria
-Impacto: 5
-Probabilidade: 2
-Prioridade: 10
-Categoria: Gerência
-Ação Preventiva: Incentivar a participação dos membros e a união do time
-Ação Reativa: Redistribuir tarefas e refazer parte do planejamento do projeto
+**Causa:** Sobrecarga dos alunos
+**Consequência:** Equipe desfalcada e sobrecarga dos membros que permanecem na matéria
+**Impacto:** 5
+**Probabilidade:** 2
+**Prioridade:** 10
+**Categoria:** Gerência
+**Ação Preventiva:** Incentivar a participação dos membros e a união do time
+**Ação Reativa:** Redistribuir tarefas e refazer parte do planejamento do projeto
 
 ### R04 - Alteração do escopo
-Causa: Mudança no mercado, surgimento de novos requisitos
-Consequência: Alterações no projeto inicial e no planejamento do projeto
-Impacto: 4
-Probabilidade: 5
-Prioridade: 20
-Categoria: Gerência
-Ação Preventiva: Refinar constantemente os requisitos e manter as funcionalidades atualizadas
-Ação Reativa: Redefinir o escopo e redistribuir tarefas
+**Causa:** Mudança no mercado, surgimento de novos requisitos
+**Consequência:** Alterações no projeto inicial e no planejamento do projeto
+**Impacto:** 4
+**Probabilidade:** 5
+**Prioridade:** 20
+**Categoria:** Gerência
+**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas
+**Ação Reativa:** Redefinir o escopo e redistribuir tarefas
 
 Alteração das tecnologias
 Presença dos membros durante Daily e Reuniões de planejamento
@@ -103,7 +103,7 @@ Falta de integração entre a equipe
 Irresponsabilidade dos membros com o projeto
 Problemas com estações de trabalho  
 
-### R12 Erros durante o planejamento das atividades
+### R12 - Erros durante o planejamento das atividades
 **Categoria:** Gerência  
 **Causa:** Falta de experiência da equipe de gerência  
 **Consequência:** Trabalho mal distribuído entre os membros da equipe  
@@ -113,7 +113,7 @@ Problemas com estações de trabalho
 **Impacto:** Alto  
 **Prioridade:** Alta
 
-### R13 Dados deixarem de ser fornecidos pelas secretarias
+### R13 - Dados deixarem de ser fornecidos pelas secretarias
 **Categoria:** Externo  
 **Causa:** Decisões das secretarias  
 **Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
@@ -123,7 +123,7 @@ Problemas com estações de trabalho
 **Impacto:** Muito alto   
 **Prioridade:** Média  
 
-### R14 Falta de gratuidade do Google Maps
+### R14 - Falta de gratuidade do Google Maps
 **Categoria:** Externa  
 **Causa:** Políticas da Google  
 **Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
@@ -133,7 +133,7 @@ Problemas com estações de trabalho
 **Impacto:** Alto  
 **Prioridade:** Média  
 
-### R15 Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
+### R15 - Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
 **Categoria:** Externo  
 **Causa:** Doença infeciosa COVID-19  
 **Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
@@ -143,7 +143,7 @@ Problemas com estações de trabalho
 **Impacto:** Alto  
 **Prioridade:** Alta  
 
-### R16 Conflito com outras disciplinas
+### R16 - Conflito com outras disciplinas
 **Categoria:** Organizacional  
 **Causa:** Necessidade, sendo alunos os membros da equipe, de cursar outras disciplinas para conclusão da graduação  
 **Consequência:** Atraso nas entregas ou entregas mal feitas  
@@ -153,7 +153,7 @@ Problemas com estações de trabalho
 **Impacto:** Médio  
 **Prioridade:** Média
 
-### R17 Problemas com a estação de trabalho
+### R17 - Problemas com a estação de trabalho
 **Categoria:** Técnico  
 **Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
 **Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
@@ -163,7 +163,7 @@ Problemas com estações de trabalho
 **Impacto:** Alta  
 **Prioridade:** Baixa
 
-### R18 Descumprimento de alguma legislação
+### R18 - Descumprimento de alguma legislação
 **Categoria:** Gerência  
 **Causa:**  Falta de conhecimento jurídico da equipe de gerência  
 **Consequência:** Cometer alguma ilegalidade  
