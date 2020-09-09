@@ -1,10 +1,10 @@
 # Plano de Gerenciamento de Risco
 
 ## 1. Introdução
-O plano de gerenciamento de riscos trata da abordagem e execução de atividades de gerenciamento de risco, bem como da tomada de decisão baseada na análise dos riscos. Neste documento o objetivo é facilitar a visualização dos riscos através da identificação e mapeamento, de forma que a produtividade do projeto possa ser mantida e as atividades mais bem direcionadas.
+O plano de gerenciamento de riscos trata da execução de atividades de gerenciamento de risco. Neste documento o objetivo é facilitar a visualização dos riscos através da identificação e mapeamento, para auxiliar na tomada de decisões relacionadas, a fim de que a produtividade do projeto possa ser mantida e ele seja concluído.
 
 ## 2. Categoria de Riscos
-Riscos são condições incertas que, caso ocorram, podem trazer benefícios ou maleficios aos objetivos do projeto. Como existem diversos vetores que possibilitariam essas ocorrências, foram agrupadas as possíveis causas dos riscos em quatro grandes categorias, são elas:
+Riscos são condições incertas que, caso ocorram, podem trazer benefícios ou maleficios aos objetivos do projeto. Como existem diversos vetores que possibilitariam essas ocorrências, foram agrupadas as possíveis classificações dos riscos em quatro grandes categorias, são elas:
 
 * **Técnico:** Abordam tecnologia, requisitos, complexidade, desempenho, interfaces, confiabilidade e qualidade.
 * **Externo:** Abordam riscos relativos ao cliente, mercado, ambiente de trabalho e fatores pessoais.
@@ -36,7 +36,7 @@ Para se quantificar o impacto do risco no projeto o custo, o tempo, o escopo e a
 ### 3.3. Prioridade
 Baseando-se nas estimativas de impacto e probabilidade é possível calcular a prioridade dos riscos. A partir desses valores é determinada a urgência da inicialização de medidas de mitigação e resolução dos riscos.
 
-**ProbabilidadexImpacto** | **Muito Baixo** | **Baixo** | **Médio**  | **Alto** | **Muito Alto**
+**Probabilidade x Impacto** | **Muito Baixo** | **Baixo** | **Médio**  | **Alto** | **Muito Alto**
 :-----------------------: | :-------------: | :-------: |:----------:|:--------:|:------------: 
 **Muito Baixa**           |        1        |    2      |      3     |    4     |      5
 **Baixa**                 |        2        |    4      |      6     |    8     |      10
@@ -101,15 +101,78 @@ Falta de cliente real
 Dependência entre as atividades
 Falta de integração entre a equipe
 Irresponsabilidade dos membros com o projeto
-Problemas com estações de trabalho
+Problemas com estações de trabalho  
 
-Erros durante o planejamento das atividades
-Dados deixarem de ser fornecidos pelas secretarias
-Gratuidade do Google Maps
-Problemas pessoais ou de saúde relacionados a pandemia Covid-19
-Conflito com outras disciplinas
-Problemas com a estação de trabalho
-Risco de ferir alguma legislação
+### R12 Erros durante o planejamento das atividades
+**Categoria:** Gerência  
+**Causa:** Falta de experiência da equipe de gerência  
+**Consequência:** Trabalho mal distribuído entre os membros da equipe  
+**Ação Preventiva:** Conhecer bem a capacidade da equipe e as necessidades do projeto   
+**Ação Reativa:**  Avaliar as métricas do projeto para regular os próximos planejamentos  
+**Probabilidade:** Alta  
+**Impacto:** Alto  
+**Prioridade:** Alta
+
+### R13 Dados deixarem de ser fornecidos pelas secretarias
+**Categoria:** Externo  
+**Causa:** Decisões das secretarias  
+**Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
+**Ação Preventiva:** -  
+**Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
+**Probabilidade:** Média  
+**Impacto:** Muito alto   
+**Prioridade:** Média  
+
+### R14 Falta de gratuidade do Google Maps
+**Categoria:** Externa  
+**Causa:** Políticas da Google  
+**Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
+**Ação Preventiva:** Fazer essas funcionalidades de forma que sejam fáceis de integrar com outra api de mapa  
+**Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
+**Probabilidade:** Média  
+**Impacto:** Alto  
+**Prioridade:** Média  
+
+### R15 Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
+**Categoria:** Externo  
+**Causa:** Doença infeciosa COVID-19  
+**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
+**Ação Preventiva:** Seguir as recomendações de prevenção da Organização Mundial da Saúde  
+**Ação Reativa:** Remanejamento das atividades e apoio ao(s) membro(s) afetado(s)  
+**Probabilidade:** Alta  
+**Impacto:** Alto  
+**Prioridade:** Alta  
+
+### R16 Conflito com outras disciplinas
+**Categoria:** Organizacional  
+**Causa:** Necessidade, sendo alunos os membros da equipe, de cursar outras disciplinas para conclusão da graduação  
+**Consequência:** Atraso nas entregas ou entregas mal feitas  
+**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
+**Ação Reativa:** Priorização das atividades  
+**Probabilidade:** Muito alta  
+**Impacto:** Médio  
+**Prioridade:** Média
+
+### R17 Problemas com a estação de trabalho
+**Categoria:** Técnico  
+**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
+**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
+**Ação Preventiva:** -  
+**Ação Reativa:**  Remanejamento das atividades e revisão do cronograma  
+**Probabilidade:** Baixa  
+**Impacto:** Alta  
+**Prioridade:** Baixa
+
+### R18 Descumprimento de alguma legislação
+**Categoria:** Gerência  
+**Causa:**  Falta de conhecimento jurídico da equipe de gerência  
+**Consequência:** Cometer alguma ilegalidade  
+**Ação Preventiva:**  Fazer um estudo da legislação associada ao escopo do projeto  
+**Ação Reativa:**  Procurar apoio jurídico profissional  
+**Probabilidade:** Média  
+**Impacto:** Muito alto  
+**Prioridade:** Média
+
 
 ## 5. Referências
 * RODRIGUES, Eli. EAR para projetos de software. Disponível em https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/. Acesso em 30 set 2019.
