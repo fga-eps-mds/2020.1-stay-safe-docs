@@ -1,14 +1,57 @@
 # Plano de Gerenciamento de Risco
 
 ## 1. Introdução
+O plano de gerenciamento de riscos trata da abordagem e execução de atividades de gerenciamento de risco, bem como da tomada de decisão baseada na análise dos riscos. Neste documento o objetivo é facilitar a visualização dos riscos através da identificação e mapeamento, de forma que a produtividade do projeto possa ser mantida e as atividades mais bem direcionadas.
 
 ## 2. Categoria de Riscos
-Técnico
-Externo
-Organizacional
-Gerência
+Riscos são condições incertas que, caso ocorram, podem trazer benefícios ou maleficios aos objetivos do projeto. Como existem diversos vetores que possibilitariam essas ocorrências, foram agrupadas as possíveis causas dos riscos em quatro grandes categorias, são elas:
+
+* **Técnico:** Abordam tecnologia, requisitos, complexidade, desempenho, interfaces, confiabilidade e qualidade.
+* **Externo:** Abordam riscos relativos ao cliente, mercado, ambiente de trabalho e fatores pessoais.
+* **Organizacional:** Abordam a priorização, recursos e dependências do projeto.
+* **Gerência:** Abordam planejamento, controle, estimativa e comunicação.
 
 ## 3. Análise Quantitativa
+
+### 3.1. Probabilidade
+**Probabilidade** | **Intervalo** | **Peso**
+:---------------: | :-----------: | :------:
+**Muito Alta**    |   65 a 100    |    5
+**Alta**          |   51 a 65     |    4
+**Média**         |   31 a 50     |    3
+**Baixa**         |   11 a 30     |    2
+**Muito Baixa**   |   0 a 10      |    1
+
+### 3.2. Impacto
+Para se quantificar o impacto do risco no projeto o custo, o tempo, o escopo e a qualidade devem ser levados em conta.
+
+**Impacto**       |                     **Descrição**                      | **Peso**
+:---------------: | :----------------------------------------------------: | :------:
+**Muito Alto**    | O impacto inviabiliza o projeto                        |    5
+**Alto**          | Há grande impacto no desenvolvimento do projeto        |    4
+**Médio**         | Possui certo impacto porém é facilmente recuperado     |    3
+**Baixo**         | Pouco impacto no desenvolvimento do projeto            |    2
+**Muito Baixo**   | Impacto pouco expressivo no desenvolvimento do projeto |    1
+
+### 3.3. Prioridade
+Baseando-se nas estimativas de impacto e probabilidade é possível calcular a prioridade dos riscos. A partir desses valores é determinada a urgência da inicialização de medidas de mitigação e resolução dos riscos.
+
+**ProbabilidadexImpacto** | **Muito Baixo** | **Baixo** | **Médio**  | **Alto** | **Muito Alto**
+:-----------------------: | :-------------: | :-------: |:----------:|:--------:|:------------: 
+**Muito Baixa**           |        1        |    2      |      3     |    4     |      5
+**Baixa**                 |        2        |    4      |      6     |    8     |      10
+**Média**                 |        3        |    6      |      9     |    12    |      15
+**Alta**                  |        4        |    8      |      12    |    16    |      20
+**Muito Alta**            |        5        |    10     |      15    |    20    |      25
+
+#### 3.3.1
+**Prioridade** | **Intervalo** 
+:------------: | :-----------: 
+**Muito Alta** |     21 a 25    
+**Alta**       |     16 a 20   
+**Média**      |     11 a 15     
+**Baixa**      |     6 a 10   
+**Muito Baixa**|     1 a 5      
 
 ## 4. Identificação dos Riscos
 
