@@ -44,7 +44,7 @@ Baseando-se nas estimativas de impacto e probabilidade é possível calcular a p
 **Alta**                  |        4        |    8      |      12    |    16    |      20
 **Muito Alta**            |        5        |    10     |      15    |    20    |      25
 
-#### 3.3.1
+#### 3.3.1 Valor de Prioridade
 **Prioridade** | **Intervalo** 
 :------------: | :-----------: 
 **Muito Alta** |     21 a 25    
