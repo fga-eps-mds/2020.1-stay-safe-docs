@@ -35,6 +35,7 @@
 * Termo de Abertura do Projeto
 * Código de Conduta
 * Elaboração de testes de aceitação
+* Elaborar EAP
 
 ## Scrum Master
 * Roadmap
