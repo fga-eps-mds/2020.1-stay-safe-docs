@@ -18,68 +18,77 @@
 * Documento de Arquitetura
 
 ## Sprint 2 -
-* Tela inicial e termos de conduta
+* CRUD do Usuário
 * Modelagem de Dados
 * Protótipo de Alta Fidelidade
+* Definição de Personas
 
 ## Sprint 3 -
-* Obter os dados de ocorrências a partir da base SSP-SP
+* Obter os dados de ocorrências a partir da base SSP-DF
 * Realizar o cadastro na aplicação
-* Fazer login na aplicação
+* CRUD de Ocorrência
+* Autenticação
 
 ## Sprint 4 - 
-* Obter os dados de ocorrências a partir da base SSP-DF
+* Obter os dados de ocorrências a partir da base SSP-SP
 * Integração com API do Google Maps
-* Cadastro de ocorrências por um usuário
+* CRUD de avaliação de bairro
+* Criação de tela de login
 
 ## Sprint 5 -
-* Associar ocorrência a uma localização no mapa
-* Visualização e edição de ocorrências cadastradas pelo usuário
-* Visualização e edição do perfil de usuário
+* Visualização, edição e exclusão de usuário
+* Logout de usuário
+* Cadastro de ocorrências por um usuário
+* API da secretaria-service (filtros)
 
 ## Sprint 6 -
-* Localizar as delegacias no mapa interativo e mostrar ocorrências registradas
-* Interação com as ocorrências dos usuários no mapa
+* Associar ocorrência a uma localização no mapa
+* Visualizar cidades em formato de mapas de calor de acordo com o filtro escolhido
+* Visualização, edição e exclusão de ocorrências cadastradas pelo usuário
 * Preparação para release 1 
 
 ## Sprint 7 -
-* Visualizar área de atuação da DP
+* Interação com as ocorrências dos usuários no mapa
 * Filtro de tipos ocorrências nos mapas interativos
 * Release 1
 
 ## Sprint 8 -
-* Exibição de estatísticas
-* Exibição dos mapas de calor
+* Cadastro de avaliação de bairro
+* Visualizar estatísticas de crime de uma cidade 
+* Obter os dados populacionais dos estados de SP e DF
 
 ## Sprint 9 -
-* Filtro de tipos ocorrências nos mapas de calor
-* Lista de ordenação de cidades por diferentes critérios
+* Ordenação das cidades através da quantidade de crimes per capita
+* Filtrar por tipos específicos de ocorrências
+* Exibição dos bairros a partir da avaliação dos usuários (mapa de calor)
 
 ## Sprint 10 -
 * Projetar e realizar teste de aceitação
-* Usar localização atual do usuário
+* Visualizar avaliação média completa dos bairros
+* Visualizar, editar e excluir avaliações de bairros
 
 ## Sprint 11 -
 * Verificar e modificar frontend de acordo com os resultados do teste de aceitação
 * Favoritar locais de interesse do usuário
+* Comparar estatísticas de crime em anos diferentes numa mesma cidade
 
 ## Sprint 12 -
-* Visualizar histórico de ocorrências por DP
-* Escolhas do usuário de configurações do aplicativo
+* Configurar o sistema de notificações
 * Submissão para Play Store
+* Visualizar um guia ao entrar no aplicativo pela primeira vez
 
 ## Sprint 13 -
-* Integração de API de rotas
-* Configurar o sistema de notificações
+* Escolhas do usuário de configurações do aplicativo
+* Ser informado quando a aplicação for atualizada com novos dados
+* Notificar novas ocorrências próximas aos locais favoritados
 
 ## Sprint 14 -
-* Recomendações de delegacias próximas ao usuário
 * Sugestão de registro de boletim eletrônico
-* Notificar novas ocorrências próximas aos locais favoritados
+* Pegar usuários próximos a um ponto
 
 ## Sprint 15 -
 * Notificar novas ocorrências próximas a localização atual do usuário
-* Ser informado quando a aplicação for atualizada com novos dados
+* Recomendações de delegacias próximas ao usuário
 
 ## Sprint 16 -
 * Possíveis refatorações e limpeza de código
