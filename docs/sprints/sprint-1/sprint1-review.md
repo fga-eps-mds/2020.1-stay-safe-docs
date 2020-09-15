@@ -58,7 +58,7 @@
 ## 4. Burndown
 ![Burndown Sprint 1](../../images/sprints/sprint-1/Burndown-Sprint1.png "Burndown Sprint 1")
 
-## 5. Histórico de Contribuição
+## 5. Gráfico de Contribuições
 ![Commit History Sprint 1](../../images/sprints/sprint-1/Commit-Sprint1.png "Commit History Sprint 1")
 
 ## 6. Retrospectiva
