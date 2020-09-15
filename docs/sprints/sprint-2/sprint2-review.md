@@ -1,4 +1,4 @@
-# Análise e Retrospectiva Sprint 2
+# Análise e Retrospectiva
 
 ## 1. Visão Geral
 **Número da Sprint:** 2  
@@ -49,6 +49,7 @@
 **Status:** Concluído 
 
 A dívida técnica herdada da Sprint 1 foi solucionada:
+
 1. **História:** [#17 - Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/17)  
 **Responsáveis:** Renan, Rossicler, Sara     
 **Pontuação:** 8  
@@ -61,7 +62,7 @@ A dívida técnica herdada da Sprint 1 foi solucionada:
 ![Burndown Sprint 2](../../images/sprints/sprint-2/Burndown-Sprint2.png "Burndown Sprint 2")
 
 
-## 5. Histórico de Contribuição
+## 5. Gráfico de Contribuições
 
 ### 5.1 Contribuições na Documentação
 ![Histórico de Contribuição Sprint 2](../../images/sprints/sprint-2/ContributionHistory.png "Histórico de Contribuição Sprint 2")
@@ -84,7 +85,7 @@ A ser adicionado
 * EPS não acompanhou muito MDS
 * Tarefas iniciadas tardiamente
 * Adaptação a ferramanta de prototipação
-* Presença nas dailies
+* Ausência nas dailies
 
 ### Melhorias:
 * Gerenciar melhor o tempo da sprint

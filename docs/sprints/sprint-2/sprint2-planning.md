@@ -1,4 +1,4 @@
-# Planejamento Sprint 2
+# Planejamento
 
 ## 1. Visão Geral
 **Número da Sprint:** 2  
@@ -29,10 +29,9 @@ Terceira sprint do projeto com os seguintes objetivos:
 * Solucionar dívida técnica herdada da sprint anterior (**História:** #17)
 
 ## 4. Histórias e Pareamento
-As histórias planejadas para a sprint foram:
 1. **História:** [#27 - Política de Contribuição](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/27)    
 **Responsáveis:** Renan     
-**Pontuação:** 2 
+**Pontuação:** 2  
 2. **História:** [#29 - CRUD de usuário](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/29)    
 **Responsáveis:** Tiago e Brenda  
 **Pontuação:** 8  
@@ -47,18 +46,19 @@ As histórias planejadas para a sprint foram:
 **Pontuação:** 8  
 6. **História:** [#32 - Atualização do Roadmap](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/32)  
 **Responsáveis:** Renan, Rossicler, Sara    
-**Pontuação:** 2
+**Pontuação:** 2  
 7. **História:** [#33 - Definir tecnologias de DevOps](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/33)  
 **Responsáveis:** Rossicler  
-**Pontuação:** 2 
+**Pontuação:** 2  
 8. **História:** [#34 - Configuração dos Ambientes Frontend e Backend](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/34)  
 **Responsáveis:** Rossicler  
-**Pontuação:** 5
+**Pontuação:** 5  
 9. **História:** [#35 - Documentação da Sprint 1](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/35)   
 **Responsáveis:** Renan  
-**Pontuação:** 3  
+**Pontuação:** 3   
 
-Uma dívida técnica foi herdada da Sprint 1:
+Uma dívida técnica foi herdada da Sprint 1:  
+
 1. **História:** [#17 - Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/17)  
 **Responsáveis:** Renan, Rossicler, Sara     
 **Pontuação:** 8
