@@ -1,3 +1,5 @@
+# Planejamento Sprint 2
+
 ## 1. Visão Geral
 **Número da Sprint:** 2  
 **Data de Início:** 30/08/2020  
@@ -49,7 +51,7 @@ As histórias planejadas para a sprint foram:
 7. **História:** [#33 - Definir tecnologias de DevOps](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/33)  
 **Responsáveis:** Rossicler  
 **Pontuação:** 2 
-8. **História:** [#34 - Configuração dos Ambientes FrontEnd e Backend](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/34)  
+8. **História:** [#34 - Configuração dos Ambientes Frontend e Backend](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/34)  
 **Responsáveis:** Rossicler  
 **Pontuação:** 5
 9. **História:** [#35 - Documentação da Sprint 1](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/35)   

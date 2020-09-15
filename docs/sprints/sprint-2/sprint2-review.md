@@ -1,4 +1,4 @@
-# Análise e Retrospectiva Sprint 0
+# Análise e Retrospectiva Sprint 2
 
 ## 1. Visão Geral
 **Número da Sprint:** 2  
@@ -112,10 +112,12 @@ Os **Históricos de Contribuição** apresentam uma quantidade pequena de commit
 O **Quadro de Conhecimento** mostra evolução principalmente nos membros responsáveis por realizar a funcionalidade de CRUD do usuário.
 
 ### Histórias
-Os treinamentos foram realizados e MDS apresentou mini projetos usando as tecnologias em questão, mostrando compromentimento em aprender as ferramentas que serão usadas ao longo da disciplina.
+A primeira tarefa de código do projeto foi o **CRUD do Usuário** que foi completada e entregue testada pelo time de MDS, o time de EPS só auxiliou em alguns ajustes finais.
 
-O **Documento de Visão** está em estado de revisão, uma falha de comunicação entre EPS e MDS fez com que o Pull Request fosse aberto tardiamente, algumas alterações foram solicitadas e estão sendo feitas no documento, a nova previsão de entrega é no início da Sprint 1.
+A **Modelagem do Banco de Dados** foi feita de forma relacional para o User-Service e de forma não relacional para o Secretary-Service, os artefatos gerados a partir da modelagem foram incluídos no **Documento de Arquitetura**.
 
-O **Roadmap de Produto** elaborado antes da pandemia foi revisitado e adaptado para as datas atualizadas do semestre. Novas alterações deverão ser feitas na próxima sprint em decorrência da elaboração e priorização do **Product Backlog**.
+O **Protótipo de Alta Fidelidade** ficou como dívida para próxima sprint, a tarefa é de um tamanho considerável e levou mais tempo que o esperado para ser executada, algumas dificuldades com a ferramenta de prototipação acabaram atrasando o proceso. A atualização do **Roadmap do Produto** também ficou como dívida para próxima sprint, o time de EPS se sentiu sobrecarregado com as outras demandas exigidas pelo projeto e decidiu por não priorizar essa tarefa na sprint.
+
+O **Termo de Abertura do Projeto** e a **Política de Contribuição** tomaram mais trabalho que o esperado pela equipe, foram concluídos, mas acabaram por atrasar outras tarefas da sprint. A priorização do primeiro foi feita por ser fundamental ao projeto e a do segundo foi devido ao fato de que MDS está entrando nas primeiras issues de código e é fundamental que saibam exatamente como contribuir.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
