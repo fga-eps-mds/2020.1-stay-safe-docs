@@ -3,7 +3,7 @@
 ## 1. Visão Geral
 **Número da Sprint:** 2  
 **Data de Início:** 30/08/2020  
-**Data de Término:** 05/09/2020  
+**Data de Término:** 05/08/2020  
 **Duração:** 7 dias  
 **Pontos Planejados:** 56 pontos  
 **Pontos Entregues:** 41 pontos  
@@ -11,49 +11,15 @@
 **Membros Presentes:** Todos
 
 ## 2. Resultados
-1. **História:** [#27 - Política de Contribuição](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/27)    
-**Responsáveis:** Renan     
-**Pontuação:** 2  
-**Status:** Concluído
-2. **História:** [#29 - CRUD de usuário](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/29)    
-**Responsáveis:** Tiago e Brenda  
-**Pontuação:** 8  
-**Status:** Concluído
-3. **História:** [#28 - Protótipo de Alta Fidelidade (Telas Principais)](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/28)   
-**Responsáveis:** Lucas, Hérick, Ítalo e Luiz   
-**Pontuação:** 13  
-**Status:** Não Concluído
-4. **História:** [#30 - Definição de Personas](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/30)  
-**Responsáveis:** Daniel   
-**Pontuação:** 5  
-**Status:** Concluído
-5. **História:** [#31 - Modelagem de Dados](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/31)   
-**Responsáveis:** Renan e Sara  
-**Pontuação:** 8   
-**Status:** Concluído
-6. **História:** [#32 - Atualização do Roadmap](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/32)  
-**Responsáveis:** Renan, Rossicler, Sara    
-**Pontuação:** 2  
-**Status:** Não Concluído
-7. **História:** [#33 - Definir tecnologias de DevOps](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/33)  
-**Responsáveis:** Rossicler  
-**Pontuação:** 2  
-**Status:** Concluído
-8. **História:** [#34 - Configuração dos Ambientes FrontEnd e Backend](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/34)  
-**Responsáveis:** Rossicler  
-**Pontuação:** 5  
-**Status:** Concluído
-9. **História:** [#35 - Documentação da Sprint 1](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/35)   
-**Responsáveis:** Renan  
-**Pontuação:** 3  
-**Status:** Concluído 
-
-A dívida técnica herdada da Sprint 1 foi solucionada:
-
-1. **História:** [#17 - Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/17)  
-**Responsáveis:** Renan, Rossicler, Sara     
-**Pontuação:** 8  
-**Status:** Concluído
+* Obter os dados de ocorrências a partir da base SSP-SP - Hérick, Brenda - 8 pts - Concluído
+* Integração com API do Google Maps - Daniel - 5 pts - Concluído
+* CRUD de avaliação de bairro - Lucas, Luiz - 5 pts - Concluído
+* Validação e integração do cadastro com o backend - Ítalo e Tiago - 3 pts - Concluído
+* Criação de tela de login - Ítalo e Tiago - 3 pts - Concluído
+* EAP - Renan, Rossicler, Sara - 3 pts - Concluído
+* Configuração do Mongo no Docker secretary-service - Rossicler - 3 pts - Concluído
+* Criação dos docs da sprint 4 - Renan - 5 pts - Concluído
+* Proteger dados e ações do usuário - Sara - 3 pts - Concluído
 
 ## 3. Velocity
 ![Velocity Sprint 2](../../images/sprints/sprint-2/Velocity-Sprint2.png "Velocity Sprint 2")
@@ -72,27 +38,26 @@ A ser adicionado
 
 ## 6. Retrospectiva
 ### Pontos Positivos:
-* Primeira tarefa de backend entrega completa e com testes
-* Ajuda de EPS para conclusão da história de backend
-* Comportamento positivo de membro de MDS ao ir atrás do conteúdo que havia perdido lendo os artefatos criados e usando membros de EPS para tirar dúvidas em relação a documentação lida
+* Sem dívida técnica
+* Padrão e qualidade de código mantido apesar da inexperiência da equipe
+* Algumas tarefas entregues com antecedência
+* Combinação de horários
+* Disponibilidade de EPS para parear e tirar dúvidas
+* Brenda e Hérick gostaram de mexer com crawler
+* Lucas gostou da história e aprendeu decorators do Python
+* Tiago gostou de testes no user-service
+* Frontend maduro e funcional
 
 ### Pontos Negativos:
-* Entregas em cima da hora
-* Compromissos de outras matérias
-* Problemas com internet/energia
-* Conflito de horário entre pares
-* Planejamento de próxima sprint em cima da hora
-* EPS não acompanhou muito MDS
-* Tarefas iniciadas tardiamente
-* Adaptação a ferramanta de prototipação
-* Ausência nas dailies
+* Algumas histórias começaram tardiamente
+* Ainda existem melhoras a serem feitas na comunicação
+* Alguns membros de MDS tiveram problemas com a estação de trabalho
+* Membro sobrecarregado 
 
 ### Melhorias:
-* Gerenciar melhor o tempo da sprint
-* Acompanhamento melhor de EPS
-* Planejamento melhor das duplas de pareamento
-* Pontualidade nas reuniões e nas dailies
-* Escolha de tarefas da sprint com antecedência
+* Começar as histórias mais cedo
+* Comunicar sempre
+* Honrar os compromissos assumidos
 
 ## 7. Quadro de Conhecimentos
 ![Quadro de Conhecimentos Sprint 2](../../images/sprints/sprint-2/KnowledgeBoard.png "Quadro de Conhecimentos Sprint 2")
