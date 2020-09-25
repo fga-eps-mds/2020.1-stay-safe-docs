@@ -113,9 +113,9 @@ As duas dívidas técnicas herdadas da Sprint 2 foram solucionadas:
 
 ## 8. Análise do Scrum Master
 ### Time
-Quarta sprint do projeto marcada mais por pontos negativos do que positivos, apesar de muita coisa ter sido entregue a equipe não se comportou como esperado. Os membros de EPS sentem que poderiam ter planejado melhor as histórias e acompanhado melhor MDS ao longo da semana, enquanto a equipe de MDS sabe que começou a fazer as tarefas muito tardiamente. Todos os membros estão empenhados em mudar isso na próxima sprint.
+Quarta sprint do projeto marcada pela excelente produtividade da equipe e melhora na comunicação entre EPS e MDS para desenvolvimento das tarefas. O time de MDS vem mostrando maturidade ao se preocupar com a qualidade do código desenvolvido e se interessarem para participar de algumas atividades de EPS.
 
-Apesar dos pontos mencionados a equipe continua bem unida e animada com o projeto e a matéria, temos a noção de que essa sprint foi um ponto fora da curva. Uma medida que o time de EPS está tomando é destacar comportamentos positivos que queremos incentivar e recomendar a toda equipe, alguns membros de MDS estão tomando ações que nos surpreenderam positivamente em relação a isso e estão ajudando a moldar o comportamento que esperamos da equipe. 
+A relação entre MDS e EPS está ótima e a maioria dos membros de MDS estão comunicando muito ao longo da semana para tirar dúvidas e relatar o estado de suas demandas. Como pontos negativos tivemos algumas issues mal descritas e um membro de MDS que não contribuiu muito com sua dupla na atividade da semana. 
 
 ### Métricas
 Na Sprint 3 foram concluídos 57 pontos (sendo 42 planejados para Sprint e 15 que vieram como dívida técnica), o **Velocity** atual da equipe é de 46.25 pontos com quatro sprints fechadas e 185 pontos entregues no total.
@@ -127,12 +127,12 @@ Os **Históricos de Contribuição** apresentam uma quantidade pequena de commit
 O **Quadro de Conhecimento** mostra evolução principalmente nos membros responsáveis por realizar a funcionalidade extração de dados que melhoraram seu conhecimento em crawlers.
 
 ### Histórias
-A primeira tarefa de código do projeto foi o **CRUD do Usuário** que foi completada e entregue testada pelo time de MDS, o time de EPS só auxiliou em alguns ajustes finais.
+A primeira tarefa do serviço de secretaria foi a **Extração de dados SSP-DF** usando a biblioteca Scrapy, para isso a dupla executora da história recebeu uma pequena ajuda no começo para entender a tecnologia e partir disso resolveram a issue, ambos gostaram muito de trabalhar com extração de dados.
 
-A **Modelagem do Banco de Dados** foi feita de forma relacional para o User-Service e de forma não relacional para o Secretary-Service, os artefatos gerados a partir da modelagem foram incluídos no **Documento de Arquitetura**.
+O **CRUD de Ocorrência** e a **Autenticação** foram as tarefas do user-service definidas para sprint que também tiveram um grande apoio de EPS na sua execução, principalmente a segunda tarefa em que a MDS responsável foi designada sozinha para ela. As duas tarefas foram entregues com testes unitários.
 
-O **Protótipo de Alta Fidelidade** ficou como dívida para próxima sprint, a tarefa é de um tamanho considerável e levou mais tempo que o esperado para ser executada, algumas dificuldades com a ferramenta de prototipação acabaram atrasando o proceso. A atualização do **Roadmap do Produto** também ficou como dívida para próxima sprint, o time de EPS se sentiu sobrecarregado com as outras demandas exigidas pelo projeto e decidiu por não priorizar essa tarefa na sprint.
+A issue da **Tela de Registro** não estava tão bem descrita e essa tarefa acabou por ser entregue sem integração ao backend, criamos uma nova issue para consertar esse problema e priorizamos para a próxima Sprint.
 
-O **Termo de Abertura do Projeto** e a **Política de Contribuição** tomaram mais trabalho que o esperado pela equipe, foram concluídos, mas acabaram por atrasar outras tarefas da sprint. A priorização do primeiro foi feita por ser fundamental ao projeto e a do segundo foi devido ao fato de que MDS está entrando nas primeiras issues de código e é fundamental que saibam exatamente como contribuir.
+Uma das dívidas técnicas herdadas da sprint anterior (**Protótipo de Alta Fidelidade**) atrapalhou a execução de alguns pareamentos para resolver as atividades dessa sprint, o time de EPS vai prestar mais atenção ao planejar novas tarefas em sprints com dívidas técnicas.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
