@@ -32,13 +32,13 @@ Abaixo são detalhadas as histórias, os repositórios em que elas serão feitas
 
 ### 4.1 Repositório Docs
 1. **História:** [#42 - Documentar Pipeline](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/42)    
-**Responsáveis:** Rossicler    
+**Responsáveis:** Rossicler     
 **Pontuação:** 3     
 2. **História:** [#43 - Documentar Sprint 3](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/43)    
 **Responsáveis:** Renan  
 **Pontuação:** 3  
 3. **História:** [#44 - Elaborar Plano de Gerenciamento de Risco](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/44)    
-**Responsáveis:** Brenda, Sara, Renan 
+**Responsáveis:** Brenda, Sara, Renan  
 **Pontuação:** 5  
 
 Duas dívidas técnicas foram herdadas da Sprint 2:  
@@ -57,15 +57,15 @@ Duas dívidas técnicas foram herdadas da Sprint 2:
 
 ### 4.3 Repositório User-Service
 7. **História:** [#2 - CRUD de Ocorrência](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/2)    
-**Responsáveis:** Tiago, Luiz 
+**Responsáveis:** Tiago, Luiz  
 **Pontuação:** 5  
 8. **História:** [#3 - Autenticação do Usuário](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/3)    
-**Responsáveis:** Brenda
+**Responsáveis:** Brenda  
 **Pontuação:** 5  
 
 ### 4.4 Repositório Secretary-Service
 9. **História:** [#1 - Extração de dados SSP-DF](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/1)    
-**Responsáveis:** Lucas, Hérick  
+**Responsáveis:** Lucas, Hérick   
 **Pontuação:** 8  
 10. **História:** [#2 - Execução programada do crawler](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/2)    
 **Responsáveis:** Sara e Rossicler  

@@ -74,13 +74,13 @@ As duas dívidas técnicas herdadas da Sprint 2 foram solucionadas:
 ### 5.1 Contribuições na Documentação
 ![Histórico de Contribuição Documentação](../../images/sprints/sprint-3/ContributionGraph-Docs.png "Histórico de Contribuição Documentação")
 
-### 5.1 Contribuições no Frontend
+### 5.2 Contribuições no Frontend
 ![Histórico de Contribuição Frontend](../../images/sprints/sprint-3/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
 
-### 5.1 Contribuições no User-Service
+### 5.3 Contribuições no User-Service
 ![Histórico de Contribuição User-Service](../../images/sprints/sprint-3/ContributionGraph-User.png "Histórico de Contribuição User-Service")
 
-### 5.1 Contribuições no Secretary-Service
+### 5.4 Contribuições no Secretary-Service
 ![Histórico de Contribuição Secretary-Service](../../images/sprints/sprint-3/ContributionGraph-Secretary.png "Histórico de Contribuição Secretary-Service")
 
 ## 6. Retrospectiva
