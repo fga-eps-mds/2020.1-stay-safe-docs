@@ -1,4 +1,6 @@
 site_name: Stay Safe
 theme:
+  logo: images/favicon.png 
+  favicon: images/favicon.png
   name: 'material'
 dev_addr: '0.0.0.0:8000'
