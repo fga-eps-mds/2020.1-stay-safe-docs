@@ -1,6 +1,12 @@
 site_name: Stay Safe
 theme:
-  logo: images/favicon.png 
+  logo: images/favicon.png
   favicon: images/favicon.png
-  name: 'material'
-dev_addr: '0.0.0.0:8000'
+  name: material
+  font:
+    text: Trueno
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+dev_addr: "0.0.0.0:8000"
