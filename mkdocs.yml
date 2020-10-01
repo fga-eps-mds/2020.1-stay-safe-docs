@@ -8,5 +8,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+extra_css:
+  - stylesheets/styles.css
 
 dev_addr: "0.0.0.0:8000"

@@ -1,0 +1,35 @@
+.md-header {
+  background-color: #011640;
+}
+
+.md-tabs {
+  background-image: linear-gradient(to bottom, #011640, #E8333E);
+}
+
+
+.md-search__form {
+  background-color: #c8c8c8;
+}
+
+.md-footer {
+  background-color: #010A26;
+}
+
+.md-tabs__item a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white
+}
+
+/* Customização das tabelas */
+.md-typeset table:not([class]) th {
+  background-color: #E8333E;
+}
+
+tr:nth-child(odd) {
+  background-color: #c8c8c8;
+}
+
+th {
+  font-weight: bold;
+}
