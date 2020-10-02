@@ -5,9 +5,9 @@
 **Data de Início:** 13/09/2020  
 **Data de Término:** 19/09/2020  
 **Duração:** 7 dias  
-**Pontos Planejados:** 38 pontos  
+**Pontos Planejados:** 36 pontos  
 **Dívida Técnica:** 0 pontos  
-**Pontos Totais:** 38 pontos  
+**Pontos Totais:** 36 pontos  
 **Membros Presentes:** Todos
 
 ## 2. Papéis
@@ -20,13 +20,13 @@
 ## 3. Objetivos
 Abaixo são detalhadas as histórias, os repositórios em que elas serão feitas e os objetivos que esperamos atingir com elas:
 
-* Extração de dados das SSP (**Histórias:** #6 - Secretary)
-* Implementação de CRUD no backend (**Histórias:** #7 - User)
-* Melhorar segurança da API (**Histórias:** #6 - User)
+* Extração de dados das SSP (**História:** #6 - Secretary)
+* Implementação de CRUD no backend (**História:** #7 - User)
+* Melhorar segurança da API (**História:** #6 - User)
 * Implementação de tela e integração de tela ao backend (**Histórias:** #2 e #5 - Frontend)
 * Estudo de tecnologias (**História:** #3 - Frontend)
 * Configurações relacionadas ao ambiente de desenvolvimento (**História:** #5 - Secretary)
-* Gerar e atualizar documentação básica do projeto (**Histórias:** #50 - Docs)
+* Gerar e atualizar documentação básica do projeto (**História:** #50 - Docs)
 * Documentar planejamento e review da sprint (**História:** #51 - Docs)
 
 ## 4. Histórias e Pareamento
@@ -37,7 +37,7 @@ Abaixo são detalhadas as histórias, os repositórios em que elas serão feitas
 **Pontuação:** 3     
 2. **História:** [#51 - Documentar Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/51)    
 **Responsáveis:** Renan  
-**Pontuação:** 5     
+**Pontuação:** 3       
 
 ### 4.2 Repositório Frontend
 3. **História:** [#2 - Tela de Login](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/2)    
