@@ -168,7 +168,7 @@ Os **Históricos de Contribuição** apresentam uma quantidade grande de commits
 O **Quadro de Conhecimento** mostra evolução principalmente nos dois membros responsáveis por realizar a funcionalidade do cadastro de ocorrência, que foi a primeira experiência de frontend deles neste projeto.
 
 ### Histórias
-A dependência entre as tarefas do frontend foi um problema nessa sprint, as issues de **Modal para usuário não logado** e **Navegação entre tabs** interagiam com as outras issues. Como a Release 1 está se aproximando o time optou por aceitar esse risco que foi monitorado logo no planejamento da sprint e graças as ações tomadas por conta desse monitoramento as issues foram concluídas.
+A dependência entre as tarefas do frontend foi um problema nessa sprint, as issues de **Modal para usuário não logado** e **Navegação entre tabs** interagiam com as outras issues. 
 
 A issue de **Visualização, edição e exclusão de usuário** saiu com certa dificuldade pelo protótipo desatualizado. Enquanto os membros que fizeram a issue de **Cadastro de ocorrência** relataram que a inexperiência de ambos com o frontend do projeto consumiu deles mais horas de trabalho que o planejado.
 
@@ -177,3 +177,16 @@ Os documentos relacionados a **Custos e Qualidade** foram iniciados no meio da s
 As tarefas relacionadas ao **User-Service** foram completadas com antecedência pelo comprometimento e conhecimento da Sara e do Tiago em Flask.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
+
+## Riscos
+Entre os riscos monitorados pelo grupo os que ocorreram na sprint foram:
+
+* Divergência de horários entre membros da equipe
+* Conflito de dependência entre atividades
+* Conflito com outras disciplinas
+* Ausência de membros durante reuniões do grupo
+* Erros durante o planejamento das atividades
+* Dificuldades da equipe com as novas tecnologias inseridas
+* Problemas com a estação de trabalho
+
+Os quatro primeiros riscos eram esperados no planejamento e foi possível realizar algumas ações preventivas e reativas, em relação aos outros riscos só tomamos as ações reativas.
