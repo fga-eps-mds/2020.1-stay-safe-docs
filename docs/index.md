@@ -1,4 +1,13 @@
-# Sobre
+<div>
+  <center>
+  <img class="photo" src="assets/logo.png" alt="logo">
+  <h1 style="color: #011640; font-weight: bold; text-align: center"> Stay Safe </h1>
+  <h3 style="color: #011640; text-align: center">
+		O Stay Safe é um aplicativo mobile para Android que mostra, através de mapas e estatísicas, informações sobre a segurança de um lugar. Os dados exibidos são obtidos das Secretarias de Segurança Pública e dos usuários do aplicativo que podem contribuir registrando uma ocorrência da qual foram vítimas ou testemunhas, e avaliando a segurança dos bairros que conhecem.
+  </h3>
+</div>
+
+
 
 <div>
 <h1 style="color: #011640; font-weight: bold; text-align: center"> Códigos fonte </h1>
