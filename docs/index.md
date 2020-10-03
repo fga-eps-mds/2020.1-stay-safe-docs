@@ -5,10 +5,9 @@
 	<img class="photo" src="assets/logo.png" alt="logo">
 </div>
 
-# Equipe
 
-### Desenvolvimento
-
+<h1 class="legenda" >Equipe </h1>
+<h2 class="legenda" >Desenvolvimento </h2>
 <div class="pictures">
 <a href="https://github.com/brendavsantos">
   <div class="photo-border">
@@ -54,8 +53,8 @@
 </a>
 </div>
 
-## Gerenciamento e suporte
 
+<h2 class="legenda" > Gerenciamento e Suporte </h2>
 <div class="pictures">
 <a href="https://github.com/renan601">
   <div class="photo-border">

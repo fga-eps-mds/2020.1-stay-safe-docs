@@ -33,3 +33,40 @@ tr:nth-child(odd) {
 th {
   font-weight: bold;
 }
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-border {
+    border-radius: 25px;
+    width: 12em;
+    height: 12em;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 2em;
+    margin-bottom: 2rem;
+	box-shadow: 0 0 5px #e83338;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e83338;
+    z-index: 3;
+    transition: opacity 0.5s !important;
+}
+
+.photo-border img {
+    position: relative;
+    overflow: hidden;
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+}
+
+.legenda {
+	color: #011640;
+    position: relative;
+	text-align: center;
+}
