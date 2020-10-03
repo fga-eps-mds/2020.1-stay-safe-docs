@@ -1,37 +1,37 @@
 .md-header {
-  background-color: #011640;
+    background-color: #011640;
 }
 
 .md-tabs {
-  background-image: linear-gradient(to bottom, #011640, #E8333E);
+    background-image: linear-gradient(to bottom, #011640, #E8333E);
 }
 
 
 .md-search__form {
-  background-color: #c8c8c8;
+    background-color: #c8c8c8;
 }
 
 .md-footer {
-  background-color: #010A26;
+    background-color: #010A26;
 }
 
 .md-tabs__item a {
-  font-size: 16px;
-  font-weight: bold;
-  color: white
+    font-size: 16px;
+    font-weight: bold;
+    color: white
 }
 
 /* Customização das tabelas */
 .md-typeset table:not([class]) th {
-  background-color: #E8333E;
+    background-color: #E8333E;
 }
 
 tr:nth-child(odd) {
-  background-color: #c8c8c8;
+    background-color: #c8c8c8;
 }
 
 th {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .pictures {
@@ -40,16 +40,18 @@ th {
     justify-content: space-around;
 }
 
+.pessoa {
+    padding-bottom: 1rem;
+}
+
 .photo-border {
     border-radius: 25px;
     width: 12em;
     height: 12em;
     overflow: hidden;
-    position: relative;
     transition: all 0.3s;
-    margin-left: 2em;
-    margin-bottom: 2rem;
-	box-shadow: 0 0 5px #e83338;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px #e83338;
     border-style: solid;
     border-width: 3px;
     border-color: #e83338;
@@ -57,8 +59,12 @@ th {
     transition: opacity 0.5s !important;
 }
 
+.photo-border:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 10px #e83338;
+}
+
 .photo-border img {
-    position: relative;
     overflow: hidden;
     width: 12em;
     height: 12em;
@@ -66,21 +72,21 @@ th {
 }
 
 .legenda {
-	color: #011640;
-    position: relative;
-	text-align: center;
+    color: #011640;
+    text-align: center;
 }
 
+.legenda:hover {
+    opacity: 0.6;
+}
 
 .repo-border {
     border-radius: 25px;
     width: 9em;
     height: 9em;
     overflow: hidden;
-    position: relative;
     transition: all 0.3s;
-    margin-left: 2em;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 	box-shadow: 0 0 5px #e83338;
     border-style: solid;
     border-width: 3px;
@@ -93,4 +99,9 @@ th {
     width: 9em;
     height: 9em;
     object-fit: contain;
+}
+
+.repo-border:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 10px #e83338;
 }
