@@ -3,10 +3,8 @@ theme:
   logo: assets/logo.png
   favicon: images/favicon.png
   name: material
-  font:
-    text: Trueno
   features:
-    - navigation.instant
+    tabs: true
     - navigation.tabs
 extra_css:
   - stylesheets/styles.css
