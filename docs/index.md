@@ -1,12 +1,7 @@
 # Sobre
 
 <div>
-	<center>
-	<img class="photo" src="assets/logo.png" alt="logo">
-</div>
-
-<div>
-<h1 class="legenda" > Códigos fonte </h1>
+<h1 style="color: #011640; font-weight: bold; text-align: center"> Códigos fonte </h1>
 <div class="pictures">
 <a href="https://github.com/fga-eps-mds/2020.1-stay-safe-front-end">
   <div class="repo-border">
@@ -33,8 +28,8 @@
 </div>
 
 <div>
-<h1 class="legenda" >Equipe </h1>
-<h2 class="legenda" >Desenvolvimento </h2>
+<h1 style="color: #011640; font-weight: bold; text-align: center"> Equipe </h1>
+<h2 style="color: #011640; text-align: center"> Desenvolvimento </h2>
 <div class="pictures">
 <a class="pessoa" href="https://github.com/brendavsantos">
   <div class="photo-border">
@@ -81,7 +76,8 @@
 </div>
 </div>
 
-<h2 class="legenda" > Gerenciamento e Suporte </h2>
+<h2 style="color: #011640; text-align: center"> Gerenciamento e suporte </h2>
+<div class="pictures">
 <div class="pictures">
 <a class="pessoa" href="https://github.com/renan601">
   <div class="photo-border">

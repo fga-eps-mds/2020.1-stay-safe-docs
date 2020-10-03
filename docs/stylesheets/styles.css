@@ -90,7 +90,7 @@ th {
 	box-shadow: 0 0 5px #e83338;
     border-style: solid;
     border-width: 3px;
-	border-color: #011640;
+	border-color: #e83338;
     z-index: 3;
     transition: opacity 0.5s !important;
 }
