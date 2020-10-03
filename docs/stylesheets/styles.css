@@ -70,3 +70,27 @@ th {
     position: relative;
 	text-align: center;
 }
+
+
+.repo-border {
+    border-radius: 25px;
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 2em;
+    margin-bottom: 2rem;
+	box-shadow: 0 0 5px #e83338;
+    border-style: solid;
+    border-width: 3px;
+	border-color: #011640;
+    z-index: 3;
+    transition: opacity 0.5s !important;
+}
+
+.repo-border img {
+    width: 9em;
+    height: 9em;
+    object-fit: contain;
+}

@@ -5,7 +5,34 @@
 	<img class="photo" src="assets/logo.png" alt="logo">
 </div>
 
+<div>
+<h1 class="legenda" > Códigos fonte </h1>
+<div class="pictures">
+<a href="https://github.com/fga-eps-mds/2020.1-stay-safe-front-end">
+  <div class="repo-border">
+	<img class="photo" src="assets/repositories/frontend.jpg" alt="Frontend">
+  </div>
+	<h4 class="legenda">Frontend</h4>
+	<h6 class=legenda>Mobile</h6>
+</a>
+<a href="https://github.com/fga-eps-mds/2020.1-stay-safe-user-service">
+  <div class="repo-border">
+	<img class="photo" src="assets/repositories/user.png" alt="User-Service">
+  </div>
+	<h4 class="legenda">User-Service</h4>
+	<h6 class=legenda>Api</h6>
+</a>
+<a href="https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service">
+  <div class="repo-border">
+	<img class="photo" src="assets/repositories/secretary.svg" alt="Secretary-Service">
+  </div>
+	<h4 class="legenda">Secretary-Service</h4>
+	<h6 class=legenda>Web Crawler e Api</h6>
+</a>
+</div>
+</div>
 
+<div>
 <h1 class="legenda" >Equipe </h1>
 <h2 class="legenda" >Desenvolvimento </h2>
 <div class="pictures">
@@ -52,6 +79,7 @@
   <h4 class="legenda">Tiago Rodrigues</h4>
 </a>
 </div>
+</div>
 
 
 <h2 class="legenda" > Gerenciamento e Suporte </h2>
@@ -74,4 +102,5 @@
   </div>
   <h4 class="legenda">Sara Silva</h4>
 </a>
+</div>
 </div>
