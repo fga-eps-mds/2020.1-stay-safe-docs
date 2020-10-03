@@ -16,4 +16,3 @@ Repostório para [documentação](https://fga-eps-mds.github.io/2020.1-stay-safe
 <pre><code>docker-compose up</code></pre>
 
 * Acesse a url local http://0.0.0.0:8000/
- 
