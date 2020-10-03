@@ -87,7 +87,6 @@
 
 <h2 style="color: #011640; text-align: center"> Gerenciamento e suporte </h2>
 <div class="pictures">
-<div class="pictures">
 <a class="pessoa" href="https://github.com/renan601">
   <div class="photo-border">
     <img class="photo" src="assets/members/renan.jpeg" alt="Renan">
