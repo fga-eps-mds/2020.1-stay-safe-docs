@@ -25,18 +25,14 @@ No Brasil há uma legislação que regulamenta o tratamento de dados pessoas dos
 * O aplicativo informará ao usuário como usa e armazena seus dados;
 
 ## 5. Manutenibilidade
-* Ferramentas para lint, qualidade de código e suite de testes
-* Revisão de PR
-* CI
-* Arquitetura 
+Para uma manutenibilidade são usados padrões de códigos a partir de ferramentas de lint e qualidade de código, também é utilizado uma suite de testes para garantir o funcionamento das funcionalidades. Essas tecnologias são usadas na execução da pipeline, onde todo `push` feito no repositório é executado essa pipeline, assim com o Continuous Integration identificando possíveis problema no código. Após o código passar por essas etapas dentro de um Pull Request também é feito a revisão de código por integrantes, tendo assim um fator humano na revisão do código para garantir um código de qualidade sendo entregue. Além de todas essas verificações também foi pensado em uma arquitetura onde o projeto tenha uma boa manutenibilidade, separando bem os serviços utilizados pelo aplicativo e dividindo bem os seus papéis, escolhendo tecnologias adequadas ao propósito de cada serviço.
 
 ## 6. Taxa de Entrega
-* CD
+* Continuous Deploy
 * Métricas ágeis
 
 ## 7. Usabilidade
-* Teste de aceitação
-* Usar as 10 heuristicas de Nielsen
+Dentro do projeto será feito um teste de aceitação, onde será feito por pessoas que se encaixam nas personas definidas para o uso do aplicativo, podendo então fazer um testes com possíveis usuários final. No teste de aceitação será avaliado a partir das 10 heuristicas de Nielsen e das possíveis dores dos usuários, assim podendo avaliar todo o fluxo do aplicativo e o design como um todo.
 
 ## 8. Acessibilidade
 Os padrões de acessibilidade compreendem um conjunto de recomendações destinadas a  criadores de conteúdo Web. O objetivo é apresentar o mesmo conteúdo a todas as pessoas sem nenhum obstáculo para navegabilidade do usuário, independente de sua condições físicas e/ou motoras.  
