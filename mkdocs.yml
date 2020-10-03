@@ -1,6 +1,6 @@
 site_name: Stay Safe
 theme:
-  logo: images/favicon.png
+  logo: assets/logo.png
   favicon: images/favicon.png
   name: material
   font:
