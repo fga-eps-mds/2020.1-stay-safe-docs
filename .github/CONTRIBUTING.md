@@ -13,9 +13,7 @@ Tanto o título como a descrição da issue devem estar escritos em inglês e se
 ## 2. Política de Branches
 
 ## 2.1 Gitflow
-![Git Flow Documentação](docs/images/gcs/GitFlowDocumentation.png)
-
-O Git Flow do repositório de documentação será tratado da forma mostrada na imagem acima. Para uma mudança chegar a branch master (branch estável) os passos abaixo são seguidos:
+O Git Flow do repositório de documentação será tratado da forma mostrada nessa [imagem](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/images/gcs/GitFlowDocumentation.png). Para uma mudança chegar a branch master (branch estável) os passos abaixo são seguidos:
 
 1. Toda nova branch deve ser feita a partir da master
 2. Ao resolver a issue proposta a nova branch deve ser merjada e comparada em relação a master
