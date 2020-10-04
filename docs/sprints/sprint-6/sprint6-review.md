@@ -1,13 +1,13 @@
 # Análise e Retrospectiva
 
 ## 1. Visão Geral
-**Número da Sprint:** 5    
-**Data de Início:** 20/09/2020    
-**Data de Término:** 26/09/2020   
+**Número da Sprint:** 6    
+**Data de Início:** 27/09/2020    
+**Data de Término:** 03/10/2020   
 **Duração:** 7 dias  
-**Pontos Planejados:** 48 pontos  
-**Pontos Entregues:** 48 pontos  
-**Dívida Técnica:** 0 pontos  
+**Pontos Planejados:** 47 pontos  
+**Pontos Entregues:** 31 pontos  
+**Dívida Técnica:** 16 pontos  
 **Membros Presentes:** Todos
 
 ## 2. Resultados
@@ -64,13 +64,13 @@
 **Status:** Concluído    
 
 ## 3. Velocity
-![Velocity](../../images/sprints/sprint-5/Velocity.png "Velocity")
+![Velocity](../../images/sprints/sprint-6/Velocity.png "Velocity")
 
 ## 4. Burndown
-![Burndown](../../images/sprints/sprint-5/Burndown.png "Burndown")
+![Burndown](../../images/sprints/sprint-6/Burndown.png "Burndown")
 
 ### 4.1 Burndown Review/QA
-![Burndown](../../images/sprints/sprint-5/BurndownReview.png "Burndown")
+![Burndown](../../images/sprints/sprint-6/Burndown-Review.png "Burndown")
 
 
 ## 5. Gráfico de Contribuições
@@ -99,10 +99,11 @@
 * Falha na metodologia ao colocar issues como concluídas sendo que não estavam prontas
 * Falta de padrão entre typescript e javascript
 * Falta de planejamento entre dependências
+* Falta de comprometimento de um membro de MDS
 
 ### Melhorias 
 * Ser mais rígido na aplicação da metodologia
-* Usar as ferramentas do github para esclarecer melhor as dependências
+* Usar as ferramentas do GitHub para esclarecer melhor as dependências
 * Padronizar o código no frontend
 
 ## 7. Quadro de Conhecimentos
@@ -110,33 +111,25 @@
 
 ## 8. Análise do Scrum Master
 ### Time
-Sexta sprint do projeto marcada pela maior quantidade de issues até então e uma quantidade de pontos acima do Velocity da equipe. A comunicação entre EPS e MDS continua a ser um ponto positivo e colabora para desenvolvimento das tarefas. O time de MDS vem mostrando maturidade ao se preocupar com a qualidade do código desenvolvido e sugerirem refatorações a medida que o conhecimento nos frameworks vai melhorando, por esse motivo os membros de EPS sentem segurança para que os membros de MDS também avaliem PRs.
+Sétima sprint do projeto, sendo a última sprint completa antes da Release 1, marcada por duas dívidas técnicas e uma quantidade de pontos acima do Velocity da equipe. Essa sprint conteve muitas ativadades de outras disciplinas (como provas e trabalhos) tanto pra MDS como pra EPS e prejudicou muito a produtividade do time. O planejamento foi muito otimista e não levou tão a sério os riscos apontados. As duas issues não entregues foram de 8 pontos, o que novamente demonstra que nossa equipe trabalha melhor com diversas issues pequenas do que com poucas issues grandes.
 
-Apesar da excelente produtividade foram destacados mais pontos negativos do que positivos na sprint, um deles é que os membros de EPS estão se sentindo sobrecarregados com suas tarefas (documentação, descrição de issues, auxílio e acompanhamento dos MDS, revisão e aprovação de PRs, tarefas específicas do papel e outros afazeres externos a matéria), para solucionar em parte esse problema os membros de MDS estão autorizados a revisar e aprovar PRs (desde que não sejam executores da issue). A partir desse ponto para um PR ser integrado a branch base ele precisa de duas aprovações, sendo uma delas de um membro de EPS e outra de um membro de MDS, acreditamos que essa medida impactará positivamente o problema dos merges tardios e do sobrecarregamento de EPS.
+Nos pontos positivos vale destacar o excelente comportamento de alguns membros de MDS que ao terminarem suas demandas foram ajudar nas outras demandas do grupo, a revisão de PRs parcial por MDS também está funcionando e garantiu algumas funcionalidades entregues com antecedência e retirou um pouco da sobrecarga em cima de EPS. 
 
-Outro ponto negativo destacado foi o protótipo desatualizado (feito na Sprint 2), os problemas na tarefa aconteceram por conta de várias falhas que englobam as fases de planejamento, execução, acompanhamento e revisão. O time conseguiu abstrair diversos ensinamentos (relacionados a comunicação, pontuação, quantidade de membros envolvidos em uma issue, entre outros) através dos erros contidos nessa tarefa. Para solucionar esse ponto priorizamos a atualização do protótipo para Sprint 6.
-
-A grande quantidade de issues acabou prejudicando a qualidade do planejamento, houveram alguns problemas pontuais como dependências entre tarefas e uma dupla mal definida para execução de uma issue.
+Como ponto negativo também relatamos uma falha grave do grupo na aplicação da metodologia, os documentos relacionados a **Custos e Qualidade** planejados e teoricamente encerrados na Sprint 5, foram iniciados no meio da semana e seriam finalizados no dia seguinte ao fim da Sprint 5, então as issues deles foram fechadas, mas houveram intercorrências e estes documentos não foram concluídos. O time tem noção que essa é uma prática péssima pra metodologia ágil e se compromete a não fazer mais isso. Da próxima vez que ocorrer um episódio semelhante a issue será considerada débito técnico.
 
 ### Métricas
-Na Sprint 5 foram concluídos 48 pontos, o **Velocity** atual da equipe é de 44.83 pontos com seis sprints fechadas e 269 pontos entregues no total.
+Na Sprint 6 foram concluídos 31 pontos dos 47 planejados, o **Velocity** atual da equipe é de 42.86 pontos com sete sprints fechadas e 300 pontos entregues no total.
 
-O **Burndown** da Sprint 5 mostra que todas tarefas criadas para a sprint foram concluídas, a maioria delas no último dia, que indica um desempenho inferior em relação a Sprint 4. Ao visualizarmos o Burndown considerando a fase de Review/QA como final podemos verificar que o comportamento da sprint foi bom, o único problema foi a demora na revisão de alguns PRs que foi destacada entre os pontos negativos. 
+O **Burndown** da Sprint 6 mostra que a maioria das tarefas foi concluída no último dia. Ao visualizarmos o Burndown considerando a fase de Review/QA como final podemos verificar que o comportamento da sprint em termos de velocidade de revisão/aprovação de PRs foi bom, uma melhora em relação a sprint passada.
 
 Os **Históricos de Contribuição** apresentam uma quantidade grande de commits no meio da sprint, que é o comportamento esperado, o único ponto a ser melhorado é evitar o pico de commits no último dia, que indica revisões e merges tardios. O que pudemos notar é que em vários PRs acabou faltando um review para aprovação (dos dois necessários) e maioria dos merges foi feito no último dia.
 
 O **Quadro de Conhecimento** mostra evolução principalmente nos dois membros responsáveis por realizar a funcionalidade do cadastro de ocorrência, que foi a primeira experiência de frontend deles neste projeto.
 
 ### Histórias
-A dependência entre as tarefas do frontend foi um problema nessa sprint, as issues de **Modal para usuário não logado** e **Navegação entre tabs** interagiam com as outras issues. 
+A issue de frontend **Visualização das cidades por mapas de calor** foi um grande desafio na sprint, um dos membros executores teve problemas de ambiente. A previsão é que ela seja finalizada no início da próxima sprint. As outras duas issues de frontend eram mais simples e saíram sem dificuldades.
 
-A issue de **Visualização, edição e exclusão de usuário** saiu com certa dificuldade pelo protótipo desatualizado. Enquanto os membros que fizeram a issue de **Cadastro de ocorrência** relataram que a inexperiência de ambos com o frontend do projeto consumiu deles mais horas de trabalho que o planejado.
-
-Os documentos relacionados a **Custos e Qualidade** foram iniciados no meio da semana e seriam finalizados um pouco depois do fim da sprint, então as issues deles foram fechadas, mas houveram intercorrências e estes documentos não foram concluídos. O time tem noção que essa é uma prática péssima pra metodologia ágil e se compromete a não fazer mais isso. Como esse fato ocorreu após a reunião de review da Sprint 5 iremos abordar sobre esse ponto no review da Sprint 6.
-
-As tarefas relacionadas ao **User-Service** foram completadas com antecedência pelo comprometimento e conhecimento da Sara e do Tiago em Flask.
-
-As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
+Devido ao excesso de compromissos externos a matéria a issue de **Revisão de Documentos** não foi iniciada, ficando como dívida técnica para a próxima sprint. As outras tarefas de documentação e o CI foram concluídos com sucesso.
 
 ## Riscos
 Entre os riscos monitorados pelo grupo os que ocorreram na sprint foram:
@@ -146,7 +139,7 @@ Entre os riscos monitorados pelo grupo os que ocorreram na sprint foram:
 * Conflito com outras disciplinas
 * Ausência de membros durante reuniões do grupo
 * Erros durante o planejamento das atividades
-* Dificuldades da equipe com as novas tecnologias inseridas
+* Falta de comprometimento de membros com o projeto
 * Problemas com a estação de trabalho
 
 Os quatro primeiros riscos eram esperados no planejamento e foi possível realizar algumas ações preventivas e reativas, em relação aos outros riscos só tomamos as ações reativas.
