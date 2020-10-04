@@ -1,4 +1,11 @@
 site_name: Stay Safe
 theme:
-  name: 'material'
-dev_addr: '0.0.0.0:8000'
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  name: material
+  features:
+    - navigation.tabs
+extra_css:
+  - stylesheets/styles.css
+
+dev_addr: "0.0.0.0:8000"
