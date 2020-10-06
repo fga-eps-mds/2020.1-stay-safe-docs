@@ -20,4 +20,6 @@ Telas prototipadas do aplicativo, caso sejam necessárias telas adicionais, elas
 |![Notificações](../images/prototype/Notificacoes.png) Notificações |![Tela de Classificações](../images/prototype/Tela_de_Classificacoes.png) Tela de Classificações |
 |![Reportar Ocorrência 1](../images/prototype/Reportar_Passo1.png) Reportar Ocorrência 1 |![Reportar Ocorrência 2](../images/prototype/Reportar_Passo2.png) Reportar Ocorrência 2 |
 |![Tela dos Filtros em Bairro](../images/prototype/Tela_dos_Filtros_Bairro.png) Tela dos Filtros por Bairro |![Tela dos Filtros em Cidade](../images/prototype/Tela_dos_Filtros_Cidade.png) Tela dos Filtros por Cidade |
+|![Tela de Ajuda](../images/prototype/Ajuda.png) Tela de Ajuda |
+
 
