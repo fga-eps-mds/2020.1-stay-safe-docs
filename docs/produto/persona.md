@@ -17,40 +17,25 @@ A medida que a ideia do aplicativo passou a ser mais consistente ainda persistia
 #### 2.3.1 Apresentação das Personas
 Serão apresentados os perfis escolhidos, seguidos de seus respectivos Mapas da Empatia.
 
-#### Persona 1: 
- Entregador por Aplicativo    
- Nome: Carlos    
- Idade: 28 Anos    
+#### Persona 1:   
 
-![Mapa da Empatia](../images/personas/ifood.png)
+![Mapa da Empatia](../images/personas/uber.jpg)
 
-#### Persona 2: 
- Entregador de Correspondência    
- Nome: Walisson    
- Idade: 38 Anos       
+#### Persona 2:       
 
-![Mapa da Empatia](../images/personas/correio.png)
+![Mapa da Empatia](../images/personas/universitaria.jpg)
 
-#### Persona 3: 
-Motorista por Aplicativo   
-Nome: Edivan    
-Idade: 40 Anos    
+#### Persona 3:   
 
-![Mapa da Empatia](../images/personas/uber.png)
+![Mapa da Empatia](../images/personas/entregador_correspondencia.jpg)
 
-#### Persona 4: 
-Trabalhador Autonomo    
-Nome:** José Carlos    
-Idade:** 36 Anos    
+#### Persona 4:    
 
-![Mapa da Empatia](../images/personas/camelo.png)
+![Mapa da Empatia](../images/personas/autonoma.jpg)
 
-#### Persona 5: 
-Universitária   
-Nome: Amanda   
-Idade: 21 Anos   
+#### Persona 5:   
 
-![Mapa da Empatia](../images/personas/unb.png)
+![Mapa da Empatia](../images/personas/entregador_app.jpg)
 
 
 
