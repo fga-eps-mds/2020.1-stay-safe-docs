@@ -37,6 +37,8 @@ Serão apresentados os perfis escolhidos, seguidos de seus respectivos Mapas da 
 
 ![Mapa da Empatia](../images/personas/entregador_app.jpg)
 
+As imagens utilizadas nas personas foram originadas por uma inteligência articifial desenvolvida para criar figuras de [pessoas que não existem](https://thispersondoesnotexist.com/), sendo assim uma boa alternativa para evitar problemas com direitos de imagem.
+
 
 
 
