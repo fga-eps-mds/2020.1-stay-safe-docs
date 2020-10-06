@@ -1,4 +1,4 @@
-#Identidade Visual
+# Identidade Visual
 
 ## 1. Introdução
 O presente documento define aspectos visuais para a implementação e divulgação do app Stay Safe, como as fontes utilizadas, cores e formas.
