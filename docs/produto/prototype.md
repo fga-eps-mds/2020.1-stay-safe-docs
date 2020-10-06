@@ -7,11 +7,11 @@ Telas prototipadas do aplicativo, caso sejam necessárias telas adicionais, elas
 |![Cadastro](../images/prototype/Cadastro.png) Cadastro |![Login](../images/prototype/Login.png) Login |
 |![Perfil](../images/prototype/Perfil.png) Ver/Editar perfil |![Editar Perfil](../images/prototype/Editar_Perfil.png) Editar Perfil |
 |![Home mapa](../images/prototype/Home_Mapa.png) Home com mapa |![Configurações](../images/prototype/Configuracoes.png) Configurações do app |
-|![Reportar 1](../images/prototype/Reportar.png) Dica de como reportar |![Reportar 2](../images/prototype/Reportar_2.png) Reportar Ocorrência |
+|![Reportar 1](../images/prototype/Reportar_Passo1.png) Dica de como reportar |![Reportar 2](../images/prototype/Reportar_Passo2.png) Reportar Ocorrência |
 |![Visualizar bairro](../images/prototype/Visualizar_Bairro.png) Avaliação de um bairro |![Tela dos Filtros Local](../images/prototype/Tela_dos_Filtros_Local.png) Tela dos Filtros Local|
-|![Apagar Ocorrência](../images/prototype/Apagar_Ocorrencia.png) Deletar Ocorrência |![Apagar Avaliação](../images/prototype/Apagar_Ocorrencia-1.png) Deletar Avaliação |
+|![Apagar Ocorrência](../images/prototype/Apagar_Ocorrencia_Passo1.png) Deletar Ocorrência |![Apagar Avaliação](../images/prototype/Apagar_Ocorrencia_Passo2.png) Deletar Avaliação |
 |![Avaliação de Bairro 1](../images/prototype/Avaliar_Bairro_Passo1.png) Avaliar Bairro 1|![Avaliação de Bairro 2](../images/prototype/Avaliar_Bairro_Passo2.png) Avaliar Bairro 2|
-|![Comparar Estatísticas 1](../images/prototype/Comparar_Estatisticas.png) Comparar Estatísticas 1|![Comparar Estatísticas 2](../images/prototype/Comparar_Estatisticas-1.png) Comparar Estatísticas 2|
+|![Comparar Estatísticas 1](../images/prototype/Comparar_Estatisticas_Passo1.png) Comparar Estatísticas 1|![Comparar Estatísticas 2](../images/prototype/Comparar_Estatisticas_Passo2_.png) Comparar Estatísticas 2|
 |![Delegacia Próxima](../images/prototype/Delegacia_proxima.png) Delegacia mais próxima |![Detalhes da Ocorrência](../images/prototype/Detalhes_Ocorrencia.png) Detalhes da Ocorrência |
 |![Editar Avaliação](../images/prototype/Editar_Avaliacao.png) Editar Avaliação|![Editar Ocorrência](../images/prototype/Editar_Ocorrencia.png) Editar Avaliação |
 |![Visualizar Estastísticas](../images/prototype/Visualizar_Estatisticas.png) Visualizar Estatsticas |![Filtro de Crimes](../images/prototype/Filtro_Crimes.png) Filtros de Crimes |
