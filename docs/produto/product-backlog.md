@@ -11,6 +11,11 @@ Este documento se destina a descrever e priorizar o conjunto de épicos e histó
 * Notificação
 * Ajuda
 
+### 2.1 Diagrama de Gantt dos Épicos
+O diagrama de Gantt ilustra o planejamento de ínicio e término de todo trabalho contido em um épico, a ordem de execução dos épicos é decidida por fatores como prioridade e dependência.
+
+![Diagrama de Gantt dos Épicos](../images/backlog/Gantt.png "Diagrama de Gantt dos Épicos")
+
 ## 3. Histórias
 
 ### 3.1 Épico Perfil
@@ -71,14 +76,14 @@ Este documento se destina a descrever e priorizar o conjunto de épicos e histó
 | US29 | Ser encaminhado para fazer o cadastro de um boletim eletrônico | Registrar um boletim de ocorrência eletrônico a respeito do crime que sofri | Could |
 
 ## 4. Especificação das Histórias
-Cada história descrita no tópico 3 é dividida em tasks e estas são criadas no repositório em que serão executadas. Assim é possível manter as histórias como uma forma amigável de entender o produto enquanto as tasks são usadas para criar tarefas pequenas, passíveis de serem feitas em uma sprint e que comunicam diretamente com os desenvolvedores.
+Cada história descrita no tópico 3 é dividida em tasks e estas são criadas no repositório em que serão executadas. Assim é possível manter as histórias como uma forma amigável de entender o produto enquanto as tasks são usadas para criar tarefas pequenas, passíveis de serem feitas em uma sprint e que comunicam diretamente com os desenvolvedores. Neste tópico são mostradas as tasks que integram cada história presente no backlog.
 
-Documentar toda dependência mínima entre as histórias do projeto não é viável devido ao caráter volátil do Backlog do Produto, as dependências entre histórias são revistas no contexto de uma sprint quando um planejamento é executado, afim de garantir que a equipe possui os recursos necessários para desenvolver a tarefa em questão. 
+Documentar toda dependência mínima entre as histórias do projeto não é viável devido ao caráter volátil do Backlog do Produto, as dependências entre histórias são revistas no contexto de uma sprint quando um planejamento é executado, afim de garantir que a equipe possui os recursos necessários para desenvolver a tarefa em questão.
 
 É possível observar a prioridade das histórias de acordo com a sprint em que ela foi planejada, um exemplo é que a funcionalidade de **Cadastro de Usuário** é feita antes da **Edição de Usuário**, esse planejamento foi feito levando em consideração que a segunda história é dependente da primeira. 
 
 ### 4.1 Épico Perfil
-Todas histórias deste épico são dependentes da task abaixo, ela precisa ser executada para que as histórias do Épico Cidade sejam concluídas.  
+A task abaixo está presente no fluxo de atividade de todas histórias do épico e precisa ser executada para que as histórias do Épico Perfil sejam concluídas.  
 Task 1: [CRUD de Usuário - User - 8 pts - Sprint 2](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/29)  
 
 **US01 - Me cadastrar na aplicação**   
@@ -100,7 +105,7 @@ Task 1: [Tela para Logout de Usuário - Frontend - 3 pts - Sprint 5](https://git
 Task 1: [Telas para Visualização, Edição e Exclusão de Usuário - Frontend - 5 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/11)  
 
 ### 4.2 Épico Cidade
-Todas histórias deste épico são dependentes das quatro tasks abaixo, elas precisam ser executadas para que as histórias do Épico Cidade sejam concluídas.  
+As quatro tasks abaixo estão presentes no fluxo de atividade de todas histórias do épico e precisam ser executadas para que as histórias do Épico Cidade sejam concluídas.  
 Task 1: [Extração SSP-DF - Secretary - 8 pts - Sprint 3](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/1)  
 Task 2: [Extração SSP-SP - Secretary - 8 pts - Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/5)      
 Task 3: [Endpoints para Obtenção de Dados - Secretary - 3 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/9)   
@@ -119,7 +124,7 @@ Task 1: Tela de Cidades Ordenadas - Frontend - X pts - Sprint 9
 Task 1: [Tela de Cidades Dispostas em Mapas de Calor - Frontend - 8 pts - Sprint 6](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/22) 
 
 ### 4.3 Épico Bairro
-Todas histórias deste épico são dependentes das três tasks abaixo, elas precisam ser executadas para que as histórias do Épico Bairro sejam concluídas.  
+As três tasks abaixo estão presentes no fluxo de atividade de todas histórias do épico e precisam ser executadas para que as histórias do Épico Bairro sejam concluídas.  
 Task 1: [CRUD de Avaliação - User - 5 pts - Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/7)  
 Task 2: [Endpoint para Avaliações - User - 2 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/14)  
 Task 3: Lógica de Avaliações Médias - User - X pts - Sprint 8 
@@ -143,7 +148,7 @@ Task 1: Tela de Bairros Dispostos em Mapas de Calor - Frontend - X pts - Sprint 
 Task 1: Tela de Histórico de Avaliações - Frontend - X pts - Sprint 10   
 
 ### 4.4 Épico Local Específico
-Todas histórias deste épico são dependentes das três tasks abaixo, elas precisam ser executadas para que as histórias do Épico Bairro sejam concluídas.  
+As três tasks abaixo estão presentes no fluxo de atividade de todas histórias do épico e precisam ser executadas para que as histórias do Épico Local Específico sejam concluídas.   
 Task 1: [CRUD de Ocorrência - User - 5 pts - Sprint 3](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/2)  
 Task 2: [Integração com API do Maps - Frontend - 5 pts - Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/3)  
 Task 3: [Endpoint para Ocorrências - User - 2 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/14)    
