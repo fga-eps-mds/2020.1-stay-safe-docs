@@ -1,6 +1,6 @@
 # Protótipo de Alta Fidelidade
 
-Telas prototipadas do aplicativo, caso sejam necessárias telas adicionais, elas terão os mesmos elementos e componentes.
+Neste documento serão expostas as telas prototipadas do aplicativo. Caso sejam necessárias telas adicionais, terão os mesmos elementos e componentes. Todas as telas foram produzidas através do editor gráfico [Figma](https://www.figma.com) e podem ser encontradas no projeto [StaySafe](https://www.figma.com/file/m9CNf4PNE7BHmI9QwAw0JD/Stay-Safe---Prot%C3%B3tipo-de-alta-fidelidade?node-id=0%3A1).         
 
 | | |
 |:-------------------------:|:-------------------------:|
