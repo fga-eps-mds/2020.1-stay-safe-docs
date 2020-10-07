@@ -6,7 +6,29 @@ O presente documento visa apresentar as principais práticas realizadas durante 
 ## 2. Técnicas
 ### 2.1 Brainstorming
 A Brainstorming é uma técnica utilizada para incentivar o pensamento criativo e a produção de idéias. Quando se trata de um produto de software, o brainstorming torna-se uma ferramenta de extrema importância para a definição da estratégia e identificação de riscos. Caso as funcionalidades não sejam previamente definidas pelo cliente, como é no presente cenário, estimula-se a pluralidade de ideias e soluções baseadas em algum estudo de mercado. O brainstorming pode englobar diversas áreas de um projeto, como por exemplo: Gestão de projeto, gestão de processos, desenvolvimento, marketing etc.   
-Entrando em detalhes sobre a concepção do StaySafe, o brainstorming ocorreu em um ambiente descontraído onde a maior parte da equipe se reuniu para debater ideias e assim formar uma visão mais concreta do que viria a ser a aplicação. Essa prática se mostrou necessária pois, como não havia cliente real, era preciso estabelecer o que de fato seria um produto com bons objetivos e que trariam retorno à sociedade. Dentro desse contexto social foi definido que o negócio principal seria a segurança pública, pois sempre foi(e provavelmente continuará sendo) uma área de interesse dos cidadãos. Na reunião foram identificados qual seria o contexto do projeto, quais os prováveis requisitos, as principais funcionalidades e, de forma resumida, qual o objetivo do produto.
+Entrando em detalhes sobre a concepção do StaySafe, o brainstorming ocorreu em um ambiente descontraído onde a maior parte da equipe se reuniu para debater ideias e assim formar uma visão mais concreta do que viria a ser a aplicação. Essa prática se mostrou necessária pois, como não havia cliente real, era preciso estabelecer o que de fato seria um produto com bons objetivos e que trariam retorno à sociedade. Dentro desse contexto social foi definido que o negócio principal seria a segurança pública, pois sempre foi(e provavelmente continuará sendo) uma área de interesse dos cidadãos. Na reunião foram identificados qual seria o contexto do projeto, quais os prováveis requisitos, as principais funcionalidades e, de forma resumida, qual o objetivo do produto. Foram feitos registros de palavras-chave originadas no brainstorm, algumas delas, separadas por categorias, são:  
+
+**Funcionalidades**   
+
+* Estatísticas  
+* Dados abertos  
+* Ocorrência  
+* Filtros por crime  
+* Testemunha  
+* Vítima  
+* Notificação de novos crimes  
+* Boletim de ocorrência eletrônico  
+* Mapa de calor   
+
+**Telas**
+
+* Histórico de registro de denúncias  
+* Perfil de usuário  
+* Home  
+* Registro de ocorrência  
+* Pins no mapa  
+* Detalhes da ocorrência  
+* Configurações  
 
 ### 2.2 Entrevistas
 Como a temática de segurança pública é muito ampla, o produto passou a ter muitas possibilidades de funcionalidades e notou-se que os membros haviam formado ideias muito diferentes de como seria desenvolvido o projeto e qual seria o resultado final. Devido a essas divergências, foram agendadas entrevistas com a equipe de desenvolvedores com o intuito de entender quais as expectativas de cada um e como suas visões de produto haviam evoluido. Ao final dessa prática foi possível alinhar na medida do possível as ideias de todos os membros da equipe para que, finalmente, o projeto pudesse ser iniciado.
