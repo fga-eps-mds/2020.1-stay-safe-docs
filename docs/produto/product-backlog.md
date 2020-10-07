@@ -1,7 +1,7 @@
 # Backlog do Produto
 
 ## 1. Introdução
-Este documento se destina a descrever e priorizar o conjunto de épicos e histórias que irão compor o escopo do aplicativo Stay Safe. Ao longo do projeto modificações podem ser feitas no backlog para que ele se adeque as novas expectativas sobre o produto.
+Este documento se destina a descrever e priorizar o conjunto de épicos, histórias e tasks que irão compor o escopo do aplicativo Stay Safe. Ao longo do projeto modificações podem ser feitas no backlog para que ele se adeque as novas expectativas sobre o produto.
 
 ## 2. Épicos
 * Perfil
@@ -61,7 +61,7 @@ O diagrama de Gantt ilustra o planejamento de ínicio e término de todo trabalh
 ### 3.5 Épico Notificação
 | ID | Eu, como usuário gostaria de... | Para poder... | Priorização |
 |---|---|---|---|
-| US22 | Favoritar locais |  | Should |
+| US22 | Favoritar locais | Usar a funcionalidade de notificação de crimes a local próximo | Should |
 | US23 | Editar configurações de notificação | Escolher quais tipos de notificações desejo receber | Should |
 | US24 | Ser notificado quando um crime ocorre próximo a um local favoritado | Me manter seguro nos locais que mais frequento | Should |
 | US25 | Ser notificado quando um crime ocorre próximo ao meu local atual | Tomar medidas de precaução que aumentem minha segurança | Could |
