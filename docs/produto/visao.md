@@ -14,10 +14,6 @@ Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade
 
 ### 1.3. Definições, Acrônimos e Abreviações
 
-* **UnB** - Universidade de Brasília
-* **FGA** - Faculdade do Gama (UnB)
-* **MDS** - Métodos de Desenvolvimento de Software
-* **EPS** - Engenharia de Produto de Software
 * **Stay Safe** - Nome do aplicativo mobile a ser desenvolvido
 * **SSP** - Secretaria de Segurança Pública
 
@@ -25,7 +21,7 @@ Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade
 
 ### 2.1. Oportunidade de Negócio
 
-Com o histórico de já ter feito parte da lista dos países mais perigosos do mundo, embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da perículosidade de uma região e contribuir com a inserção de dados, caso se torne vítima ou testemunha.
+Com o histórico de já ter feito parte da lista dos [países mais perigosos do mundo](https://www.camara.leg.br/radio/programas/543467-brasil-e-um-dos-dez-paises-mais-violentos-do-mundo-revela-atlas-da-violencia-2018/), embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da perículosidade de uma região e contribuir com a inserção de dados, caso se torne vítima ou testemunha.
 
 ### 2.2. Instrução do Problema
 
@@ -49,17 +45,16 @@ Com o histórico de já ter feito parte da lista dos países mais perigosos do m
 
 Esta seção fornece um perfil das partes interessadas e usuários envolvidos no projeto. 
 
-### 3.1. Ambiente do Usuário
-
-A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
-
-### 3.2. Perfis das partes interessadas
+### 3.1. Perfis das partes interessadas
 
 |Representantes |Descrição |Tipo |Responsabilidades |Critério de sucesso |Envolvimento |
 |---- |---- |---- |---- |---- |---- |
 | Brenda Santos, Daniel Primo, Herick Portugues, Italo Alves, Lucas Boaventura, Luiz Pettengil, Tiago Samuel | Desenvolvimento de Software | Estudantes da Universidade de Brasília, cursando a disciplina de Métodos de Desenvolvimento de Software | Desenvolvimento, testes, documentação e implementação do software | Finalizar o desenvolvimento e realizar a entrega do software dentro dos prazos | Alto |
 | Renan Schadt , Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília|Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto |
-| Hilmer Neri | Docente |Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto |
+
+### 3.2. Ambiente do Usuário
+
+A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
 
 ### 3.3. Perfil do usuário
 
