@@ -14,11 +14,7 @@ A logo deve estar nas fontes Cunia e Age, sendo uma forma eficiente de represent
 As fontes definidas para a aplicação buscam alinhar a ideia de seriedade geral para confiabilidade, agregando uma usabilidade intuitiva. Pensando em fontes simples e que passam a sensação de segurança para o usuário.
 
 ### 3.1 Tipografia
-Todos os textos do App devem estar na fonte Trueno, cuja ausência de serifas e sua forma simples e moderna auxilia na usabilidade e compreensão.<br>
-
--**Trueno Bold**: Utilizada em títulos.  
--**Trueno SemiBold**: Utilizada em subtítulos e botões.  
--**Trueno Regular**: Utilizada para textos em geral.  
+Todos os textos do App devem estar na fonte ABeeZee, cuja ausência de serifas e sua forma simples e moderna auxilia na usabilidade e compreensão.<br>
 
 ## 4. Paleta de cores
 ![Cores](../images/visual-identity/cores.png)
