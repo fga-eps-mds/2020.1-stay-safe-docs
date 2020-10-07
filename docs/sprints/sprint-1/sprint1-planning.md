@@ -2,7 +2,7 @@
 
 ## 1. Visão Geral
 **Número da Sprint:** 1  
-**Data de Início:** 22/08/2020  
+**Data de Início:** 23/08/2020  
 **Data de Término:** 29/08/2020  
 **Duração:** 7 dias  
 **Pontos Planejados:** 60 pontos  
