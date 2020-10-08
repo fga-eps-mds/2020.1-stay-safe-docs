@@ -1,6 +1,7 @@
 <!--- Provide a general summary of your changes in the Title above -->
 
-## Issue #
+## Issue 
+Resolves #
 <!-- Link the pull request's respective issue -->
 
 ## Description
