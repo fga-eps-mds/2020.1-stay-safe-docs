@@ -8,14 +8,14 @@
 **Pontos Planejados:** 68 pontos  
 **Pontos Entregues:** 60 pontos  
 **Dívida Técnica:** 8 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Nenhum 
 
 ## 2. Resultados
 1. **História:** [#1 - Definição de Identidade Visual](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/1)  
 **Responsáveis:** Daniel, Ítalo   
 **Pontuação:** 8  
 **Status:** Concluído 
-2. **História:** [#2 - Create vision document](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
+2. **História:** [#2 - Criação do Documento de Visão](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
 **Responsáveis:** Lucas, Brenda, Tiago, Hérick, Luiz, Ítalo, Daniel  
 **Pontuação:** 8  
 **Status:** Concluído  
@@ -43,7 +43,7 @@
 **Responsáveis:** Renan, Rossicler, Sara     
 **Pontuação:** 8  
 **Status:** Não Concluído  
-9. **História:** [#18 - Documentação de Sprints](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/18)  
+9. **História:** [#18 - Documentar Sprint 1](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/18)  
 **Responsáveis:** Renan     
 **Pontuação:** 3  
 **Status:** Concluído  

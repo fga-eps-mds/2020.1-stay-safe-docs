@@ -38,7 +38,13 @@ O projeto terá duração de 114 dias, serão realizadas 17 sprints para complet
 | 08/10/2020 | Release 1 | Entrega da documentação e de algumas funcionalidades do produto |
 | 10/12/2020 | Release 2 | Entrega do produto final |
 
-## 8. Partes Interessadas
+## 8. Orçamento
+O orçamento total do projeto é de R$ 78.036 com seus custos divididos entre recursos humanos, aquisições, serviços e ferramentas. Para mais detalhes desse processo consultar o [Plano de Gereciamento de Custos](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/projeto/costs/).
+
+## 9. Riscos
+Foram levantados 18 riscos para o projeto, divididos entre técnicos, externos, organizacionais e de gerência. A cada nova sprint os riscos são repensados em termos de probabilidade e impacto e abordados nos documentos semanais de sprint. Para mais detalhes sobre o processo de levantamento dos riscos e as ações preventivas e reativas relacionadas a eles consulte o [Plano de Gerenciamento de Riscos](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/projeto/risk-management/).
+
+## 10. Partes Interessadas
 
 | Representantes | Descrição | Tipo | Responsabilidades | Critério de sucesso | Envolvimento |
 |---- |---- |---- |---- |---- |---- |
@@ -46,6 +52,6 @@ O projeto terá duração de 114 dias, serão realizadas 17 sprints para complet
 | Renan Schadt, Sara Silva, Rossicler Júnior | Gerenciamento de Projeto | Estudantes da disciplina de Engenharia de Produto de Software da Universidade de Brasília | Gerir e dar suporte à equipe de desenvolvimento, garantindo o melhor processo para o desenvolvimento do produto | Manter a equipe focada no projeto, manter o grupo ativo nos princípios ágeis, gerência dos riscos associados ao projeto e finalizar o desenvolvimento do projeto | Alto |
 | Hilmer Neri | Docente | Professor das disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software pela Universidade de Brasília |Avaliar e orientar os estudantes de ambas as disciplinas | Avaliar o produto em sua totalidade | Alto |
 
-## 9. Referências
+## 11. Referências
 * ["PMI - Project Charter"](https://www.pmi.org/learning/library/charter-selling-project-7473)
 * ["Quick Guide Project Charter"](https://www.projectmanager.com/blog/project-charter)

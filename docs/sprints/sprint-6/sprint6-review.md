@@ -111,7 +111,7 @@
 
 ## 8. Análise do Scrum Master
 ### Time
-Sétima sprint do projeto, sendo a última sprint completa antes da Release 1, marcada por duas dívidas técnicas e uma quantidade de pontos acima do Velocity da equipe. Essa sprint conteve muitas ativadades de outras disciplinas (como provas e trabalhos) tanto pra MDS como pra EPS e prejudicou muito a produtividade do time. O planejamento foi muito otimista e não levou tão a sério os riscos apontados. As duas issues não entregues foram de 8 pontos, o que novamente demonstra que nossa equipe trabalha melhor com diversas issues pequenas do que com poucas issues grandes.
+Sétima sprint do projeto, sendo a última sprint completa antes da Release 1, marcada por duas dívidas técnicas e uma quantidade de pontos acima do Velocity da equipe. Essa sprint conteve muitas atividades de outras disciplinas (como provas e trabalhos) tanto pra MDS como pra EPS e prejudicou muito a produtividade do time. O planejamento foi muito otimista e não levou tão a sério os riscos apontados. As duas issues não entregues foram de 8 pontos, o que novamente demonstra que nossa equipe trabalha melhor com diversas issues pequenas do que com poucas issues grandes.
 
 Nos pontos positivos vale destacar o excelente comportamento de alguns membros de MDS que ao terminarem suas demandas foram ajudar nas outras demandas do grupo, a revisão de PRs parcial por MDS também está funcionando e garantiu algumas funcionalidades entregues com antecedência e retirou um pouco da sobrecarga em cima de EPS. 
 
@@ -127,7 +127,7 @@ Os **Históricos de Contribuição** apresentam uma quantidade grande de commits
 O **Quadro de Conhecimento** está começando a mostrar evoluções mais lentas agora que os membros estão acostumados a usar as tecnologias em questão.
 
 ### Histórias
-A issue de frontend **Visualização das cidades por mapas de calor** foi um grande desafio na sprint, um dos membros executores teve problemas de ambiente. A previsão é que ela seja finalizada no início da próxima sprint. As outras duas issues de frontend eram mais simples e saíram sem dificuldades.
+A issue de frontend **Visualização das cidades por mapas de calor** foi um grande desafio na sprint, um dos membros executores teve problemas de ambiente e o outro não se comprometeu o esperado na sprint. A previsão é que ela seja finalizada no início da próxima sprint. As outras duas issues de frontend eram mais simples e saíram sem dificuldades.
 
 Devido ao excesso de compromissos externos a matéria a issue de **Revisão de Documentos** não foi iniciada, ficando como dívida técnica para a próxima sprint. As outras tarefas de documentação e o CI foram concluídos com sucesso.
 

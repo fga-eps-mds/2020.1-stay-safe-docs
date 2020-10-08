@@ -8,7 +8,7 @@
 **Pontos Planejados:** 42 pontos  
 **Dívida Técnica:** 15 pontos  
 **Pontos Totais:** 57 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Tiago Samuel
 
 ## 2. Papéis
 * **Arquiteta:** Sara Silva

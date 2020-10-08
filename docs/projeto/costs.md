@@ -32,9 +32,9 @@ Para fazer o cálculo de quantos kWh/mês se utiliza a fórmula: **Potência do 
     
     Dessa forma: 38 * 2 * 20 / 1000 = 1,52 kWh/mês por pessoa. 
     
-A [CEB cobra 66 centavos por kWh/mês](http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2). O que retorna um resultado de aproximadamente 1 R$ de consumo de energia para cada notebook no mês considerando somente as horas de trabalho. 
+A Companhia Energética de Brasília [cobra 66 centavos por kWh/mês](http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2). O que retorna um resultado de aproximadamente 1 R$ de consumo de energia para cada notebook no mês considerando somente as horas de trabalho. 
 
-Quanto ao deploy a equipe vai fazê-lo só nos dois meses finais do projeto, ele será feito na Digital Ocean (que cobra 5 dólares ao mês no servidor mais básico), utilizaremos um para cada repositório backend, totalizando um custo de 10 dólares por mês.
+Quanto ao deploy dos serviços de backend, a equipe vai fazê-lo só nos dois meses finais do projeto, ele será feito na Digital Ocean (que cobra 5 dólares ao mês no servidor mais básico), utilizaremos um servidor para homologação e outro para produção, totalizando um custo de 10 dólares por mês.
 
 | Serviço | Quantidade | Finalidade | Valor Unitário | Valor Total |
 |---|---|---|---|---|
@@ -50,7 +50,7 @@ A única ferramenta paga utilizada é a API do Google Maps, a Google fornece at�
 | Telegram | Comunicação e realização de dailies | R$ 0 |
 | GitHub | Hospedagem e versionamento de código | R$ 0 |
 | GitHub Actions | Ferramenta de integração contínua | R$ 0 |
-| GitHub Pages | Repositório visual da documentação | R$ 0 |
+| GitHub Pages | Hospedagem de página web para repositório GitHub | R$ 0 |
 | Google Drive | Preenchimento de artefatos colaborativos | R$ 0 |
 | Google Meet | Reuniões por chamada | R$ 0 |
 | Google Maps API | Reuniões por chamada | R$ 0 |
@@ -64,7 +64,15 @@ A única ferramenta paga utilizada é a API do Google Maps, a Google fornece at�
 ### 2.4 Custo Total
 Somando os custos de pessoal, aquisições, serviços e ferramentas o custo total do projeto é de R$ 78.036.
 
-## 3. Referências
+## 3. EVM
+O Earned Value Management (EVM) é uma métrica utilizada para integrar escopo, tempo e custo em gerência de projetos, que consiste em medir objetivamente o desempenho e o progresso do projeto comparando custos (real e planejado) e valor agregado. 
+
+### 3.1. EVM até Release 1
+![EVM R1](../images/costs/EVM-R1.png)
+
+![Estatísticas EVM R1](../images/costs/Estatisticas-EVM-R1.png)
+
+## 4. Referências
 * [Site de vagas](https://www.glassdoor.com.br/)
 * [API do Maps](https://cloud.google.com/maps-platform/pricing/)
 * [Tarifa CEB](http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2)

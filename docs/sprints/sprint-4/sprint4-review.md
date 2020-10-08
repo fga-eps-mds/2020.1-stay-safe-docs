@@ -8,7 +8,7 @@
 **Pontos Planejados:** 36 pontos  
 **Pontos Entregues:** 36 pontos  
 **Dívida Técnica:** 0 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Nenhum
 
 ## 2. Resultados
 

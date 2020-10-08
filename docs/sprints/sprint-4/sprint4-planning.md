@@ -8,7 +8,7 @@
 **Pontos Planejados:** 36 pontos  
 **Dívida Técnica:** 0 pontos  
 **Pontos Totais:** 36 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Daniel Primo 
 
 ## 2. Papéis
 * **Arquiteta:** Sara Silva
