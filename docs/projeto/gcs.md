@@ -8,11 +8,11 @@ Este documento tem como objetivo apresentar as ferramentas, políticas e regras 
 |---|---|
 | GitHub | Hospedagem e versionamento de código |
 | GitHub Actions | Ferramenta de integração contínua |
-| GitHub Pages | Repositório visual da documentação |
+| GitHub Pages | Hospedagem de página web para repositório GitHub |
 | Docker | Ferramenta de isolamento de ambiente |
 | Docker-Compose | Ferramenta de gerenciamento de containers |
 | Flask | Framework de desenvolvimento backend |
-| PyUnit | Framework de teste Python |
+| Pytest | Framework de teste Python |
 | Coverage py | Ferramenta de cobertura de código Python |
 | Pylint | Ferramenta de análise de código Python |
 | React Native | Framework de desenvolvimento frontend |
