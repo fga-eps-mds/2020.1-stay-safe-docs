@@ -8,7 +8,7 @@
 **Pontos Planejados:** 47 pontos  
 **Dívida Técnica:** 0 pontos  
 **Pontos Totais:** 47 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Luiz Pettengill
 
 ## 2. Papéis
 * **Arquiteta:** Sara Silva

@@ -12,19 +12,19 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Consequência:** Dificuldade para reunir toda a equipe e realizar os pareamentos  
 **Ação Preventiva:** Elaboração de planilhas de controle de horários  
 **Ação Reativa:** Planejar os pareamentos e reuniões baseado na planilha de horários  
-**Probabilidade:** Média      
+**Probabilidade:** Alta        
 **Impacto:** Alto    
 **Prioridade:** Alta - 16  
 
-### R12 - Conflito de dependência entre atividades
-**Categoria:** Organizacional   
-**Causa:** Escopo razoavelmente complexo do projeto    
-**Consequência:** Atividade pausada esperando a conclusão de outra        
-**Ação Preventiva:** Planejar e priorizar as tarefas a longo prazo  
-**Ação Reativa:** Finalizar uma das tarefas o mais rápido possível para que a outra possa ser realizada  
-**Probabilidade:** Alto           
-**Impacto:** Alto       
-**Prioridade:** Alta - 16  
+### R07 - Conflito com outras disciplinas
+**Categoria:** Organizacional  
+**Causa:** Necessidade, sendo alunos da UnB os membros da equipe precisam cursar outras disciplinas para conclusão da graduação  
+**Consequência:** Atraso nas entregas ou entregas mal feitas  
+**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
+**Ação Reativa:** Priorização das atividades  
+**Probabilidade:** Muito Alta      
+**Impacto:** Médio     
+**Prioridade:** Média - 15
 
 ### R08 - Descumprimento de alguma legislação
 **Categoria:** Gerência  
@@ -32,9 +32,19 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Consequência:** Cometer alguma ilegalidade  
 **Ação Preventiva:**  Fazer um estudo da legislação associada ao escopo do projeto  
 **Ação Reativa:**  Procurar apoio jurídico profissional  
-**Probabilidade:** Média     
+**Probabilidade:** Média        
 **Impacto:** Muito Alto      
 **Prioridade:** Média - 15 
+
+### R02 - Dificuldades da equipe com as novas tecnologias inseridas
+**Categoria:** Técnico  
+**Causa:** Inexperiência de alguns membros  
+**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
+**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
+**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
+**Probabilidade:** Média      
+**Impacto:** Alto  
+**Prioridade:** Média - 12
 
 ### R03 - Falta de comprometimento dos membros com o projeto
 **Categoria:** Gerência  
@@ -52,19 +62,29 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
 **Ação Preventiva:** Seguir as recomendações de prevenção da Organização Mundial da Saúde  
 **Ação Reativa:** Remanejamento das atividades e apoio ao(s) membro(s) afetado(s)  
-**Probabilidade:** Média     
+**Probabilidade:** Média    
 **Impacto:** Alto    
-**Prioridade:** Média - 12   
+**Prioridade:** Média - 12  
 
-### R07 - Conflito com outras disciplinas
-**Categoria:** Organizacional  
-**Causa:** Necessidade, sendo alunos da UnB os membros da equipe precisam cursar outras disciplinas para conclusão da graduação  
-**Consequência:** Atraso nas entregas ou entregas mal feitas  
-**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
-**Ação Reativa:** Priorização das atividades  
-**Probabilidade:** Alta      
-**Impacto:** Médio     
+### R05 - Erros durante o planejamento das atividades
+**Categoria:** Gerência  
+**Causa:** Falta de experiência da equipe de gerência  
+**Consequência:** Trabalho mal distribuído entre os membros da equipe  
+**Ação Preventiva:** Conhecer bem a capacidade da equipe e as necessidades do projeto   
+**Ação Reativa:**  Avaliar as métricas do projeto para regular os próximos planejamentos  
+**Probabilidade:** Média     
+**Impacto:** Alto      
 **Prioridade:** Média - 12
+
+### R17 - Problemas com a estação de trabalho 
+**Categoria:** Técnico  
+**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
+**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
+**Ação Preventiva:** -  
+**Ação Reativa:**  Remanejamento das atividades e revisão do cronograma  
+**Probabilidade:** Média        
+**Impacto:** Alto      
+**Prioridade:** Média - 12  
 
 ### R10 - Ausência de membros durante reuniões do grupo
 **Categoria:** Gerência   
@@ -76,15 +96,15 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Médio     
 **Prioridade:** Média - 12 
 
-### R15 - Dados deixarem de ser fornecidos pelas secretarias 
-**Categoria:** Externo  
-**Causa:** Decisões das secretarias  
-**Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
-**Ação Preventiva:** -  
-**Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
-**Probabilidade:** Baixa      
-**Impacto:** Muito Alto      
-**Prioridade:** Baixa - 10 
+### R12 - Conflito de dependência entre atividades 
+**Categoria:** Organizacional   
+**Causa:** Escopo razoavelmente complexo do projeto    
+**Consequência:** Atividade pausada esperando a conclusão de outra        
+**Ação Preventiva:** Planejar e priorizar as tarefas a longo prazo  
+**Ação Reativa:** Finalizar uma das tarefas o mais rápido possível para que a outra possa ser realizada  
+**Probabilidade:** Média             
+**Impacto:** Alto       
+**Prioridade:** Média - 12      
 
 ### R14 - Desistência da disciplina 
 **Categoria:** Gerência  
@@ -96,25 +116,25 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Muito Alto    
 **Prioridade:** Baixa - 10  
 
-### R05 - Erros durante o planejamento das atividades
-**Categoria:** Gerência  
-**Causa:** Falta de experiência da equipe de gerência  
-**Consequência:** Trabalho mal distribuído entre os membros da equipe  
-**Ação Preventiva:** Conhecer bem a capacidade da equipe e as necessidades do projeto   
-**Ação Reativa:**  Avaliar as métricas do projeto para regular os próximos planejamentos  
-**Probabilidade:** Média     
-**Impacto:** Médio        
-**Prioridade:** Baixa - 9
+### R15 - Dados deixarem de ser fornecidos pelas secretarias 
+**Categoria:** Externo  
+**Causa:** Decisões das secretarias  
+**Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
+**Ação Preventiva:** -  
+**Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
+**Probabilidade:** Baixa      
+**Impacto:** Muito Alto      
+**Prioridade:** Baixa - 10   
 
-### R06 - Falta de foco dos membros nas reuniões  
+### R06 - Falta de foco dos membros nas reuniões 
 **Categoria:** Gerência   
 **Causa:** Diversas distrações em um contexto de reuniões remotas e a falta de socialização em tempos de pandemia  
 **Consequência:** Reuniões longas e com poucos resultados       
 **Ação Preventiva:** Criar timebox para os tópicos da reunião e permanecer nos assuntos que são de interesse geral   
 **Ação Reativa:** Mudar a maneira como a reunião é conduzida de forma a deixá-la mais despojada sem perder o foco na produtividade  
-**Probabilidade:** Média           
+**Probabilidade:** Média          
 **Impacto:** Médio          
-**Prioridade:** Baixa - 9  
+**Prioridade:** Baixa - 9   
 
 ### R11 - Falta de direcionamento por não possuir cliente real
 **Categoria:** Externo   
@@ -122,29 +142,9 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Consequência:** Produto desenvolvido carece de realidade            
 **Ação Preventiva:** Ter uma ótima noção do produto antes de começar seu desenvolvimento    
 **Ação Reativa:** Repensar o produto e alinhar nova visão com a equipe    
-**Probabilidade:** Baixa           
+**Probabilidade:** Baixa            
 **Impacto:** Alto      
 **Prioridade:** Baixa - 8   
-
-### R02 - Dificuldades da equipe com as novas tecnologias inseridas
-**Categoria:** Técnico  
-**Causa:** Inexperiência de alguns membros  
-**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
-**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
-**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
-**Probabilidade:** Baixa     
-**Impacto:** Alto  
-**Prioridade:** Baixo - 8
-    
-### R13 - Falta de gratuidade do Google Maps
-**Categoria:** Externa  
-**Causa:** Políticas da Google  
-**Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
-**Ação Preventiva:** Fazer essas funcionalidades de forma que sejam fáceis de integrar com outra api de mapa  
-**Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
-**Probabilidade:** Baixa    
-**Impacto:** Alto    
-**Prioridade:** Baixa - 8       
 
 ### R16 - Falta de interação entre a equipe 
 **Categoria:** Gerência  
@@ -154,19 +154,19 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Chamar os membros pra alguma atividade divertida fora do contexto da disciplina  
 **Probabilidade:** Baixa                
 **Impacto:** Alto    
-**Prioridade:** Baixa - 8    
+**Prioridade:** Baixa - 8 
 
-### R17 - Problemas com a estação de trabalho
-**Categoria:** Técnico  
-**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
-**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
-**Ação Preventiva:** -  
-**Ação Reativa:**  Remanejamento das atividades e revisão do cronograma  
-**Probabilidade:** Baixa      
-**Impacto:** Alto      
-**Prioridade:** Baixa - 8  
+### R13 - Falta de gratuidade do Google Maps
+**Categoria:** Externa  
+**Causa:** Políticas da Google  
+**Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
+**Ação Preventiva:** Fazer essas funcionalidades de forma que sejam fáceis de integrar com outra api de mapa  
+**Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
+**Probabilidade:** Baixa     
+**Impacto:** Alto    
+**Prioridade:** Baixa - 8   
 
-### R18 - Alteração das tecnologias 
+### R18 - Alteração das tecnologias
 **Categoria:** Técnico    
 **Causa:** Tecnologia previamente escolhida não consegue suprir as necessidades do projeto  
 **Consequência:** Refatorar tudo o que foi feito na nova linguagem/framework escolhido    
@@ -174,7 +174,7 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Incluir todos os membros na refatoração para que ela seja executada o mais rápido possivel  
 **Probabilidade:** Muito Baixa    
 **Impacto:** Muito Alto    
-**Prioridade:** Muito Baixa - 5  
+**Prioridade:** Muito Baixa - 5   
 
 ### R09 - Alteração do escopo
 **Categoria:** Gerência  
@@ -184,4 +184,4 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Redefinir o escopo e redistribuir tarefas  
 **Probabilidade:** Muito Baixa       
 **Impacto:** Alto    
-**Prioridade:** Muito Baixa - 4   
+**Prioridade:** Baixa - 4   

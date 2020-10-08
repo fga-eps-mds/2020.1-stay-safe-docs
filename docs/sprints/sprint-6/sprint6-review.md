@@ -8,10 +8,10 @@
 **Pontos Planejados:** 47 pontos  
 **Pontos Entregues:** 31 pontos  
 **Dívida Técnica:** 16 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Luiz Pettengill
 
 ## 2. Resultados
-### 4.1 Repositório Docs
+### 2.1 Repositório Docs
 1. **História:** [#60 - Documentar Metodologia](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/60)    
 **Responsáveis:** Renan     
 **Pontuação:** 3  
@@ -33,7 +33,7 @@
 **Pontuação:** 3      
 **Status:** Concluído    
 
-### 4.2 Repositório Frontend
+### 2.2 Repositório Frontend
 1. **História:** [#21 - Associar ocorrência a uma localização no mapa](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/21)    
 **Responsáveis:** Lucas e Hérick  
 **Pontuação:** 5   
@@ -51,13 +51,13 @@
 **Pontuação:** 1     
 **Status:** Concluído    
 
-### 4.3 Repositório User-Service
+### 2.3 Repositório User-Service
 1. **História:** [#25 - Configurar CI](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/25)    
 **Responsáveis:** Rossicler    
 **Pontuação:** 2  
 **Status:** Concluído    
 
-### 4.4 Repositório Secretary-Service
+### 2.4 Repositório Secretary-Service
 1. **História:** [#20 - Configurar CI](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/20)    
 **Responsáveis:** Rossicler    
 **Pontuação:** 2   
@@ -76,16 +76,16 @@
 ## 5. Gráfico de Contribuições
 
 ### 5.1 Contribuições na Documentação
-![Histórico de Contribuição Documentação](../../images/sprints/sprint-5/ContributionGraph-Docs.png "Histórico de Contribuição Documentação")
+![Histórico de Contribuição Documentação](../../images/sprints/sprint-6/ContributionGraph-Docs.png "Histórico de Contribuição Documentação")
 
 ### 5.2 Contribuições no Frontend
-![Histórico de Contribuição Frontend](../../images/sprints/sprint-5/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
+![Histórico de Contribuição Frontend](../../images/sprints/sprint-6/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
 
 ### 5.3 Contribuições no User-Service
-![Histórico de Contribuição User-Service](../../images/sprints/sprint-5/ContributionGraph-User.png "Histórico de Contribuição User-Service")
+![Histórico de Contribuição User-Service](../../images/sprints/sprint-6/ContributionGraph-User.png "Histórico de Contribuição User-Service")
 
 ### 5.4 Contribuições no Secretary-Service
-![Histórico de Contribuição Secretary-Service](../../images/sprints/sprint-5/ContributionGraph-Secretary.png "Histórico de Contribuição Secretary-Service")
+![Histórico de Contribuição Secretary-Service](../../images/sprints/sprint-6/ContributionGraph-Secretary.png "Histórico de Contribuição Secretary-Service")
 
 ## 6. Retrospectiva
 ### Pontos Positivos
@@ -124,7 +124,7 @@ O **Burndown** da Sprint 6 mostra que a maioria das tarefas foi concluída no ú
 
 Os **Históricos de Contribuição** apresentam uma quantidade grande de commits no meio da sprint, que é o comportamento esperado, o único ponto a ser melhorado é evitar o pico de commits no último dia, que indica revisões e merges tardios. O que pudemos notar é que em vários PRs acabou faltando um review para aprovação (dos dois necessários) e maioria dos merges foi feito no último dia.
 
-O **Quadro de Conhecimento** mostra evolução principalmente nos dois membros responsáveis por realizar a funcionalidade do cadastro de ocorrência, que foi a primeira experiência de frontend deles neste projeto.
+O **Quadro de Conhecimento** está começando a mostrar evoluções mais lentas agora que os membros estão acostumados a usar as tecnologias em questão.
 
 ### Histórias
 A issue de frontend **Visualização das cidades por mapas de calor** foi um grande desafio na sprint, um dos membros executores teve problemas de ambiente. A previsão é que ela seja finalizada no início da próxima sprint. As outras duas issues de frontend eram mais simples e saíram sem dificuldades.
