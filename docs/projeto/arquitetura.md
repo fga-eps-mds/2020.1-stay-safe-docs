@@ -24,6 +24,7 @@ Este documento de arquitetura se aplica ao Stay Safe. Estão descritos neste doc
 ### 2.1. Diagrama Geral
 
 ![Diagrama Geral](../images/architecture/geral.png)
+![Diagrama Geral](../images/architecture/geral2.0.png)
 
 A aplicação terá um frontend feito em React Native, dois microserviços em seu backend e irá fazer o uso da API do Google Maps para os mapas do aplicativo. Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que irá tratar todos os dados dos usuários, mais pins reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL. O segundo microserviço é o Secretary Service, que consiste em um sistema também desenvolvido em Flask que obtém as informações dos websites da SSP por meio de crawlers e as armazena em um banco de dados não relacional, MongoDB. Por fim o aplicativo irá utilizar a API do Google Maps para implementar os mapas na aplicação. As comunicações entre todos os componentes serão feitas com o protocolo HTTP.
 
@@ -79,6 +80,7 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 
 ### 4.2. Secretary-Service
 ![Secretary-Service](../images/architecture/secretary-service.png)
+![Secretary-Service](../images/architecture/crawlers.png)
 
 * **src/** - Pasta que contém todo o código fonte da API.
 * **main.py** - Arquivo que controla a execução do serviço.
@@ -207,7 +209,7 @@ Esse diagrama mostra quais e como são as entidades e os relacionamentos entre e
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
 ![Lógico](../images/architecture/user-service-logic.jpg)
 
-Os valores do tipo *enum* tem os seguintes valores possíveis:
+Os campos do tipo *enum* tem os seguintes valores possíveis:
 
 * **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
 * **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
