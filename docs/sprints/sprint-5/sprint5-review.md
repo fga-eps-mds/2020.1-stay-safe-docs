@@ -172,8 +172,6 @@ A dependência entre as tarefas do frontend foi um problema nessa sprint, as iss
 
 A issue de **Visualização, edição e exclusão de usuário** saiu com certa dificuldade pelo protótipo desatualizado. Enquanto os membros que fizeram a issue de **Cadastro de ocorrência** relataram que a inexperiência de ambos com o frontend do projeto consumiu deles mais horas de trabalho que o planejado.
 
-Os documentos relacionados a **Custos e Qualidade** foram iniciados no meio da semana e seriam finalizados um pouco depois do fim da sprint, então as issues deles foram fechadas, mas houveram intercorrências e estes documentos não foram concluídos. O time tem noção que essa é uma prática péssima pra metodologia ágil e se compromete a não fazer mais isso. Como esse fato ocorreu após a reunião de review da Sprint 5 iremos abordar sobre esse ponto no review da Sprint 6.
-
 As tarefas relacionadas ao **User-Service** foram completadas com antecedência pelo comprometimento e conhecimento da Sara e do Tiago em Flask.
 
 As demais tarefas são auto-explicativas e ocorreram sem intercorrências.
