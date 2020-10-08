@@ -36,7 +36,8 @@ As comunicações entre todos os componentes são feitas com o protocolo HTTP e 
 ## 3. Tecnologias
 O diagrama abaixo mostra quais são as tecnologias usadas em cada parte do sistema. Em seguida, essas tecnologias são descritas brevemente.
 
-![Diagrama Geral](../images/architecture/geral2.0.png)
+![Tecnologias](../images/architecture/geral2.0.png)
+
 ### 3.1. Flask
 [Flask](https://flask.palletsprojects.com/en/1.1.x/#) é um microframework de aplicativos web em Python. Foi designado para se ter um início de simples, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto.
 
@@ -89,20 +90,37 @@ O diagrama abaixo demonstra a interação entre as partes do serviço:
 ![User-Service](../images/architecture/user-service.png)
 
 ### 5.2. Secretary-Service
-![Secretary-Service](../images/architecture/secretary-service.png)
+
+Este serviço possui os mesmos princípios do User-Service, porém além da API ele tem um módulo de crawler. Na api as camadas são as mesmas do User-Service, mas com menos responsabilidades por ser mais simples. No módulo crawleris há crawlers paras secretarias e terá para os dados populacionais de cada estado. 
+
 
 * **src/** - Diretório que contém todo o código fonte da API.
-* **main.py** - Arquivo que controla a execução do serviço.
-* **settings.py** - Arquivo que contém todas as configurações do servidor.
-* **views/** - Camada que implementa os endpoints e define quais métodos HTTP serão utilizados.
-* **controllers/** - Camada responsável por controlar os dados que entram e que saem da aplicação. É usada para itermediar a comunicação entre as camadas de database e a de view.
-* **utils/** - Armazena funções utilitárias reutilizáveis que serão disponibilizadas para todo o projeto. 
-* **tests/** - Inclui os testes unitários realizados dentro da API.
-* **database/** - Camada que realiza a comunicação com o banco de dados não relacional.
-* **crawler/** - Responsável pela implementação dos crawlers que realizarão a extração metódica e automatizada de dados das SSPs. 
+* **main.py** - Arquivo que tem a responsabilidade de inicializar o serviço. Nele é criada a instância da aplicação utilizada para sua execução através do uso das configurações já estabelecidas, e também é realizado o registro das rotas (blueprints) criadas nas views.
+* **settings.py** - Arquivo que contém todas as configurações do servidor e de log.
+* **views/** - Diretório que implementa as views que são as portas de entrada e saída do serviço, nele são definidos os endpoints e quais métodos HTTP são utilizados.
+* **controllers/** - Diretório que implementa a controller do serviço para itermediar a comunicação entre as camadas de database e a de view. A controllers está sendo responsável pela validação dos filtros e demais regras de negócio.
+* **database/** - Diretório responsável pela comunicação com o banco de dados não relacional. Nele é feita a conexão com o banco.
+* **utils/** - Diretório onde se encontram os utilitários do projeto, como arquivos para formatação e validação
+* **tests/** - Contém os testes unitários realizados sobre as funcionalidades da controller.
+* **crawlers/** - Responsável pela implementação dos crawlers, com Scrapy e eventualmente [Selenium](https://www.selenium.dev/), que realizam a extração metódica e automatizada de dados das SSPs e dos dados sobre a população dos estados. 
+
+O diagrama abaixo demonstra a interação entre as partes do serviço:
+![Secretary-Service](../images/architecture/secretary-service.png)
 
 #### 5.2.1 Crawlers
-![Secretary-Service](../images/architecture/crawlers.png)
+
+Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontecerá para extração de dados populacionais dos estados.
+
+Nesse módulo também há uso de crontab que é um agendador de tarefas baseado em tempo em sistemas operacionais tipo Unix.
+
+Os componentes desse módulo são descritos aqui de forma superficial: 
+
+* **crimes/** - Diretório que contém as spiders, utilitários e pipelines de extração de dados sobre crimes, que serão obtidos dos sites das SSPs.
+* **populations/** - Diretório que conterá as spiders, utilitários e pipelines de extração de dados populacionais dos estados.
+* **sh_scripts/** - Diretório onde ficam os scripts shell que vão disparar os crawlers de forma programada com o uso de crontabs.
+
+O diagrama abaixo demonstra a interação entre esses componentes:
+![Crawlers](../images/architecture/crawlers.png)
 
 ### 5.3. Frontend
 ![Frontend](../images/architecture/frontend.png)
