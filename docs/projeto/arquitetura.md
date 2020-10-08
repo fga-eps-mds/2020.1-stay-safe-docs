@@ -103,8 +103,8 @@ A Secretaria de Segurança Pública do [Distrito Federal](http://www.ssp.df.gov.
 
 ## 5. Dados 
 
-### Dados das secretarias
-Os dados das secretarias serão armazenados no MongoDB em que cada estado será uma *collection* ou tabela. Os objetos na tabela serão como no exemplo abaixo:
+### 5.1 Dados das secretarias
+Os dados das secretarias são armazenados no MongoDB em que cada estado é uma *collection* ou tabela. Os objetos ou documentos na *collection* estão seguindo esse modelo com esses crimes:
 
 ```json
 {
@@ -123,7 +123,7 @@ Os dados das secretarias serão armazenados no MongoDB em que cada estado será 
                 },
                 {
                     "crime_nature": "Roubo a Transeunte",
-                    "quantity": 8
+                    "quantity": 3
                 },
                 {
                     "crime_nature": "Roubo de Veiculo",
@@ -131,26 +131,14 @@ Os dados das secretarias serão armazenados no MongoDB em que cada estado será 
                 },
                 {
                     "crime_nature": "Roubo de Residencia",
-                    "quantity": 8
+                    "quantity": 5
                 },
                 {
                     "crime_nature": "Estupro",
-                    "quantity": 8
+                    "quantity": 15
                 },
                 {
                     "crime_nature": "Trafico de Entorpecentes",
-                    "quantity": 8
-                }
-            ],
-        },
-        {
-            "Arniqueira": [
-                {
-                    "crime_nature": "Latrocinio",
-                    "quantity": 8
-                },
-                {
-                    "crime_nature": "Roubo a Transeunte",
                     "quantity": 8
                 }
             ]
@@ -159,12 +147,73 @@ Os dados das secretarias serão armazenados no MongoDB em que cada estado será 
 }
 ```
 
-### Dado dos usuários
+#### 5.1.1 Evoluções
 
-Os dados do usuário serão armazenados no PostgreSQL com a seguint modelagem:
+Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo mais adequado foi proposto e poderá ser implementado em futuras evoluções do serviço:
+
+```
+{
+    "_id": 1,
+    "capture_data": "04/08/2020",
+    "period": "1/2020",
+    "cities": [
+        {
+            "name": "Águas Claras",
+			"crimes":  [
+                {
+                    "nature": "Latrocinio",
+                    "quantity": 8
+                },
+                {
+                    "nature": "Roubo a Transeunte",
+                    "quantity": 3
+                },
+                {
+                    "nature": "Roubo de Veiculo",
+                    "quantity": 8
+                },
+                {
+                    "nature": "Roubo de Residencia",
+                    "quantity": 5
+                },
+                {
+                    "nature": "Furto de Veículo",
+                    "quantity": 9
+                },
+                {
+                    "nature": "Furto a Transeunte",
+                    "quantity": 8
+                },
+                {
+                    "nature": "Estupro",
+                    "quantity": 15
+                }
+            ],
+        }
+    ]
+}
+```
+
+
+### 5.2 Dado dos usuários
+
+Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte modelagem:
+
+#### 5.2.1 Diagrama Entidade-Relacionamento
+Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
 ![DE-R](../images/architecture/user-service-DER.jpg)
 
+#### 5.2.2 Diagrama Lógico
+O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
 ![Lógico](../images/architecture/user-service-logic.jpg)
+
+Os valores do tipo *enum* tem os seguintes valores possíveis:
+
+* **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
+* **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
+* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro")
+
+
 
 ## 6. Referências
 
