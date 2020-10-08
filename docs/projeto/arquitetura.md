@@ -123,15 +123,21 @@ O diagrama abaixo demonstra a interação entre esses componentes:
 ![Crawlers](../images/architecture/crawlers.png)
 
 ### 5.3. Frontend
-![Frontend](../images/architecture/frontend.png)
 
-* **src/** - Diretório que contém todo o código fonte da API.
-* **index.js** - Arquivo que controla a execução da aplicação.
-* **config.js** - Responsável por armazenar diferentes variáveis, rotas e configurações da aplicação.
-* **screens/** - Contêm as telas da aplicação.
-* **utils/** - Armazena funções utilitárias reutilizáveis que serão disponibilizadas para todo o projeto. 
-* **components/** - Inclue os componentes primários que serão aproveitados nas telas da aplicação.
-* **public/assets/** - Possui as imagens e ícones estáticos utilizados no projeto.
+O frontend está sendo implementado com uma organização em que cada módulo possui responsabilidades bem definidas, facilitando assim a manutenção e evolução do código:
+
+* **App.tsx** - Arquivo que chama o componente principal do app que são as rotas.
+* **src/** - Diretório que contém basicamente todo o código fonte.
+* **routes.tsx** - Arquivo responsável por carregar todas as telas. Para isso ele utiliza os módulos de navigation e de screens.
+* **navigation/** - Diretório que controla o fluxo de navegação entre as telas através *tab bottom bar*. Então ele faz uso do componente de screens.
+* **screens/** - Contêm as telas da aplicação. Para que as telas funcionem corretamente, esse módulo utiliza os diretórios de services, de componentes e o de utils.
+* **services/** - Diretório que contém os endpoints necessários para realizar as requisões feitas no app.
+* **components/** - Inclue os componentes que são comuns às telas da aplicação. Os componentes podem ser modals, inputs de formulários, botões, etc.
+* **utils/** - Armazena funções utilitárias reutilizáveis que serão disponibilizadas para todo o frontend. 
+
+O diagrama abaixo mostra de forma mais clara a relação entre esses módulos:
+
+![Frontend](../images/architecture/frontend.png)
 
 ## 6. Dados 
 
