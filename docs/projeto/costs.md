@@ -64,7 +64,15 @@ A única ferramenta paga utilizada é a API do Google Maps, a Google fornece at�
 ### 2.4 Custo Total
 Somando os custos de pessoal, aquisições, serviços e ferramentas o custo total do projeto é de R$ 78.036.
 
-## 3. Referências
+## 3. EVM
+O Earned Value Management (EVM) é uma métrica utilizada para integrar escopo, tempo e custo em gerência de projetos, que consiste em medir objetivamente o desempenho e o progresso do projeto comparando custos (real e planejado) e valor agregado. 
+
+### 3.1. EVM até Release 1
+![EVM R1](../images/costs/EVM-R1.png)
+
+![Estatísticas EVM R1](../images/costs/Estatisticas-EVM-R1.png)
+
+## 4. Referências
 * [Site de vagas](https://www.glassdoor.com.br/)
 * [API do Maps](https://cloud.google.com/maps-platform/pricing/)
 * [Tarifa CEB](http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2http://simuladortarifabranca.ceb.com.br/public/index/step-resultado/perfil/2)
