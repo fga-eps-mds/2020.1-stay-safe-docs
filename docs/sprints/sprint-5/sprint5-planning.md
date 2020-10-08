@@ -8,7 +8,7 @@
 **Pontos Planejados:** 48 pontos  
 **Dívida Técnica:** 0 pontos  
 **Pontos Totais:** 48 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Nenhum 
 
 ## 2. Papéis
 * **Arquiteta:** Sara Silva

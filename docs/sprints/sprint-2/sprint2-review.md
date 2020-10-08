@@ -8,7 +8,7 @@
 **Pontos Planejados:** 56 pontos  
 **Pontos Entregues:** 41 pontos  
 **Dívida Técnica:** 15 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Tiago Samuel
 
 ## 2. Resultados
 1. **História:** [#27 - Política de Contribuição](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/27)    
@@ -63,12 +63,7 @@ A dívida técnica herdada da Sprint 1 foi solucionada:
 
 
 ## 5. Gráfico de Contribuições
-
-### 5.1 Contribuições na Documentação
 ![Histórico de Contribuição Sprint 2](../../images/sprints/sprint-2/ContributionHistory.png "Histórico de Contribuição Sprint 2")
-
-### 5.1 Contribuições no User-Service
-A ser adicionado 
 
 ## 6. Retrospectiva
 ### Pontos Positivos:

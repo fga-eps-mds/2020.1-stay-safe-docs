@@ -8,7 +8,7 @@
 **Pontos Planejados:** 57 pontos  
 **Pontos Entregues:** 57 pontos  
 **Dívida Técnica:** 0 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Daniel Primo
 
 ## 2. Resultados
 ### 2.1 Repositório Docs

@@ -7,34 +7,34 @@
 **Duração:** 5 dias  
 **Pontos Planejados:** 35 pontos  
 **Pontos Entregues:** 27 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Nenhum 
 
 ## 2. Resultados
-1. **História:** [#2 - Create vision document](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
+1. **História:** [#2 - Criação do Documento de Visão](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
 **Responsáveis:** Lucas, Brenda, Tiago, Hérick, Luiz, Ítalo, Daniel  
 **Pontuação:** 8  
 **Status:** Não Concluído
-2. **História:** [#3 - Python Training](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/3)  
+2. **História:** [#3 - Treinamento Python](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/3)  
 **Responsáveis:** Equipe de desenvolvedores  
 **Pontuação:** 5  
 **Status:** Concluído
-3. **História:** [#4 - Javascript Training](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/4)  
+3. **História:** [#4 - Treinamento Javascript](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/4)  
 **Responsáveis:** Equipe de desenvolvedores  
 **Pontuação:** 5  
 **Status:** Concluído
-4. **História:** [#5 - Create product and roles roadmap](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/5)  
+4. **História:** [#5 - Documentar Roadmap de Produto e Papéis](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/5)  
 **Responsáveis:** Renan Schadt, Rossicler Júnior e Sara Silva  
 **Pontuação:** 5      
 **Status:** Concluído
-5. **História:** [#6 - Create template for PRs and issues](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/6)  
+5. **História:** [#6 - Criar template para PRs e Issues](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/6)  
 **Responsáveis:** Renan Schadt e Sara Silva  
 **Pontuação:** 1   
 **Status:** Concluído
-6. **História:** [#8 - Configure mkdocs](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/8)  
+6. **História:** [#8 - Configurar MKDocs](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/8)  
 **Responsáveis:** Rossicler Júnior   
 **Pontuação:** 8   
 **Status:** Concluído
-7. **História:** [#9 - Make sprint-0 documents](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/9)  
+7. **História:** [#9 - Documentar Sprint 0](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/9)  
 **Responsáveis:** Renan Schadt  
 **Pontuação:** 3   
 **Status:** Concluído

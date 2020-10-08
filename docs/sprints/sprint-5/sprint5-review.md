@@ -8,7 +8,7 @@
 **Pontos Planejados:** 48 pontos  
 **Pontos Entregues:** 48 pontos  
 **Dívida Técnica:** 0 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Luiz Pettengill
 
 ## 2. Resultados
 

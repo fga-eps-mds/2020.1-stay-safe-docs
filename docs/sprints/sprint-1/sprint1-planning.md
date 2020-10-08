@@ -8,7 +8,7 @@
 **Pontos Planejados:** 60 pontos  
 **Dívida Técnica:** 8 pontos  
 **Pontos Totais:** 68 pontos  
-**Membros Presentes:** Todos
+**Membros Ausentes:** Nenhum 
 
 ## 2. Papéis
 * **Arquiteta:** Sara Silva
@@ -31,7 +31,7 @@ Segunda sprint do projeto com os seguintes objetivos:
 1. **História:** [#1 - Definição de Identidade Visual](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/1)  
 **Responsáveis:** Daniel, Ítalo   
 **Pontuação:** 8  
-2. **História:** [#2 - Create vision document](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
+2. **História:** [#2 - Criação do Documento de Visão](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/2)  
 **Responsáveis:** Lucas, Brenda, Tiago, Hérick, Luiz, Ítalo, Daniel  
 **Pontuação:** 8  
 3. **História:** [#11 - Definição de Arquitetura](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/11)  
@@ -52,7 +52,7 @@ Segunda sprint do projeto com os seguintes objetivos:
 8. **História:** [#17 - Termo de Abertura do Projeto](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/17)  
 **Responsáveis:** Renan, Rossicler, Sara     
 **Pontuação:** 8
-9. **História:** [#18 - Documentação de Sprints](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/18)  
+9. **História:** [#18 - Documentar Sprint 1](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/18)  
 **Responsáveis:** Renan     
 **Pontuação:** 3
 10. **História:** [#19 - Documento de Arquitetura](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/19)  
