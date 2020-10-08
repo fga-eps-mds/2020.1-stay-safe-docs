@@ -24,22 +24,19 @@ Este projeto tem como finalidade sistematizar e proporcionar melhor visibilidade
 Com o histórico de já ter feito parte da lista dos [países mais perigosos do mundo](https://www.camara.leg.br/radio/programas/543467-brasil-e-um-dos-dez-paises-mais-violentos-do-mundo-revela-atlas-da-violencia-2018/), embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da periculosidade de uma região e contribuir com a inserção de dados.
 
 ### 2.2. Instrução do Problema
-
-| O problema de | Não saber o nível de segurança de uma determinada região |
-|----|----|
-| Afeta | Os cidadãos |
-| Cujos impactos são | O descuido ao transitar nessas regiões, facilitando a reincidência dos crimes mais comuns |
-| Uma boa solução seria | Uma aplicação que proporcione visibilidade de estatísticas relacionadas a segurança |
+**O problema de:** Não saber o nível de segurança de uma determinada região  
+**Afeta:** Os cidadãos  
+**Cujos impactos são:** O descuido ao transitar nessas regiões, facilitando a reincidência dos crimes mais comuns  
+**Uma boa solução seria:** Uma aplicação que proporcione visibilidade de estatísticas relacionadas a segurança
 
 ### 2.3. Instrução de Posição do Produto
 
-| Para | Os cidadãos |
-|----|----|
-| Que | Desejam manter-se informados sobre os índices de segurança e contribuir com as estatísticas |
-| O Stay Safe | É um aplicativo mobile |
-| Que | Permite que a população visualize dados da SSP ou fornecidos pelos usuários |
-| Diferente de | Aplicações similares que não permitem filtro de crimes e interação com os usuários |
-| Nosso produto | Oferece uma visualização em mapa com filtros e alertas sobre crimes ocorridos em locais próximos |
+**Para:** Os cidadãos  
+**Que:**  Desejam manter-se informados sobre os índices de segurança e contribuir com as estatísticas  
+**O Stay Safe:**  É um aplicativo mobile  
+**Que:** Permite que a população visualize dados da SSP ou fornecidos pelos usuários  
+**Diferente de:** Aplicações similares que não permitem filtro de crimes e interação com os usuários   
+**Nosso produto:** Oferece uma visualização em mapa com filtros e alertas sobre crimes ocorridos em locais próximos  
 
 ## 3. Descrições da Parte Interessada e do Usuário
 
