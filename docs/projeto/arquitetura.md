@@ -29,7 +29,7 @@ A aplicação tem um cliente de frontend mobile feito em React Native, dois micr
 
 Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que trata todos os dados dos usuários, ocorrências reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL.
 
-O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Da mesma forma, porém de origem diferente, serão obtidos nesse serviço os dados populacionais das cidades de cada estado. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
+O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Da mesma forma, porém de origem diferente, estão sendo obtidos nesse serviço os dados populacionais das cidades de cada estado. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
 
 As comunicações entre todos os componentes são feitas com o protocolo HTTP e o tipo de conteúdo transmitido dentro do sistema é documento JSON.
 
@@ -109,14 +109,14 @@ O diagrama abaixo demonstra a interação entre as partes do serviço:
 
 #### 5.2.1 Crawlers
 
-Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontecerá para extração de dados populacionais das cidades de cada estado.
+Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontece para extração de dados populacionais das cidades de cada estado.
 
 Nesse módulo também há uso de crontab que é um agendador de tarefas baseado em tempo em sistemas operacionais tipo Unix.
 
 Os componentes desse módulo são descritos aqui de forma superficial: 
 
 * **crimes/** - Diretório que contém as spiders, utilitários e pipelines de extração de dados sobre crimes, que serão obtidos dos sites das SSPs.
-* **populations/** - Diretório que conterá as spiders, utilitários e pipelines de extração de dados populacionais das cidades.
+* **populations/** - Diretório com as spiders, utilitários e pipelines de extração de dados populacionais das cidades.
 * **sh_scripts/** - Diretório onde ficam os scripts shell que vão disparar os crawlers de forma programada com o uso de crontabs.
 
 O diagrama abaixo demonstra a interação entre esses componentes:
@@ -142,7 +142,10 @@ O diagrama abaixo mostra de forma mais clara a relação entre esses módulos:
 ## 6. Dados 
 
 ### 6.1 Dados das secretarias
-Os dados das secretarias são armazenados no MongoDB em que cada estado é uma *collection* ou tabela. Os objetos ou documentos na *collection* estão seguindo esse modelo com esses crimes:
+Os dados das secretarias são armazenados no MongoDB em que cada estado é uma *collection* ou tabela.
+Exemplo de nome da collection: `crimes_sp` para o estado de São Paulo.
+
+Os objetos ou documentos na *collection* estão seguindo esse modelo com esses crimes:
 
 ```json
 {
@@ -232,16 +235,40 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
 }
 ```
 
+### 6.2 Dados das populações das cidades
+Os dados populacionais das cidades também são armazenados no MongoDB em que cada estado é uma *collection*. Exemplo de nome para uma collection de população: `populations_df` para o Distrito Federal.
 
-### 6.2 Dados dos usuários
+Os objetos ou documentos na *collection* estão seguindo esse modelo:
+```
+{
+    "_id": 1,
+    "capture_data": "04/08/2020",
+    "year": 2020,
+    "cities": [
+        {
+            "name": "Águas Claras",
+			"population": 50000
+        },
+        {
+            "name": "Taguatinga",
+			"population": 150000
+        }
+    ]
+}
+```
+
+
+
+
+### 6.3 Dados dos usuários
 
 Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte modelagem:
 
-#### 6.2.1 Diagrama Entidade-Relacionamento
+#### 6.3.1 Diagrama Entidade-Relacionamento
 Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
 ![DE-R](../images/architecture/user-service-DER.jpg)
 
-#### 6.2.2 Diagrama Lógico
+#### 6.3.2 Diagrama Lógico
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
 ![Lógico](../images/architecture/user-service-logic.jpg)
 
