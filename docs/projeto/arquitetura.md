@@ -276,7 +276,7 @@ Os campos do tipo *enum* tem os seguintes valores possíveis:
 
 * **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
 * **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
-* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Roubo a Transeunte", "Roubo de Veículo")
+* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Furto a Transeunte", "Furto de Veículo")
 
 
 ## 7. Referências
@@ -302,3 +302,4 @@ MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 29/08/2020 | 1.0 | Revisão e algumas correções | Sara |
 | 05/09/2020 | 1.1 | Adicionando modelagem dos dados | Sara e Renan |
 | 08/10/2020 | 2.0 | Revisão, correção e atualzação | Sara |
+| 12/10/2020 | 2.1 | Adição modelo de dados populacionais | Sara |
