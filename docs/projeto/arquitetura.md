@@ -29,9 +29,9 @@ A aplicação tem um cliente de frontend mobile feito em React Native, dois micr
 
 Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que trata todos os dados dos usuários, ocorrências reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL.
 
-O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
+O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Da mesma forma, porém de origem diferente, estão sendo obtidos nesse serviço os dados populacionais das cidades de cada estado. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
 
-As comunicações entre todos os componentes são feitas com o protocolo HTTP e o tipo de mídia transmitido dentro do sistema é documento JSON.
+As comunicações entre todos os componentes são feitas com o protocolo HTTP e o tipo de conteúdo transmitido dentro do sistema é documento JSON.
 
 ## 3. Tecnologias
 O diagrama abaixo mostra quais são as tecnologias usadas em cada parte do sistema. Em seguida, essas tecnologias são descritas brevemente.
@@ -39,7 +39,7 @@ O diagrama abaixo mostra quais são as tecnologias usadas em cada parte do siste
 ![Tecnologias](../images/architecture/geral2.0.png)
 
 ### 3.1. Flask
-[Flask](https://flask.palletsprojects.com/en/1.1.x/#) é um microframework de aplicativos web em Python. Foi designado para se ter um início de simples, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto.
+[Flask](https://flask.palletsprojects.com/en/1.1.x/#) é um microframework de aplicativos web em Python. Foi designado para se ter um início de desenvolvimento simples, com a habilidade de escalar para aplicações complexas. Flask oferece sugestões, mas não força dependências e layouts ao projeto.
 
 ### 3.2. Scrapy
 [Scrapy](https://scrapy.org/) é um framework de alto nível de web-crawling em Python. Ele fornece algumas facilidades para rastreamento e raspagem de dados da web, como bibliotecas de parse em HTML, pipelines para filtragem e tratamento de dados.
@@ -91,7 +91,7 @@ O diagrama abaixo demonstra a interação entre as partes do serviço:
 
 ### 5.2. Secretary-Service
 
-Este serviço possui os mesmos princípios do User-Service, porém além da API ele tem um módulo de crawler. Na api as camadas são as mesmas do User-Service, mas com menos responsabilidades por ser mais simples. No módulo crawleris há crawlers paras secretarias e terá para os dados populacionais de cada estado. 
+Este serviço possui os mesmos princípios do User-Service, porém além da API ele tem um módulo de crawler. Na API as camadas são as mesmas do User-Service, mas com menos responsabilidades por ser mais simples. No módulo crawlers há crawlers para os sites das secretarias e terá também para obtenção dos dados populacionais de cada cidade. 
 
 
 * **src/** - Diretório que contém todo o código fonte da API.
@@ -102,21 +102,21 @@ Este serviço possui os mesmos princípios do User-Service, porém além da API 
 * **database/** - Diretório responsável pela comunicação com o banco de dados não relacional. Nele é feita a conexão com o banco.
 * **utils/** - Diretório onde se encontram os utilitários do projeto, como arquivos para formatação e validação
 * **tests/** - Contém os testes unitários realizados sobre as funcionalidades da controller.
-* **crawlers/** - Responsável pela implementação dos crawlers, com Scrapy e eventualmente [Selenium](https://www.selenium.dev/), que realizam a extração metódica e automatizada de dados das SSPs e dos dados sobre a população dos estados. 
+* **crawlers/** - Responsável pela implementação dos crawlers, com Scrapy e eventualmente [Selenium](https://www.selenium.dev/), que realizam a extração metódica e automatizada de dados das SSPs e dos dados sobre a população das cidades. 
 
 O diagrama abaixo demonstra a interação entre as partes do serviço:
 ![Secretary-Service](../images/architecture/secretary-service.png)
 
 #### 5.2.1 Crawlers
 
-Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontecerá para extração de dados populacionais dos estados.
+Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontece para extração de dados populacionais das cidades de cada estado.
 
 Nesse módulo também há uso de crontab que é um agendador de tarefas baseado em tempo em sistemas operacionais tipo Unix.
 
 Os componentes desse módulo são descritos aqui de forma superficial: 
 
 * **crimes/** - Diretório que contém as spiders, utilitários e pipelines de extração de dados sobre crimes, que serão obtidos dos sites das SSPs.
-* **populations/** - Diretório que conterá as spiders, utilitários e pipelines de extração de dados populacionais dos estados.
+* **populations/** - Diretório com as spiders, utilitários e pipelines de extração de dados populacionais das cidades.
 * **sh_scripts/** - Diretório onde ficam os scripts shell que vão disparar os crawlers de forma programada com o uso de crontabs.
 
 O diagrama abaixo demonstra a interação entre esses componentes:
@@ -142,7 +142,10 @@ O diagrama abaixo mostra de forma mais clara a relação entre esses módulos:
 ## 6. Dados 
 
 ### 6.1 Dados das secretarias
-Os dados das secretarias são armazenados no MongoDB em que cada estado é uma *collection* ou tabela. Os objetos ou documentos na *collection* estão seguindo esse modelo com esses crimes:
+Os dados das secretarias são armazenados no MongoDB em que cada estado é uma *collection* ou tabela.
+Exemplo de nome da collection: `crimes_sp` para o estado de São Paulo.
+
+Os objetos ou documentos na *collection* estão seguindo esse modelo com esses crimes:
 
 ```json
 {
@@ -199,7 +202,7 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
             "name": "Águas Claras",
 			"crimes":  [
                 {
-                    "nature": "Latrocinio",
+                    "nature": "Latrocínio",
                     "quantity": 8
                 },
                 {
@@ -207,11 +210,11 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
                     "quantity": 3
                 },
                 {
-                    "nature": "Roubo de Veiculo",
+                    "nature": "Roubo de Veículo",
                     "quantity": 8
                 },
                 {
-                    "nature": "Roubo de Residencia",
+                    "nature": "Roubo de Residência",
                     "quantity": 5
                 },
                 {
@@ -232,16 +235,40 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
 }
 ```
 
+### 6.2 Dados das populações das cidades
+Os dados populacionais das cidades também são armazenados no MongoDB em que cada estado é uma *collection*. Exemplo de nome para uma collection de população: `populations_df` para o Distrito Federal.
 
-### 6.2 Dados dos usuários
+Os objetos ou documentos na *collection* estão seguindo esse modelo:
+```
+{
+    "_id": 1,
+    "capture_data": "04/08/2020",
+    "year": 2020,
+    "cities": [
+        {
+            "name": "Águas Claras",
+			"population": 50000
+        },
+        {
+            "name": "Taguatinga",
+			"population": 150000
+        }
+    ]
+}
+```
+
+
+
+
+### 6.3 Dados dos usuários
 
 Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte modelagem:
 
-#### 6.2.1 Diagrama Entidade-Relacionamento
+#### 6.3.1 Diagrama Entidade-Relacionamento
 Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
 ![DE-R](../images/architecture/user-service-DER.jpg)
 
-#### 6.2.2 Diagrama Lógico
+#### 6.3.2 Diagrama Lógico
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
 ![Lógico](../images/architecture/user-service-logic.jpg)
 
@@ -249,7 +276,7 @@ Os campos do tipo *enum* tem os seguintes valores possíveis:
 
 * **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
 * **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
-* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro")
+* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Furto a Transeunte", "Furto de Veículo")
 
 
 ## 7. Referências
@@ -275,3 +302,4 @@ MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 29/08/2020 | 1.0 | Revisão e algumas correções | Sara |
 | 05/09/2020 | 1.1 | Adicionando modelagem dos dados | Sara e Renan |
 | 08/10/2020 | 2.0 | Revisão, correção e atualzação | Sara |
+| 12/10/2020 | 2.1 | Adição modelo de dados populacionais | Sara |
