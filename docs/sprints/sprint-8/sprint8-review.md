@@ -56,28 +56,28 @@
 **Status:** Concluída    
 
 ## 3. Velocity
-![Velocity](../../images/sprints/sprint-7/Velocity.png "Velocity")
+![Velocity](../../images/sprints/sprint-8/Velocity.png "Velocity")
 
 ## 4. Burndown
-![Burndown](../../images/sprints/sprint-7/Burndown.png "Burndown")
+![Burndown](../../images/sprints/sprint-8/Burndown.png "Burndown")
 
 ### 4.1 Burndown Review/QA
-![Burndown](../../images/sprints/sprint-7/Burndown-Review.png "Burndown")
+![Burndown](../../images/sprints/sprint-8/Burndown-Review.png "Burndown")
 
 
 ## 5. Gráfico de Contribuições
 
 ### 5.1 Contribuições na Documentação
-![Histórico de Contribuição Documentação](../../images/sprints/sprint-7/ContributionGraph-Docs.png "Histórico de Contribuição Documentação")
+![Histórico de Contribuição Documentação](../../images/sprints/sprint-8/ContributionGraph-Docs.png "Histórico de Contribuição Documentação")
 
 ### 5.2 Contribuições no Frontend
-![Histórico de Contribuição Frontend](../../images/sprints/sprint-7/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
+![Histórico de Contribuição Frontend](../../images/sprints/sprint-8/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
 
 ### 5.3 Contribuições no User-Service
-![Histórico de Contribuição User-Service](../../images/sprints/sprint-7/ContributionGraph-User.png "Histórico de Contribuição User-Service")
+![Histórico de Contribuição User-Service](../../images/sprints/sprint-8/ContributionGraph-User.png "Histórico de Contribuição User-Service")
 
 ### 5.4 Contribuições no Secretary-Service
-![Histórico de Contribuição Secretary-Service](../../images/sprints/sprint-7/ContributionGraph-Secretary.png "Histórico de Contribuição Secretary-Service")
+![Histórico de Contribuição Secretary-Service](../../images/sprints/sprint-8/ContributionGraph-Secretary.png "Histórico de Contribuição Secretary-Service")
 
 ## 6. Retrospectiva
 
@@ -100,7 +100,7 @@
 * Revisão de pontuação na review
 
 ## 7. Quadro de Conhecimentos
-![Quadro de Conhecimentos](../../images/sprints/sprint-7/KnowledgeBoard.png "Quadro de Conhecimentos")
+![Quadro de Conhecimentos](../../images/sprints/sprint-8/KnowledgeBoard.png "Quadro de Conhecimentos")
 
 ## 8. Análise do Scrum Master
 ### Time
@@ -115,9 +115,9 @@ Na Sprint 8 foram concluídos 28 pontos dos 26 planejados, o **Velocity** atual 
 
 O **Burndown** e o Burndown considerando a fase de Review/QA da Sprint 8 mostra que nessa sprint a equipe não finalizou as tarefas com antecedência.
 
-Os **Históricos de Contribuição** apresentam uma quantidade grande de commits no começo e meio da sprint, que é o comportamento esperado, a quantidade pequena de commits no fim da sprint indica um comportamento positivo de tarefas feitas com antecedência.
+Os **Históricos de Contribuição** apresentam uma quantidade adequada de contribuições durante toda sprint.
 
-O **Quadro de Conhecimento** está começando a mostrar evoluções mais lentas agora que os membros estão acostumados a usar as tecnologias em questão.
+O **Quadro de Conhecimento** apresenta a evolução de alguns membros que ainda não haviam trabalhado com Flask e melhoraram seu conhecimento neste, também houve evolução de alguns membros no conhecimento de React Native e Crawlers.
 
 ### Histórias
 Para solucionar a tarefa de **Obter os dados populacionais dos estados de SP e DF** foi utilizada uma estimativa de censo de 2020 e todos esses dados foram salvos em um JSON especificado no documento de arquitetura. 
