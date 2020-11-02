@@ -11,13 +11,13 @@
 **Membros Ausentes:** Luiz Pettengill  
 
 ## 2. Resultados
-### 4.1 Repositório Docs      
+### 2.1 Repositório Docs      
 1. **História:** [#86 - Documentação da Sprint 9](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/issues/86)    
 **Responsáveis:** Renan     
 **Pontuação:** 3      
 **Status:** Não Concluída      
 
-### 4.2 Repositório Frontend
+### 2.2 Repositório Frontend
 1. **História:** [#49 - Visualizar cidades de SP em mapa de calor](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/49)    
 **Responsáveis:** Ítalo, Luiz e Lucas      
 **Pontuação:** 5        
@@ -35,7 +35,7 @@
 **Pontuação:** 2        
 **Status:** Não Concluída 
 
-### 4.3 Repositório User-Service
+### 2.3 Repositório User-Service
 1. **História:** [#30 - Identificar lista de bairros por município](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/30)    
 **Responsáveis:** Brenda e Tiago    
 **Pontuação:** 3    
@@ -50,7 +50,7 @@
 **Status:** Não Concluída 
 
 
-### 4.4 Repositório Secretary-Service
+### 2.4 Repositório Secretary-Service
 1. **História:** [#32 - Implementar filtros no Secretary-Service](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/32)    
 **Responsáveis:** Daniel e Hérick       
 **Pontuação:** 8     
