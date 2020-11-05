@@ -30,13 +30,13 @@ Uma tabela com as seguintes informações:
 | Tempo de execução      |          |          |          |          |          |          |         
 
 Ao final da avaliação os testadores serão submetidos às seguintes perguntas(que também deverão ser registradas e preenchidas em cada relatório):      
-1. Como você avaliaria sua experiência ao utilizar o aplicativo(de 1 a 5)?       
+1. Como você avaliaria sua experiência ao utilizar o aplicativo(de 1 a 5, como 1 sendo uma experiência muito ruim e 5 sendo uma experiência muito boa)?       
 2. Você utilizaria esse app no seu dia-a-dia? Por que?         
 3. Como você avalia a identidade visual do aplicativo?        
 4. Acha que os ícones são representativos?        
 5. Tem alguma reclamação sobre alguma tela específica?     
 6. Sentiu falta de alguma instrução/informação?
-7. As funcionalidades apresentadas no aplicativo corresponderam às suas expectativas em relação a proposta do aplicativo?      
+7. As funcionalidades apresentadas no aplicativo corresponderam as suas expectativas em relação a proposta do aplicativo?      
 
 # Roteiro 
 ## Instrução Inicial
