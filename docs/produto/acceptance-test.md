@@ -62,4 +62,4 @@ A maioria dos usuários conseguir concluir as tarefas
 # Referências Bibliográficas     
 * Curso UX e Usabilidade aplicados em Mobile e Web, Capítulo 11, Apêndice: [Testes de Usabilidade](https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/usabilidade/#preparao-prvia);              
 * [Teste de usabilidade](https://www.uiux.pt/2019/09/26/testes-de-usabilidade/). Quantos users? Como medir? Para que serve?      
-* (Modelos de Testes de Aceitação do Usuário)[https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project-quality-management/acceptance-test-model/]       
+* Modelos de [Testes de Aceitação do Usuário](https://cjjcastro.gitlab.io/2019-1-hubcare-docs/project-quality-management/acceptance-test-model/)      
