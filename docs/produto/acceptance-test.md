@@ -3,15 +3,15 @@ Testes de aceitação são um dos principais tipos de testes usados para validar
 
 # Objetivo
 O principal objetivo da realização desses testes é verificar aspectos citados anteriormente, como acessibilidade, navegabilidade e usabilidade. Para isso, pautamos nossos objetivos de forma que os problemas relacionados a esses aspectos, caso existam, sejam evidenciados durante as avaliações. As grandes áreas que são compreendidas nessas verificações são:          
-* Precisão: Quantos erros a pessoa cometeu? E eles foram fatais ou a pessoa conseguiu se recuperar com as informações recebidas pelo sistema?              
-* Desempenho: Quanto tempo e quantos passos são necessários para que a pessoa complete tarefas básicas?       
-* Lembrança: O quanto a pessoa se lembra mais tarde ou depois de períodos sem usar?           
-* Resposta Emocional: Como a pessoa se sentiu depois de completar a tarefa? A pessoa estava confiante ou estressada?        
+* **Precisão**: Quantos erros a pessoa cometeu? E eles foram fatais ou a pessoa conseguiu se recuperar com as informações recebidas pelo sistema?              
+* **Desempenho**: Quanto tempo e quantos passos são necessários para que a pessoa complete tarefas básicas?       
+* **Lembrança**: O quanto a pessoa se lembra mais tarde ou depois de períodos sem usar?           
+* **Resposta Emocional**: Como a pessoa se sentiu depois de completar a tarefa? A pessoa estava confiante ou estressada?        
 
-O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão as pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário, quais as condições em que o ambiente de teste deverá se encontrar e quais os fluxos de teste.         
+O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão as pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário e quais os fluxos de teste.         
 
 # Usuários de Teste
-Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de personas. Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, ainda sim havendo o mínimo de intervenções possíveis durante a realização dos mesmos.
+Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de personas. Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, ainda sim havendo o mínimo de intervenções externas possíveis durante a realização dos mesmos.
 
 # Modelo de Relatório
 Algumas características que seriam variáveis em cada relatório, como quantidade de membros presentes e quantidade de usuários, já foram pré-definidas devido ao cenário proporcionado pela pandemia. Não será possível sair em busca de muitos testadores e nem reunir membros da equipe para as avaliações, visando manter o distanciamento social e evitar a propagação do vírus.       
@@ -48,8 +48,10 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * Tarefa 2: Será solicitado que o usuário Cadastre uma ocorrência.      
 * Tarefa 3: Será solicitado que o usuário Visualize uma ocorrência.     
 * Tarefa 4: Será solicitado que o usuário visualize estatísticas de um crime em uma cidade específica.     
-* Tarefa 5: Será solicitado que o usuário avalie um bairro.     
+* Tarefa 5: Será solicitado que o usuário avalie um bairro.       
 
+## Critérios de Sucesso       
 
-
-
+# Referências Bibliográficas     
+* Curso UX e Usabilidade aplicados em Mobile e Web, Capítulo 11, Apêndice: [Testes de Usabilidade](https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/usabilidade/#preparao-prvia);              
+* [Teste de usabilidade](https://www.uiux.pt/2019/09/26/testes-de-usabilidade/). Quantos users? Como medir? Para que serve?
