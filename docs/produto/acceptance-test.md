@@ -22,11 +22,12 @@ Uma tabela com as seguintes informações:
 * Versão do Software a ser testado          
 
 
-|                        | Tarefa 1 | Tarefa 2 | Tarefa 3 | Tarefa 4 | Tarefa 5 | Tarefa 6 | Tarefa 7 |
-|------------------------|----------|----------|----------|----------|----------|----------|----------|
-| Sim, com facilidade    |          |          |          |          |          |          |          |
-| Sim, com dificuldade   |          |          |          |          |          |          |          |
-| Não conseguiu realizar |          |          |          |          |          |          |          |
+|                        | Tarefa 1 | Tarefa 2 | Tarefa 3 | Tarefa 4 | Tarefa 5 | Tarefa 6 |  
+|:----------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Não conseguiu realizar |          |          |          |          |          |          |
+| Sim, com dificuldade   |          |          |          |          |          |          |
+| Sim, com facilidade    |          |          |          |          |          |          |      
+| Tempo de execução      |          |          |          |          |          |          |         
 
 Ao final da avaliação os testadores serão submetidos às seguintes perguntas(que também deverão ser registradas e preenchidas em cada relatório):      
 1. Como você avaliaria sua experiência ao utilizar o aplicativo(de 1 a 5)?       
@@ -48,16 +49,14 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * Tarefa 1: Será solicitado que o usuário realize seu cadastro na aplicação.      
 * Tarefa 2: Será solicitado que o usuário Cadastre uma ocorrência.      
 * Tarefa 3: Será solicitado que o usuário Visualize uma ocorrência.     
-* Tarefa 4: Será solicitado que o usuário visualize o mapa de calor de um crime específico.
-* Tarefa 5: visualize estatísticas de uma cidade.
+* Tarefa 4: Será solicitado que o usuário visualize estatística do crime de roubo a veículo.
+* Tarefa 5: Será solicitado que o usuário visualize estatísticas de uma cidade.
 * Tarefa 6: Será solicitado que o usuário avalie um bairro.         
-* Tarefa 7: Será solicitado que o usuário visualize estatística do crime de roubo a veículo.
 
-## Critérios de Sucesso       
-Para cada uma das tarefas foi determinado um tempo mínimo 
-Feedbacks positivos
-A maioria dos usuários conseguir concluir as tarefas
-
+## Critérios de Sucesso   
+* O sucesso de cada tarefa é o usuário conseguir executá-la. 
+* Para cada uma das tarefas foi determinado um tempo mínimo, então caso usuário consiga executá-la dentro do tempo, demonstrará um bom padrão da usabilidade e reforçará o resultado positivo. 
+* Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.   
 
 # Referências Bibliográficas     
 * Curso UX e Usabilidade aplicados em Mobile e Web, Capítulo 11, Apêndice: [Testes de Usabilidade](https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/usabilidade/#preparao-prvia);              
