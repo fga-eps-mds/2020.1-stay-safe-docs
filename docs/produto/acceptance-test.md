@@ -11,7 +11,7 @@ O principal objetivo da realização desses testes é verificar aspectos citados
 O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão as pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário, quais as condições em que o ambiente de teste deverá se encontrar e quais os fluxos de teste.         
 
 # Usuários de Teste
-
+Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de personas. Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, ainda sim havendo o mínimo de intervenções possíveis durante a realização dos mesmos.
 
 # Modelo de Relatório
 Algumas características que seriam variáveis em cada relatório, como quantidade de membros presentes e quantidade de usuários, já foram pré-definidas devido ao cenário proporcionado pela pandemia. Não será possível sair em busca de muitos testadores e nem reunir membros da equipe para as avaliações, visando manter o distanciamento social e evitar a propagação do vírus.       
