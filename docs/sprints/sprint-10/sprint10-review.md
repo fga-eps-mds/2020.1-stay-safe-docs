@@ -129,7 +129,9 @@ Uma dívida técnica foi herdada da Sprint 9:
 ### Time
 Décima primeira sprint do projeto, com planejamento inicial de 30 pontos e final de 34 pontos, dos quais 8 não foram entregues. A sprint durou um dia a mais do que o normal sendo finalizada no Domingo, a maior parte da equipe esteve bem ocupada durante a semana e alguns PRs estavam aguardando pequenas correções para serem aprovados, somado a isso o merge foi um pouco mais lento devido ao número maior de conflitos do que o habitual. De forma a não ser injusto com o trabalho desenvolvido pelo grupo e manter elevado o empenho do time a decisão acima foi tomada.
 
-Foi observada uma quantidade menor de pontos citados na retrospectiva, que é normal depois do grupo estar trabalhando junto a quase 3 meses, entre os pontos negativos citados a maioria foge do controle da equipe, no que está ao nosso alcance foram sugeridas melhorias. 
+Foi observada uma quantidade menor de pontos citados na retrospectiva, que é normal depois do grupo estar trabalhando junto há quase 3 meses, entre os pontos negativos citados a maioria foge do controle da equipe, no que está ao nosso alcance foram sugeridas melhorias. 
+
+Um outro ponto positivo notável é que um dos membros do time que estava mais afastado do grupo voltou a se aplicar e participar das atividades de maneira mais assídua, isso impacta positivamente na comunicação, facilita o planejamento e permite uma carga maior de trabalho por sprint.
 
 ### Métricas
 Na Sprint 10 foram concluídos 26 pontos dos 30 planejados inicialmente e 34 planejados totais, o **Velocity** atual da equipe é de 35 pontos com dez sprints fechadas e 424 pontos entregues no total. Nessa sprint e nas duas anteriores foi notada uma queda na pontuação planejada da equipe que resulta em uma queda no Velocity, isso é devido aos membros de EPS dando mais atenção a demandas não pontuadas (como revisão de PRs, criação e descrição de issues, auxílio a MDS no desenvolvimento das tarefas) em oposição a demandas pontuadas (documentação, configuração de ambiente), é normal a redução de pontuação nas sprints pós R1.
