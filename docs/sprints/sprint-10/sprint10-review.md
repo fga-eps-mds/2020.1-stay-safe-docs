@@ -159,6 +159,5 @@ Entre os riscos monitorados pelo grupo os que ocorreram na sprint foram:
 * Conflito de dependência entre atividades 
 * Conflito com outras disciplinas
 * Erros durante o planejamento das atividades
-* Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
 
 Os riscos eram esperados no planejamento e foi possível realizar algumas ações preventivas e reativas.

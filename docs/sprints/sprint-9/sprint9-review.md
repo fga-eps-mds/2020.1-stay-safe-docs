@@ -8,7 +8,7 @@
 **Pontos Planejados:** 25 pontos  
 **Pontos Entregues:** 27 pontos  
 **Dívida Técnica:** 8 pontos  
-**Membros Ausentes:** Luiz Pettengill  
+**Membros Ausentes:** Nenhum    
 
 ## 2. Resultados
 ### 2.1 Repositório Docs      
