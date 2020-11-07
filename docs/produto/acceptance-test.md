@@ -11,10 +11,10 @@ O principal objetivo da realização desses testes é verificar aspectos citados
 O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão as pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário e quais os fluxos de teste.         
 
 # Usuários de Teste
-Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de [personas](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/master/docs/produto/product-definition.md). Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, ainda sim havendo o mínimo de intervenções externas possíveis durante a realização dos mesmos.
+Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de [personas](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/master/docs/produto/product-definition.md). Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, havendo o mínimo de intervenções externas possíveis durante a realização dos mesmos.
 
 # Modelo de Relatório
-Algumas características que seriam variáveis em cada relatório, como quantidade de membros presentes e quantidade de usuários, já foram pré-definidas devido ao cenário proporcionado pela pandemia. Não será possível sair em busca de muitos testadores e nem reunir membros da equipe para as avaliações, visando manter o distanciamento social e evitar a propagação do vírus.       
+Algumas características que seriam variáveis em cada relatório, como quantidade de membros presentes e quantidade de usuários, já foram pré-definidas devido ao cenário proporcionado pela pandemia da COVID-19. Não será possível sair em busca de muitos testadores e nem reunir membros da equipe para as avaliações, visando manter o distanciamento social e evitar a propagação da doença.       
 Para cada usuário submetido ao teste deverá ser gerado um relatório para controle dos testes, cada relatório deverá seguir a seguinte estrutura:         
             
 Uma tabela com as seguintes informações:            
@@ -30,7 +30,7 @@ Uma tabela com as seguintes informações:
 | Tempo de execução      |          |          |          |          |          |          |         
 
 Ao final da avaliação os testadores serão submetidos às seguintes perguntas(que também deverão ser registradas e preenchidas em cada relatório):      
-1. Como você avaliaria sua experiência ao utilizar o aplicativo(de 1 a 5, como 1 sendo uma experiência muito ruim e 5 sendo uma experiência muito boa)?       
+1. Como você avaliaria sua experiência ao utilizar o aplicativo? (de 1 a 5, como 1 sendo uma experiência muito ruim e 5 sendo uma experiência muito boa)       
 2. Você utilizaria esse app no seu dia-a-dia? Por que?         
 3. Como você avalia a identidade visual do aplicativo?        
 4. Acha que os ícones são representativos?        
@@ -41,9 +41,9 @@ Ao final da avaliação os testadores serão submetidos às seguintes perguntas(
 # Roteiro 
 ## Instrução Inicial
 Todos os testes deverão ser iniciados com a exposição do objetivo do produto, qual o contexto do desenvolvimento e qual o objetivo do teste que será realizado, enfatizando que o produto será avaliado e não a capacidade do usuário de realizar as tarefas. Além disso, é necessário:        
-* Como se dará o andamento da pesquisa;       
+* Como se dará o andamento do teste;       
 * Solicitar que o usuário expresse sempre o que está pensando e o que está tentando fazer;      
-* Relembrar o usuário de que o produto está em processo de aprimoramento, então não deve se preocupar em criticar pois sua critica será de extrema importância para o resultado final.       
+* Relembrar o usuário de que o produto está em processo de aprimoramento, então não deve se preocupar em criticar pois sua crítica será de extrema importância para o resultado final.       
 
 ## Realização de Tarefas
 * Tarefa 1: Será solicitado que o usuário realize seu cadastro na aplicação.      
@@ -57,6 +57,12 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * O sucesso de cada tarefa é o usuário conseguir executá-la. 
 * Para cada uma das tarefas foi determinado um tempo mínimo, então caso usuário consiga executá-la dentro do tempo, demonstrará um bom padrão da usabilidade e reforçará o resultado positivo. 
 * Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.   
+
+### Heurísticas de Nielsen
+Conforme descrito no [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/) do Stay Safe, os testes avaliarão se a aplicação atende as Heurísticas de Nielsen. Caso atenda, demonstra então que aplicação possui boa navegabilidade e usabilidade.
+
+### Diretrizes de Acessibilidade 
+Também conforme o [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/), caso a equipe encontre pessoas portadoras de necessidades especias que possam realizar os testes, será avaliada a acessibilidade da aplicação conforme as recomendações de acessibilidade da World Wide Web Consortium. Isso permitirá saber o quão inclusivo é o Stay Safe.
 
 # Referências Bibliográficas     
 * Curso UX e Usabilidade aplicados em Mobile e Web, Capítulo 11, Apêndice: [Testes de Usabilidade](https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/usabilidade/#preparao-prvia);              
