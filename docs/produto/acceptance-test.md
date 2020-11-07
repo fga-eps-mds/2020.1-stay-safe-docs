@@ -8,10 +8,10 @@ O principal objetivo da realização desses testes é verificar aspectos citados
 * **Lembrança**: O quanto a pessoa se lembra mais tarde ou depois de períodos sem usar?           
 * **Resposta Emocional**: Como a pessoa se sentiu depois de completar a tarefa? A pessoa estava confiante ou estressada?        
 
-O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão as pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário e quais os fluxos de teste.         
+O entendimento do usuário em relação às funcionalidades, à facilidade ou não em encontrar funcionalidades de acordo com a disposição na tela e a navegação, do login à execução das principais funcionalidades, serão os pontos principais de observação. Para padronizar esse processo, serão determinadas quais informações serão passadas ao usuário e quais os fluxos de teste.         
 
 # Usuários de Teste
-Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de [personas](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/master/docs/produto/product-definition.md). Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, havendo o mínimo de intervenções externas possíveis durante a realização dos mesmos.
+Para que fosse possível o desenvolvimento da aplicação mesmo que sem um cliente real, foram criados perfis diversificados de usuários fictícios utilizando a técnica de [personas](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/product-definition/). Para realizar os testes de aceitação é pretendido que a equipe encontre pessoas que possuam um perfil semelhante ao das personas, sendo estimada a participação de pelo menos cinco usuários e que o ambiente onde acontecerá os testes seja informal, havendo o mínimo de intervenções externas possíveis durante a realização dos mesmos.
 
 # Modelo de Relatório
 Algumas características que seriam variáveis em cada relatório, como quantidade de membros presentes e quantidade de usuários, já foram pré-definidas devido ao cenário proporcionado pela pandemia da COVID-19. Não será possível sair em busca de muitos testadores e nem reunir membros da equipe para as avaliações, visando manter o distanciamento social e evitar a propagação da doença.       
@@ -49,7 +49,7 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * Tarefa 1: Será solicitado que o usuário realize seu cadastro na aplicação.      
 * Tarefa 2: Será solicitado que o usuário Cadastre uma ocorrência.      
 * Tarefa 3: Será solicitado que o usuário Visualize uma ocorrência.     
-* Tarefa 4: Será solicitado que o usuário visualize estatística do crime de roubo a veículo.
+* Tarefa 4: Será solicitado que o usuário visualize estatísticas do crime de roubo a veículo.
 * Tarefa 5: Será solicitado que o usuário visualize estatísticas de uma cidade.
 * Tarefa 6: Será solicitado que o usuário avalie um bairro.         
 
@@ -59,7 +59,7 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.   
 
 ### Heurísticas de Nielsen
-Conforme descrito no [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/) do Stay Safe, os testes avaliarão se a aplicação atende as Heurísticas de Nielsen. Caso atenda, demonstra então que aplicação possui boa navegabilidade e usabilidade.
+Conforme descrito no [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/) do Stay Safe, os testes avaliarão se a aplicação atende as Heurísticas de Nielsen. Caso atenda, demonstra então que possui boa navegabilidade e usabilidade.
 
 ### Diretrizes de Acessibilidade 
 Também conforme o [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/), caso a equipe encontre pessoas portadoras de necessidades especias que possam realizar os testes, será avaliada a acessibilidade da aplicação conforme as recomendações de acessibilidade da World Wide Web Consortium. Isso permitirá saber o quão inclusivo é o Stay Safe.
