@@ -1,7 +1,7 @@
-# Resultados do Primeiro Teste de Aceitação
+# Teste de Aceitação - Primeiro Resultado
 
 ### Introdução
-Baseado no [documento de aceitação](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/acceptance-test/) foram realizados testes com 7(sete) pessoas para testarem as funcionalidades descritas anteriormente.
+Baseado no [documento de planejamento](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/93-conduct-acceptance-tests/docs/produto/acceptance%20tests/planning.md) foram realizados testes com 7(sete) pessoas para testarem as funcionalidades descritas anteriormente.
 
 ### Data da relização dos testes
 Foram realizados os testes nos dias 11, 12 e 13 de novembro de 2020.
@@ -11,12 +11,14 @@ Para a realização dos testes foram procurados perfis compatíveis com os das p
 
 ### Tarefas
 
+A quantidade de pessoas que realizaram ou não cada tarefa proposta foi contabilizada na tabela abaixo:
+
 |                        | Tarefa 1  | Tarefa 2  | Tarefa 3  | Tarefa 4 | Tarefa 5  | Tarefa 6 | Tarefa 7 | Tarefa 8| Tarefa 9|
 |:----------------------:|:---------:|:---------:|:---------:|:--------:|:---------:|:--------:|:--------:|:--------:|:--------:|
-| Não conseguiu realizar |     0     |     1     |     1     |     1    |     1     |     3    |     0    |    0    |    0   |
-| Sim, com dificuldade   |     1     |     2     |     1     |     4    |     4     |     2    |     2    |    0    |    0   |
-| Sim, com facilidade    |     6     |     4     |     5     |     2    |     2     |     2    |     1    |    3    |    3   |
-| Tempo de execução(média em segundos)|     59   |     78   |     15    |     75   |     54   |     48     |    48   |    35    |    40    |
+| **Não conseguiu realizar** |     0     |     1     |     1     |     1    |     1     |     3    |     0    |    0    |    0   |
+| **Sim, com dificuldade**   |     1     |     2     |     1     |     4    |     4     |     2    |     2    |    0    |    0   |
+| **Sim, com facilidade**    |     6     |     4     |     5     |     2    |     2     |     2    |     1    |    3    |    3   |
+| **Tempo de execução(média em segundos)**|     59   |     78   |     15    |     75   |     54   |     48     |    48   |    35    |    40    |
 
 *As últimas 3 tarefas foram realizadas apenas com 3 testadores, pois foram adicionadas no decorrer dos testes.*
 
