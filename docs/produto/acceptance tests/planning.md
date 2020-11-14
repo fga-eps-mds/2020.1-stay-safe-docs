@@ -1,3 +1,5 @@
+# Testes de Aceitação
+
 # Introdução
 Testes de aceitação são um dos principais tipos de testes usados para validar o desenvolvimento de requisitos, que são construídos ao longo do processo de percepção do produto. O resultado desses testes devem demonstrar que o sistema é capaz de executar as funcionalidades existentes de forma adequada e coerente em termos de tempo de resposta e validade dos resultados, já a construção desses testes se dá a partir de situações de uso do próprio sistema. Além disso, os testes de aceitação podem  também avaliar a aplicação quanto à navegabilidade, usabilidade e acessibilidade, nesse sentido serão propostas algumas tarefas e, durante a sua realização, os avaliadores que compoẽm o time deverão atentar-se à identificação de problemas ou dificuldades do usuário ao navegar no app. O intuito deste documento é relatar desde os objetivos a quais serão os testes aplicados e como funcionarão os critérios de sucesso.        
 
@@ -22,12 +24,12 @@ Uma tabela com as seguintes informações:
 * Versão do Software a ser testado          
 
 
-|                        | Tarefa 1 | Tarefa 2 | Tarefa 3 | Tarefa 4 | Tarefa 5 | Tarefa 6 |  
-|:----------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Não conseguiu realizar |          |          |          |          |          |          |
-| Sim, com dificuldade   |          |          |          |          |          |          |
-| Sim, com facilidade    |          |          |          |          |          |          |      
-| Tempo de execução      |          |          |          |          |          |          |         
+|                        | Tarefa 1 | Tarefa 2 | Tarefa 3 | Tarefa 4 | Tarefa 5 | Tarefa 6 | Tarefa 7 | Tarefa 8 | Tarefa 9 |     
+|:----------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Não conseguiu realizar |          |          |          |          |          |          |           |           |           |
+| Sim, com dificuldade   |          |          |          |          |          |          |           |           |           |
+| Sim, com facilidade    |          |          |          |          |          |          |           |           |           |      
+| Tempo de execução      |          |          |          |          |          |          |           |           |           |     
 
 Ao final da avaliação os testadores serão submetidos às seguintes perguntas(que também deverão ser registradas e preenchidas em cada relatório):      
 1. Como você avaliaria sua experiência ao utilizar o aplicativo? (de 1 a 5, como 1 sendo uma experiência muito ruim e 5 sendo uma experiência muito boa)       
@@ -51,12 +53,16 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * Tarefa 3: Será solicitado que o usuário Visualize uma ocorrência.     
 * Tarefa 4: Será solicitado que o usuário visualize estatísticas do crime de roubo a veículo.
 * Tarefa 5: Será solicitado que o usuário visualize estatísticas de uma cidade.
-* Tarefa 6: Será solicitado que o usuário avalie um bairro.         
+* Tarefa 6: Será solicitado que o usuário avalie um bairro.    
+* Tarefa 7: Será solicitado que o usuário filtre os pins que aparecem no mapa por um crime específico.        
+* Tarefa 8: Será solicitado que o usuário edite e apague uma ocorrência e uma avaliação de bairro.       
+* Tarefa 9: Será solicitado que o usuário cadastre e apague um local favorito.      
 
 ## Critérios de Sucesso   
 * O sucesso de cada tarefa é o usuário conseguir executá-la. 
 * Para cada uma das tarefas foi determinado um tempo mínimo, então caso usuário consiga executá-la dentro do tempo, demonstrará um bom padrão da usabilidade e reforçará o resultado positivo. 
-* Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.   
+* Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.      
+Os resultados dos testes bem como as mudanças consequentes serão resgistradas no documento de [Resultados]()
 
 ### Heurísticas de Nielsen
 Conforme descrito no [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/) do Stay Safe, os testes avaliarão se a aplicação atende as Heurísticas de Nielsen. Caso atenda, demonstra então que possui boa navegabilidade e usabilidade.
