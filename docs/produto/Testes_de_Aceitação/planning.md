@@ -1,4 +1,4 @@
-# Teste de Aceitação - Planejamento
+# Planejamento
 
 # Introdução
 Testes de aceitação são um dos principais tipos de testes usados para validar o desenvolvimento de requisitos, que são construídos ao longo do processo de percepção do produto. O resultado desses testes devem demonstrar que o sistema é capaz de executar as funcionalidades existentes de forma adequada e coerente em termos de tempo de resposta e validade dos resultados, já a construção desses testes se dá a partir de situações de uso do próprio sistema. Além disso, os testes de aceitação podem  também avaliar a aplicação quanto à navegabilidade, usabilidade e acessibilidade, nesse sentido serão propostas algumas tarefas e, durante a sua realização, os avaliadores que compoẽm o time deverão atentar-se à identificação de problemas ou dificuldades do usuário ao navegar no app. O intuito deste documento é relatar desde os objetivos a quais serão os testes aplicados e como funcionarão os critérios de sucesso.        
@@ -60,7 +60,7 @@ Todos os testes deverão ser iniciados com a exposição do objetivo do produto,
 * O sucesso de cada tarefa é o usuário conseguir executá-la. 
 * Para cada uma das tarefas foi determinado um tempo mínimo, então caso usuário consiga executá-la dentro do tempo, demonstrará um bom padrão da usabilidade e reforçará o resultado positivo. 
 * Feedbacks dos testadores serem positivos(em sua maioria) também demonstrarão o sucesso dos testes.      
-Os resultados dos testes bem como as mudanças consequentes serão resgistradas no documento de [Resultados](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/93-conduct-acceptance-tests/docs/produto/acceptance%20tests/results.md)
+Os resultados dos testes bem como as mudanças consequentes serão resgistradas no documento de [Resultados](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/Testes_de_Aceitação/results/)
 
 ### Heurísticas de Nielsen
 Conforme descrito no [documento de qualidade](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/quality/) do Stay Safe, os testes avaliarão se a aplicação atende as Heurísticas de Nielsen. Caso atenda, demonstra então que possui boa navegabilidade e usabilidade.

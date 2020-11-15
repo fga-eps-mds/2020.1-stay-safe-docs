@@ -1,7 +1,7 @@
-# Teste de Aceitação - Primeiro Resultado
+# Primeiro Resultado
 
 ### Introdução
-Baseado no [documento de planejamento](https://github.com/fga-eps-mds/2020.1-stay-safe-docs/blob/93-conduct-acceptance-tests/docs/produto/acceptance%20tests/planning.md) foram realizados testes com 7(sete) pessoas para testarem as funcionalidades descritas anteriormente.
+Baseado no [documento de planejamento](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/produto/Testes_de_Aceitação/planning/) foram realizados testes com 7(sete) pessoas para testarem as funcionalidades descritas anteriormente.
 
 ### Data da relização dos testes
 Foram realizados os testes nos dias 11, 12 e 13 de novembro de 2020.
