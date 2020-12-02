@@ -76,7 +76,7 @@ O diagrama de Gantt ilustra o planejamento de ínicio e término de todo trabalh
 | US29 | Ser encaminhado para fazer o cadastro de um boletim eletrônico | Registrar um boletim de ocorrência eletrônico a respeito do crime que sofri | Could |
 
 ## 4. Especificação das Histórias
-Cada história descrita no tópico 3 é dividida em tasks e estas são criadas no repositório em que serão executadas. Assim é possível manter as histórias como uma forma amigável de entender o produto enquanto as tasks são usadas para criar tarefas pequenas, passíveis de serem feitas em uma sprint e que comunicam diretamente com os desenvolvedores. Neste tópico são mostradas as tasks que integram cada história presente no backlog.
+Cada história descrita no tópico 3 é dividida em tasks e estas são criadas no repositório em que serão executadas. Assim, é possível manter as histórias como uma forma amigável de entender o produto enquanto as tasks são usadas para criar tarefas pequenas, passíveis de serem feitas em uma sprint e que comunicam diretamente com os desenvolvedores. Neste tópico são mostradas as tasks que integram cada história presente no backlog.
 
 Documentar toda dependência mínima entre as histórias do projeto não é viável devido ao caráter volátil do Backlog do Produto, as dependências entre histórias são revistas no contexto de uma sprint quando um planejamento é executado, afim de garantir que a equipe possui os recursos necessários para desenvolver a tarefa em questão.
 
