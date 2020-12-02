@@ -109,16 +109,16 @@ As quatro tasks abaixo estão presentes no fluxo de atividade de todas história
 Task 1: [Extração SSP-DF - Secretary - 8 pts - Sprint 3](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/1)  
 Task 2: [Extração SSP-SP - Secretary - 8 pts - Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/5)      
 Task 3: [Endpoints para Obtenção de Dados - Secretary - 3 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/9)   
-Task 4: [Extração Dados Populacionais DF e SP - Secretary - X pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/28)  
+Task 4: [Extração Dados Populacionais DF e SP - Secretary - 5 pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-secretary-service/issues/28)  
 
 **US06 - Visualizar estatísticas de crime de uma cidade**   
-Task 1: [Tela pra Visualizar Estatísticas - Frontend - X pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/43)      
+Task 1: [Tela pra Visualizar Estatísticas - Frontend - 3 pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/43)      
 
 **US07 - Comparar estatísticas de crime em anos diferentes numa mesma cidade**   
 Task 1: Tela de Estatísticas Anuais - Frontend - X pts - Sprint 11     
 
 **US08 - Visualizar cidades ordenadas de acordo com critério escolhido**   
-Task 1: [Tela de Cidades Ordenadas - Frontend - X pts - Sprint 9](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/103)     
+Task 1: [Tela de Cidades Ordenadas - Frontend - X pts - Sprint 12](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/103)     
 
 **US09 - Visualizar cidades em formato de mapas de calor de acordo com o filtro escolhido**   
 Task 1: [Tela de Cidades Dispostas em Mapas de Calor - Frontend - 8 pts - Sprint 6](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/22) 
@@ -127,25 +127,25 @@ Task 1: [Tela de Cidades Dispostas em Mapas de Calor - Frontend - 8 pts - Sprint
 As três tasks abaixo estão presentes no fluxo de atividade de todas histórias do épico e precisam ser executadas para que as histórias do Épico Bairro sejam concluídas.  
 Task 1: [CRUD de Avaliação - User - 5 pts - Sprint 4](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/7)  
 Task 2: [Endpoint para Avaliações - User - 2 pts - Sprint 5](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/14)  
-Task 3: [Lógica de Avaliações Médias - User - X pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/31)
+Task 3: [Lógica de Avaliações Médias - User - 3 pts - Sprint 9](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/31)
 
 **US10 - Avaliar um bairro**  
-Task 1: [Tela de Avaliação - Frontend - X pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/58)
+Task 1: [Tela de Avaliação - Frontend - 3 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/58)
 
 **US11 - Editar avaliação de um bairro**  
-Task 1: [Tela para Visualização, Edição e Exclusão de Avaliação - Frontend - X pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
+Task 1: [Tela para Visualização, Edição e Exclusão de Avaliação - Frontend - 3 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
 
 **US12 - Excluir avaliação de um bairro**  
-Task 1: [Tela para Visualização, Edição e Exclusão de Avaliação - Frontend - X pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
+Task 1: [Tela para Visualização, Edição e Exclusão de Avaliação - Frontend - 3 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
 
 **US13 - Visualizar avaliação de um bairro**  
-Task 1: [Tela para Visualização Completa de Avaliação - Frontend - X pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/57)   
+Task 1: [Tela para Visualização Completa de Avaliação - Frontend - 5 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/57)   
 
 **US14 - Visualizar avaliação de bairros através de mapa de calor**  
 Task 1: Tela de Bairros Dispostos em Mapas de Calor - Frontend - X pts - Sprint 9    
 
 **US15 - Visualizar meu histórico de avaliação de bairros**   
-Task 1: [Tela de Histórico de Avaliações - Frontend - X pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
+Task 1: [Tela de Histórico de Avaliações - Frontend - 5 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/59)   
 
 ### 4.4 Épico Local Específico
 As três tasks abaixo estão presentes no fluxo de atividade de todas histórias do épico e precisam ser executadas para que as histórias do Épico Local Específico sejam concluídas.   
@@ -167,7 +167,7 @@ Task 1: [Tela para Visualização, Edição e Exclusão de Ocorrências - Fronte
 Task 1: [Tela de Detalhes da Ocorrência - Frontend - 3 pts - Sprint 7](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/33) 
 
 **US20 - Filtrar por tipos específicos de ocorrências**   
-Task 1: [Tela de Filtros de Ocorrência - Frontend - X pts - Sprint 9](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/42)
+Task 1: [Tela de Filtros de Ocorrência - Frontend - 2 pts - Sprint 8](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/42)
 
 **US21 - Visualizar meu histórico de ocorrências registradas**  
 Task 1: [Tela para Visualização, Edição e Exclusão de Ocorrências - Frontend - 5 pts - Sprint 6](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/23)   
@@ -175,8 +175,8 @@ Task 1: [Tela para Visualização, Edição e Exclusão de Ocorrências - Fronte
 
 ### 4.5 Épico Notificação  
 **US22 - Favoritar locais**  
-Task 1: [CRUD Locais Favoritos - Frontend - X pts - Sprint 11](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/39)    
-Task 2: [Tela Favoritar Locais - Frontend - X pts - Sprint 11](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/65)    
+Task 1: [CRUD Locais Favoritos - User - 3 pts - Sprint 10](https://github.com/fga-eps-mds/2020.1-stay-safe-user-service/issues/39)    
+Task 2: [Tela Favoritar Locais - Frontend - 5 pts - Sprint 11](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/65)    
 
 **US23 - Editar configurações de notificação**  
 Task 1: Configurar Sistema de Notificações - Frontend - X pts - Sprint 12   
