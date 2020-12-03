@@ -1,4 +1,4 @@
-#n Arquitetura
+# Arquitetura
 
 ## 1. Introdução
 
@@ -238,7 +238,7 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
 ```
 
 ### 6.2 Dados das populações das cidades
-Os dados populacionais das cidades são da [estimativa do IBGE para 2020](https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2101747) e estão armazenados de forma estática em um arquivo `.json`. O `json` está nesse modelo:
+Os dados populacionais das cidades de São Paulo são da [estimativa do IBGE para 2020](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads) e os das Regiões Administrativas do Distrito Federal são da [Companhia de Planejamendo do DF](http://www.codeplan.df.gov.br/wp-content/uploads/2019/05/Sum%C3%A1rio-Executivo-Proje%C3%A7%C3%B5es-Populacionais.pdf). Esses dados estão armazenados de forma estática no secretary-service em um arquivo `.json`. O `json` está nesse modelo:
 
 ```
 {
