@@ -1,4 +1,4 @@
-# Documento de Arquitetura
+# Arquitetura
 
 ## 1. Introdução
 
@@ -266,15 +266,14 @@ Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte model
 
 #### 6.3.1 Diagrama Entidade-Relacionamento
 Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
-![DE-R](../images/architecture/user-service-DER.jpg)
+![DE-R](../images/architecture/user-service-der2.png)
 
 #### 6.3.2 Diagrama Lógico
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
-![Lógico](../images/architecture/user-service-logic.jpg)
+![Lógico](../images/architecture/user-service-logic2.png)
 
 Os campos do tipo *enum* tem os seguintes valores possíveis:
 
-* **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
 * **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
 * **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Furto a Transeunte", "Furto de Veículo")
 
