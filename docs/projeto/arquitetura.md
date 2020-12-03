@@ -134,10 +134,12 @@ O frontend está sendo implementado com uma organização em que cada módulo po
 * **services/** - Diretório que contém os endpoints necessários para realizar as requisões feitas no app.
 * **components/** - Inclue os componentes que são comuns às telas da aplicação. Os componentes podem ser modals, inputs de formulários, botões, etc.
 * **utils/** - Armazena funções utilitárias reutilizáveis que serão disponibilizadas para todo o frontend. 
+* **hooks/** - Diretório onde estão os gerenciandores de estado do usuário
+* **@types/** - Onde ficam algumas tipagens internas customizadas 
 
 O diagrama abaixo mostra de forma mais clara a relação entre esses módulos:
 
-![Frontend](../images/architecture/frontend.png)
+![Frontend](../images/architecture/frontend-updated.png)
 
 ## 6. Dados 
 
@@ -266,11 +268,11 @@ Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte model
 
 #### 6.3.1 Diagrama Entidade-Relacionamento
 Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
-![DE-R](../images/architecture/user-service-der2.png)
+![DE-R](../images/architecture/user-service-der-updated.png)
 
 #### 6.3.2 Diagrama Lógico
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
-![Lógico](../images/architecture/user-service-logic2.png)
+![Lógico](../images/architecture/user-service-logic-updated.png)
 
 Os campos do tipo *enum* tem os seguintes valores possíveis:
 
