@@ -41,7 +41,7 @@ Uma dívida técnica foi herdada de sprints anteriores:
 
 ### 4.2 Repositório Frontend
 1. **História:** [#82 - Melhorar comunicação com usuário](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/82)    
-**Responsáveis:** Luiz      
+**Responsáveis:** Nenhum responsável predefinido      
 **Pontuação:** 2       
 2. **História:** [#83 - Repartir componente do mapa em dois](https://github.com/fga-eps-mds/2020.1-stay-safe-front-end/issues/83)    
 **Responsáveis:** Lucas e Ítalo       
