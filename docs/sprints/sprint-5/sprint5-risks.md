@@ -16,25 +16,15 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Alto    
 **Prioridade:** Alta - 16  
 
-### R12 - Conflito de dependência entre atividades
-**Categoria:** Organizacional   
-**Causa:** Escopo razoavelmente complexo do projeto    
-**Consequência:** Atividade pausada esperando a conclusão de outra        
-**Ação Preventiva:** Planejar e priorizar as tarefas a longo prazo  
-**Ação Reativa:** Finalizar uma das tarefas o mais rápido possível para que a outra possa ser realizada  
-**Probabilidade:** Alto           
-**Impacto:** Alto       
-**Prioridade:** Alta - 16  
-
-### R08 - Descumprimento de alguma legislação
-**Categoria:** Gerência  
-**Causa:**  Falta de conhecimento jurídico da equipe de gerência  
-**Consequência:** Cometer alguma ilegalidade  
-**Ação Preventiva:**  Fazer um estudo da legislação associada ao escopo do projeto  
-**Ação Reativa:**  Procurar apoio jurídico profissional  
-**Probabilidade:** Média     
-**Impacto:** Muito Alto      
-**Prioridade:** Média - 15 
+### R02 - Dificuldades da equipe com as novas tecnologias inseridas
+**Categoria:** Técnico  
+**Causa:** Inexperiência de alguns membros  
+**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
+**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
+**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
+**Probabilidade:** Baixa     
+**Impacto:** Alto  
+**Prioridade:** Baixo - 8
 
 ### R03 - Falta de comprometimento dos membros com o projeto
 **Categoria:** Gerência  
@@ -44,7 +34,7 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Reorganizar o cronograma e entender o motivo da falta de comprometimento para tentar evitar que ele se repita  
 **Probabilidade:** Média                     
 **Impacto:** Alto    
-**Prioridade:** Média - 12    
+**Prioridade:** Média - 12   
 
 ### R04 - Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
 **Categoria:** Externo  
@@ -55,46 +45,6 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Probabilidade:** Média     
 **Impacto:** Alto    
 **Prioridade:** Média - 12   
-
-### R07 - Conflito com outras disciplinas
-**Categoria:** Organizacional  
-**Causa:** Necessidade, sendo alunos da UnB os membros da equipe precisam cursar outras disciplinas para conclusão da graduação  
-**Consequência:** Atraso nas entregas ou entregas mal feitas  
-**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
-**Ação Reativa:** Priorização das atividades  
-**Probabilidade:** Alta      
-**Impacto:** Médio     
-**Prioridade:** Média - 12
-
-### R10 - Ausência de membros durante reuniões do grupo
-**Categoria:** Gerência   
-**Causa:** Membros sobrecarregados ou desestimulados com o projeto  
-**Consequência:** Membros perdidos na sprint e maior carga de trabalho pro scrum para repassar o conteúdo da reunião aos que faltaram          
-**Ação Preventiva:** Manter a equipe estimulada e verificar constatemente os horários para que não haja conflito    
-**Ação Reativa:** Repassar o conteúdo da reunião aos membros faltantes    
-**Probabilidade:** Alta      
-**Impacto:** Médio     
-**Prioridade:** Média - 12 
-
-### R15 - Dados deixarem de ser fornecidos pelas secretarias 
-**Categoria:** Externo  
-**Causa:** Decisões das secretarias  
-**Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
-**Ação Preventiva:** -  
-**Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
-**Probabilidade:** Baixa      
-**Impacto:** Muito Alto      
-**Prioridade:** Baixa - 10 
-
-### R14 - Desistência da disciplina 
-**Categoria:** Gerência  
-**Causa:** Sobrecarga, problemas pessoais ou de saúde, entre outros  
-**Consequência:** Equipe desfalcada e sobrecarga dos membros que permanecem na matéria   
-**Ação Preventiva:** Incentivar a participação dos membros e a união do time  
-**Ação Reativa:** Redistribuir tarefas e refazer parte do planejamento do projeto  
-**Probabilidade:** Baixa    
-**Impacto:** Muito Alto    
-**Prioridade:** Baixa - 10  
 
 ### R05 - Erros durante o planejamento das atividades
 **Categoria:** Gerência  
@@ -116,6 +66,46 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Médio          
 **Prioridade:** Baixa - 9  
 
+### R07 - Conflito com outras disciplinas
+**Categoria:** Organizacional  
+**Causa:** Necessidade, sendo alunos da UnB os membros da equipe precisam cursar outras disciplinas para conclusão da graduação  
+**Consequência:** Atraso nas entregas ou entregas mal feitas  
+**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
+**Ação Reativa:** Priorização das atividades  
+**Probabilidade:** Alta      
+**Impacto:** Médio     
+**Prioridade:** Média - 12
+
+### R08 - Descumprimento de alguma legislação
+**Categoria:** Gerência  
+**Causa:**  Falta de conhecimento jurídico da equipe de gerência  
+**Consequência:** Cometer alguma ilegalidade  
+**Ação Preventiva:**  Fazer um estudo da legislação associada ao escopo do projeto  
+**Ação Reativa:**  Procurar apoio jurídico profissional  
+**Probabilidade:** Média     
+**Impacto:** Muito Alto      
+**Prioridade:** Média - 15  
+
+### R09 - Alteração do escopo
+**Categoria:** Gerência  
+**Causa:** Mudança no mercado, surgimento de novos requisitos  
+**Consequência:** Replanejamento do projeto   
+**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas  
+**Ação Reativa:** Redefinir o escopo e redistribuir tarefas  
+**Probabilidade:** Muito Baixa       
+**Impacto:** Alto    
+**Prioridade:** Muito Baixa - 4  
+
+### R10 - Ausência de membros durante reuniões do grupo
+**Categoria:** Gerência   
+**Causa:** Membros sobrecarregados ou desestimulados com o projeto  
+**Consequência:** Membros perdidos na sprint e maior carga de trabalho pro scrum para repassar o conteúdo da reunião aos que faltaram          
+**Ação Preventiva:** Manter a equipe estimulada e verificar constatemente os horários para que não haja conflito    
+**Ação Reativa:** Repassar o conteúdo da reunião aos membros faltantes    
+**Probabilidade:** Alta      
+**Impacto:** Médio     
+**Prioridade:** Média - 12 
+
 ### R11 - Falta de direcionamento por não possuir cliente real
 **Categoria:** Externo   
 **Causa:** Produto mal discutido e planejado pela equipe  
@@ -126,16 +116,16 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Alto      
 **Prioridade:** Baixa - 8   
 
-### R02 - Dificuldades da equipe com as novas tecnologias inseridas
-**Categoria:** Técnico  
-**Causa:** Inexperiência de alguns membros  
-**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
-**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
-**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
-**Probabilidade:** Baixa     
-**Impacto:** Alto  
-**Prioridade:** Baixo - 8
-    
+### R12 - Conflito de dependência entre atividades
+**Categoria:** Organizacional   
+**Causa:** Escopo razoavelmente complexo do projeto    
+**Consequência:** Atividade pausada esperando a conclusão de outra        
+**Ação Preventiva:** Planejar e priorizar as tarefas a longo prazo  
+**Ação Reativa:** Finalizar uma das tarefas o mais rápido possível para que a outra possa ser realizada  
+**Probabilidade:** Alto           
+**Impacto:** Alto       
+**Prioridade:** Alta - 16  
+
 ### R13 - Falta de gratuidade do Google Maps
 **Categoria:** Externa  
 **Causa:** Políticas da Google  
@@ -144,7 +134,27 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
 **Probabilidade:** Baixa    
 **Impacto:** Alto    
-**Prioridade:** Baixa - 8       
+**Prioridade:** Baixa - 8   
+
+### R14 - Desistência da disciplina 
+**Categoria:** Gerência  
+**Causa:** Sobrecarga, problemas pessoais ou de saúde, entre outros  
+**Consequência:** Equipe desfalcada e sobrecarga dos membros que permanecem na matéria   
+**Ação Preventiva:** Incentivar a participação dos membros e a união do time  
+**Ação Reativa:** Redistribuir tarefas e refazer parte do planejamento do projeto  
+**Probabilidade:** Baixa    
+**Impacto:** Muito Alto    
+**Prioridade:** Baixa - 10      
+
+### R15 - Dados deixarem de ser fornecidos pelas secretarias 
+**Categoria:** Externo  
+**Causa:** Decisões das secretarias  
+**Consequência:** Impossibilidade de atualização de uma funcionalidade importante do projeto  
+**Ação Preventiva:** -  
+**Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
+**Probabilidade:** Baixa      
+**Impacto:** Muito Alto      
+**Prioridade:** Baixa - 10 
 
 ### R16 - Falta de interação entre a equipe 
 **Categoria:** Gerência  
@@ -174,14 +184,4 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Incluir todos os membros na refatoração para que ela seja executada o mais rápido possivel  
 **Probabilidade:** Muito Baixa    
 **Impacto:** Muito Alto    
-**Prioridade:** Muito Baixa - 5  
-
-### R09 - Alteração do escopo
-**Categoria:** Gerência  
-**Causa:** Mudança no mercado, surgimento de novos requisitos  
-**Consequência:** Replanejamento do projeto   
-**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas  
-**Ação Reativa:** Redefinir o escopo e redistribuir tarefas  
-**Probabilidade:** Muito Baixa       
-**Impacto:** Alto    
-**Prioridade:** Muito Baixa - 4   
+**Prioridade:** Muito Baixa - 5   
