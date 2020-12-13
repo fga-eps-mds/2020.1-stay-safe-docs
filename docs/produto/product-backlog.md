@@ -13,10 +13,10 @@ Podem ser descritos como grandes áreas do projeto que não foram detalhadas a p
 * Notificação
 * Ajuda
 
-### 2.1 Diagrama de Gantt dos Épicos
-O diagrama de Gantt ilustra o planejamento de ínicio e término de todo trabalho contido em um épico, a ordem de execução dos épicos é decidida por fatores como prioridade e dependência.
+### 2.1 Visualização dos Épicos do Projeto em Função do Tempo
+O diagrama abaixo ilustra o planejamento de ínicio e término de todo trabalho contido em um épico, a ordem de execução dos épicos é decidida por fatores como prioridade e dependência.
 
-![Diagrama de Gantt dos Épicos](../images/backlog/Gantt.png "Diagrama de Gantt dos Épicos")
+![Diagrama Épicos](../images/backlog/Gantt.png "Diagrama Épicos")
 
 ## 3. Histórias
 Histórias de usuários são, resumidamente, uma forma simplificada de descrever os requisitos que devem ser contemplados no produto final. Essas histórias devem ser descritas de forma natural, num formato que seja possível visualizar como o usuário estabelecerá uma relação com a aplicação por meio de determinada funcionalidade. Nesse documento as histórias planejadas são separadas por épicos e possuem tarefas que, ao serem finalizadas, sinalizam a conclusão da história. Como algumas tarefas precisam ter sido concluídas para que seja possível cumprir as demais, as tarefas "gerais" de cada épico foram inseridas na primeira história de cada um. As especificações de cada história e suas tarefas podem ser acessadas através dos links disponibilizados na coluna ID da tabela.

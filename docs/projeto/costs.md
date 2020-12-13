@@ -53,7 +53,8 @@ A única ferramenta paga utilizada é a API do Google Maps, a Google fornece at�
 | GitHub Pages | Hospedagem de página web para repositório GitHub | R$ 0 |
 | Google Drive | Preenchimento de artefatos colaborativos | R$ 0 |
 | Google Meet | Reuniões por chamada | R$ 0 |
-| Google Maps API | Reuniões por chamada | R$ 0 |
+| Google Maps API | Serviço de mapas | R$ 0 |
+| Open Street Map | Serviço com funções relacionadas a mapas e coordenadas | R$ 0 |
 | Flask | Framework backend | R$ 0 |
 | React Native | Framework frontend | R$ 0 |
 | MongoDB | Banco de dados não relacional | R$ 0 |
@@ -67,11 +68,16 @@ Somando os custos de pessoal, aquisições, serviços e ferramentas o custo tota
 ## 3. EVM
 O Earned Value Management (EVM) é uma métrica utilizada para integrar escopo, tempo e custo em gerência de projetos, que consiste em medir objetivamente o desempenho e o progresso do projeto comparando custos (real e planejado) e valor agregado. 
 
-### 3.1. EVM até Release 1
+### 3.1. EVM Tradicional do início do projeto até a Release 1
 ![EVM R1](../images/costs/EVM-R1.png)
 
 ![Estatísticas EVM R1](../images/costs/Estatisticas-EVM-R1.png)
 
+
+### 3.2. EVM Ágil da Release 1 até a Release 2
+![EVM R2](../images/costs/EVM-R2.png)
+
+![Estatísticas EVM R2](../images/costs/Estatisticas-EVM-R2.png)
 ## 4. Referências
 * [Site de vagas](https://www.glassdoor.com.br/)
 * [API do Maps](https://cloud.google.com/maps-platform/pricing/)
