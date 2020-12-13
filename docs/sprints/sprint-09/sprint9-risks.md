@@ -16,6 +16,37 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Alto    
 **Prioridade:** Alta - 16  
 
+### R02 - Dificuldades da equipe com as novas tecnologias inseridas
+**Categoria:** Técnico  
+**Causa:** Inexperiência de alguns membros  
+**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
+**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
+**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
+**Probabilidade:** Baixa        
+**Impacto:** Alto  
+**Prioridade:** Baixa - 8  
+
+### R03 - Falta de comprometimento dos membros com o projeto
+**Categoria:** Gerência  
+**Causa:** Desânimo com o curso, problemas pessoais ou de saúde, excesso de compromissos, entre outros  
+**Consequência:** Issues não entregues, dívida técnica e replanejamento               
+**Ação Preventiva:** Motivar os membros do grupo e não permitir que o trabalho se torne massante      
+**Ação Reativa:** Reorganizar o cronograma e entender o motivo da falta de comprometimento para tentar evitar que ele se repita  
+**Probabilidade:** Baixa                       
+**Impacto:** Alto    
+**Prioridade:** Baixa - 8  
+
+### R04 - Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
+**Categoria:** Externo  
+**Causa:** Doença infecciosa COVID-19  
+**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
+**Ação Preventiva:** Seguir as recomendações de prevenção da Organização Mundial da Saúde  
+**Ação Reativa:** Remanejamento das atividades e apoio ao(s) membro(s) afetado(s)  
+**Probabilidade:** Média    
+**Impacto:** Alto    
+**Prioridade:** Média - 12  
+
+
 ### R05 - Erros durante o planejamento das atividades
 **Categoria:** Gerência  
 **Causa:** Falta de experiência da equipe de gerência  
@@ -25,6 +56,16 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Probabilidade:** Alta       
 **Impacto:** Alto      
 **Prioridade:** Alta - 16  
+
+### R06 - Falta de foco dos membros nas reuniões 
+**Categoria:** Gerência   
+**Causa:** Diversas distrações em um contexto de reuniões remotas e a falta de socialização em tempos de pandemia  
+**Consequência:** Reuniões longas e com poucos resultados       
+**Ação Preventiva:** Criar timebox para os tópicos da reunião e permanecer nos assuntos que são de interesse geral   
+**Ação Reativa:** Mudar a maneira como a reunião é conduzida de forma a deixá-la mais despojada sem perder o foco na produtividade  
+**Probabilidade:** Baixa          
+**Impacto:** Médio          
+**Prioridade:** Baixa - 6 
 
 ### R07 - Conflito com outras disciplinas
 **Categoria:** Organizacional  
@@ -46,25 +87,15 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Muito Alto      
 **Prioridade:** Média - 15  
 
-### R04 - Problemas pessoais ou de saúde relacionados a pandemia da COVID-19
-**Categoria:** Externo  
-**Causa:** Doença infecciosa COVID-19  
-**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
-**Ação Preventiva:** Seguir as recomendações de prevenção da Organização Mundial da Saúde  
-**Ação Reativa:** Remanejamento das atividades e apoio ao(s) membro(s) afetado(s)  
-**Probabilidade:** Média    
+### R09 - Alteração do escopo
+**Categoria:** Gerência  
+**Causa:** Mudança no mercado, surgimento de novos requisitos  
+**Consequência:** Replanejamento do projeto   
+**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas  
+**Ação Reativa:** Redefinir o escopo e redistribuir tarefas  
+**Probabilidade:** Baixa         
 **Impacto:** Alto    
-**Prioridade:** Média - 12  
-
-### R17 - Problemas com a estação de trabalho 
-**Categoria:** Técnico  
-**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
-**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
-**Ação Preventiva:** -  
-**Ação Reativa:**  Remanejamento das atividades e revisão do cronograma  
-**Probabilidade:** Média        
-**Impacto:** Alto      
-**Prioridade:** Média - 12  
+**Prioridade:** Baixa - 4    
 
 ### R10 - Ausência de membros durante reuniões do grupo
 **Categoria:** Gerência   
@@ -76,6 +107,16 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Médio     
 **Prioridade:** Média - 12 
 
+### R11 - Falta de direcionamento por não possuir cliente real
+**Categoria:** Externo   
+**Causa:** Produto mal discutido e planejado pela equipe  
+**Consequência:** Produto desenvolvido carece de realidade            
+**Ação Preventiva:** Ter uma ótima noção do produto antes de começar seu desenvolvimento    
+**Ação Reativa:** Repensar o produto e alinhar nova visão com a equipe    
+**Probabilidade:** Muito Baixa            
+**Impacto:** Alto      
+**Prioridade:** Baixa - 8 
+
 ### R12 - Conflito de dependência entre atividades 
 **Categoria:** Organizacional   
 **Causa:** Escopo razoavelmente complexo do projeto    
@@ -85,6 +126,16 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Probabilidade:** Média               
 **Impacto:** Alto       
 **Prioridade:** Média - 12      
+
+### R13 - Falta de gratuidade do Google Maps
+**Categoria:** Externa  
+**Causa:** Políticas da Google  
+**Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
+**Ação Preventiva:** Fazer essas funcionalidades de forma que sejam fáceis de integrar com outra api de mapa  
+**Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
+**Probabilidade:** Baixa     
+**Impacto:** Alto    
+**Prioridade:** Baixa - 8  
 
 ### R14 - Desistência da disciplina 
 **Categoria:** Gerência  
@@ -104,37 +155,7 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Ação Reativa:** Procurar outras fontes de dados ou deixar de fornecer a funcionalidade   
 **Probabilidade:** Baixa      
 **Impacto:** Muito Alto      
-**Prioridade:** Baixa - 10    
-
-### R02 - Dificuldades da equipe com as novas tecnologias inseridas
-**Categoria:** Técnico  
-**Causa:** Inexperiência de alguns membros  
-**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
-**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre      
-**Ação Reativa:** Organizar pareamento para rotação do conhecimento    
-**Probabilidade:** Baixa        
-**Impacto:** Alto  
-**Prioridade:** Baixa - 8  
-
-### R03 - Falta de comprometimento dos membros com o projeto
-**Categoria:** Gerência  
-**Causa:** Desânimo com o curso, problemas pessoais ou de saúde, excesso de compromissos, entre outros  
-**Consequência:** Issues não entregues, dívida técnica e replanejamento               
-**Ação Preventiva:** Motivar os membros do grupo e não permitir que o trabalho se torne massante      
-**Ação Reativa:** Reorganizar o cronograma e entender o motivo da falta de comprometimento para tentar evitar que ele se repita  
-**Probabilidade:** Baixa                       
-**Impacto:** Alto    
-**Prioridade:** Baixa - 8      
-
-### R11 - Falta de direcionamento por não possuir cliente real
-**Categoria:** Externo   
-**Causa:** Produto mal discutido e planejado pela equipe  
-**Consequência:** Produto desenvolvido carece de realidade            
-**Ação Preventiva:** Ter uma ótima noção do produto antes de começar seu desenvolvimento    
-**Ação Reativa:** Repensar o produto e alinhar nova visão com a equipe    
-**Probabilidade:** Muito Baixa            
-**Impacto:** Alto      
-**Prioridade:** Baixa - 8   
+**Prioridade:** Baixa - 10          
 
 ### R16 - Falta de interação entre a equipe 
 **Categoria:** Gerência  
@@ -146,25 +167,15 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Alto    
 **Prioridade:** Baixa - 8 
 
-### R13 - Falta de gratuidade do Google Maps
-**Categoria:** Externa  
-**Causa:** Políticas da Google  
-**Consequência:** Atraso nas funcionalidades que usam exibição de mapas  
-**Ação Preventiva:** Fazer essas funcionalidades de forma que sejam fáceis de integrar com outra api de mapa  
-**Ação Reativa:** Procurar outras alternativas gratuitas de uso de mapas  
-**Probabilidade:** Baixa     
-**Impacto:** Alto    
-**Prioridade:** Baixa - 8   
-
-### R06 - Falta de foco dos membros nas reuniões 
-**Categoria:** Gerência   
-**Causa:** Diversas distrações em um contexto de reuniões remotas e a falta de socialização em tempos de pandemia  
-**Consequência:** Reuniões longas e com poucos resultados       
-**Ação Preventiva:** Criar timebox para os tópicos da reunião e permanecer nos assuntos que são de interesse geral   
-**Ação Reativa:** Mudar a maneira como a reunião é conduzida de forma a deixá-la mais despojada sem perder o foco na produtividade  
-**Probabilidade:** Baixa          
-**Impacto:** Médio          
-**Prioridade:** Baixa - 6    
+### R17 - Problemas com a estação de trabalho 
+**Categoria:** Técnico  
+**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
+**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
+**Ação Preventiva:** -  
+**Ação Reativa:**  Remanejamento das atividades e revisão do cronograma  
+**Probabilidade:** Média        
+**Impacto:** Alto      
+**Prioridade:** Média - 12 
 
 ### R18 - Alteração das tecnologias
 **Categoria:** Técnico    
@@ -176,12 +187,3 @@ Os riscos estão ordenados por prioridade, que é resultado da multiplicação e
 **Impacto:** Muito Alto    
 **Prioridade:** Muito Baixa - 5   
 
-### R09 - Alteração do escopo
-**Categoria:** Gerência  
-**Causa:** Mudança no mercado, surgimento de novos requisitos  
-**Consequência:** Replanejamento do projeto   
-**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas  
-**Ação Reativa:** Redefinir o escopo e redistribuir tarefas  
-**Probabilidade:** Baixa         
-**Impacto:** Alto    
-**Prioridade:** Baixa - 4   
