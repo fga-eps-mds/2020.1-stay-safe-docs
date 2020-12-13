@@ -236,7 +236,82 @@ Através da multiplicação entre as estimativas de impacto e probabilidade é p
 **Impacto:** Muito Alto    
 **Prioridade:** Muito Baixa - 5      
 
-## 5. Referências
+## 5. Comportamento dos Riscos
+Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados, ou não, de forma completa. Tendo em mãos toda a evolução ou involução desses riscos é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foram desenvolvidos gráficos de burndown de riscos para cada uma das quatro categorias pré-estabelecidas no tópico 2. 
+
+### Técnico
+Período   | Dificuldades da equipe com novas tecnologias inseridas | Problemas com a estação de trabalho | Alteração das tecnologias
+:--------:| :----------------------------------------------------: | :---------------------------------: | :------------------------:
+Sprint 4  |                          16                            |                 8                   |              5
+Sprint 5  |                           8                            |                 8                   |              5
+Sprint 6  |                          12                            |                 12                  |              5
+Sprint 7  |                          12                            |                 12                  |              5
+Sprint 8  |                          12                            |                 12                  |              5
+Sprint 9  |                           8                            |                 12                  |              5
+Sprint 10 |                           4                            |                 16                  |              5
+Sprint 11 |                           4                            |                 12                  |              5
+Sprint 12 |                           4                            |                 16                  |              5
+Sprint 13 |                           4                            |                 12                  |              5
+Sprint 13 |                           4                            |                 12                  |              5
+Sprint 15 |                           4                            |                 12                  |              5
+Sprint 16 |                           4                            |                 12                  |              5
+
+
+### Externo
+Período   | Problemas pessoais ou de saúde relacionados a pandemia da COVID-19 | Falta de direcionamento por não possuir cliente real | Dados deixarem de ser fornecidos pelas secretarias
+:--------:| :----------------------------------------------------------------: | :--------------------------------------------------: | :------------------------:
+Sprint 4  |                          16                                        |                           12                         |              10
+Sprint 5  |                          12                                        |                           8                          |              10
+Sprint 6  |                          12                                        |                           8                          |              10
+Sprint 7  |                          12                                        |                           8                          |              10
+Sprint 8  |                          12                                        |                           8                          |              10
+Sprint 9  |                          12                                        |                           8                          |              10
+Sprint 10 |                          12                                        |                           4                          |              10
+Sprint 11 |                          12                                        |                           4                          |              10
+Sprint 12 |                          12                                        |                           4                          |              10
+Sprint 13 |                          12                                        |                           4                          |              10
+Sprint 13 |                          12                                        |                           4                          |              10
+Sprint 15 |                          12                                        |                           4                          |              10
+Sprint 16 |                          12                                        |                           4                          |              10
+
+### Organizacional
+Período   | Conflito com outras atividades acadêmicas | Conflito de dependência entre atividades
+:--------:| :---------------------------------------: | :--------------------------------------:
+Sprint 4  |                    15                     |                    12                      
+Sprint 5  |                    12                     |                    16                      
+Sprint 6  |                    15                     |                    12                      
+Sprint 7  |                    9                      |                    12                      
+Sprint 8  |                    15                     |                    8                      
+Sprint 9  |                    15                     |                    12                      
+Sprint 10 |                    15                     |                    16                      
+Sprint 11 |                    15                     |                    4                      
+Sprint 12 |                    15                     |                    8                      
+Sprint 13 |                    15                     |                    12                      
+Sprint 14 |                    12                     |                    12                      
+Sprint 15 |                    12                     |                    12                      
+Sprint 16 |                    9                      |                    9                      
+
+
+### Gerência
+Período | Divergência de Horário Entre Membros da Equipe | Falta de comprometimento dos membros com o projeto | Erros durante o planejamento das atividades | Falta de foco dos membros nas reuniões | Descumprimento de alguma legislação | Alteração do escopo | Ausência de membros durante reuniões do grupo | Desistência da disciplina | Falta de interação entre a equipe          
+:-------: |:-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------:             
+Sprint 4  |    20| 16 | 16 | 16 | 15 | 15 | 12 | 12 | 10             
+Sprint 5  |    16| 8  | 12 | 9  | 12 | 15 | 4  | 8  | 10                        
+Sprint 6  |    16| 12 | 12 | 12 | 15 | 15 | 4  | 8  | 10                           
+Sprint 7  |    16| 12 | 12 | 9  | 9  | 15 | 4  | 8  | 10                         
+Sprint 8  |    16| 12 | 12 | 16 | 15 | 15 | 4  | 8  | 10                           
+Sprint 9  |    16| 8  | 12 | 16 | 15 | 15 | 4  | 8  | 10                           
+Sprint 10 |    16| 4  | 12 | 16 | 15 | 15 | 8  | 8  | 10                         
+Sprint 11 |    16| 4  | 12 | 12 | 15 | 15 | 8  | 8  | 10                           
+Sprint 12 |    16| 4  | 12 | 12 | 15 | 15 | 8  | 8  | 10                           
+Sprint 13 |    16| 4  | 12 | 12 | 15 | 15 | 8  | 8  | 10                           
+Sprint 14 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4                          
+Sprint 15 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4                         
+Sprint 16 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4                
+
+
+
+## 6. Referências
 * RODRIGUES, Eli. EAR para projetos de software. Disponível em [https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/](https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/). Acesso em 9 set 2020.
 
 
