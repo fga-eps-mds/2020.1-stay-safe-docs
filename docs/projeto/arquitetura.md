@@ -1,4 +1,4 @@
-# Documento de Arquitetura
+# Arquitetura
 
 ## 1. Introdução
 
@@ -29,7 +29,7 @@ A aplicação tem um cliente de frontend mobile feito em React Native, dois micr
 
 Um dos microserviços é o User Service, uma API REST desenvolvida em Flask, que trata todos os dados dos usuários, ocorrências reportados e avaliações submetidas, enviando-os para serem armazenados em um banco de dados relacional, PostgreSQL.
 
-O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Da mesma forma, porém de origem diferente, estão sendo obtidos nesse serviço os dados populacionais das cidades de cada estado. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
+O segundo microserviço é o Secretary Service que obtém as informações dos websites da SSP por meio de crawlers Scrapy e as armazena em um banco de dados não relacional, MongoDB. Nesse serviço também ficam os dados populacionais das cidades de cada estado. Esses dados são expostos em uma API do serviço também feita em Flask. Por fim o aplicativo irá utilizar a API do Google Maps para exibir os mapas das funcionalidades.
 
 As comunicações entre todos os componentes são feitas com o protocolo HTTP e o tipo de conteúdo transmitido dentro do sistema é documento JSON.
 
@@ -91,7 +91,7 @@ O diagrama abaixo demonstra a interação entre as partes do serviço:
 
 ### 5.2. Secretary-Service
 
-Este serviço possui os mesmos princípios do User-Service, porém além da API ele tem um módulo de crawler. Na API as camadas são as mesmas do User-Service, mas com menos responsabilidades por ser mais simples. No módulo crawlers há crawlers para os sites das secretarias e terá também para obtenção dos dados populacionais de cada cidade. 
+Este serviço possui os mesmos princípios do User-Service, porém além da API ele tem um módulo de crawler para os sites das secretarias. Na API as camadas são as mesmas do User-Service, mas com menos responsabilidades por ser mais simples.
 
 
 * **src/** - Diretório que contém todo o código fonte da API.
@@ -101,26 +101,26 @@ Este serviço possui os mesmos princípios do User-Service, porém além da API 
 * **controllers/** - Diretório que implementa a controller do serviço para itermediar a comunicação entre as camadas de database e a de view. A controllers está sendo responsável pela validação dos filtros e demais regras de negócio.
 * **database/** - Diretório responsável pela comunicação com o banco de dados não relacional. Nele é feita a conexão com o banco.
 * **utils/** - Diretório onde se encontram os utilitários do projeto, como arquivos para formatação e validação
+* **populationData.json** - Arquivo com os dados populacionais usados para calcular a quantidade de crimes *per capita*
 * **tests/** - Contém os testes unitários realizados sobre as funcionalidades da controller.
-* **crawlers/** - Responsável pela implementação dos crawlers, com Scrapy e eventualmente [Selenium](https://www.selenium.dev/), que realizam a extração metódica e automatizada de dados das SSPs e dos dados sobre a população das cidades. 
+* **crawlers/** - Responsável pela implementação dos crawlers, com Scrapy e eventualmente [Selenium](https://www.selenium.dev/), que realizam a extração metódica e automatizada de dados das SSPs.
 
 O diagrama abaixo demonstra a interação entre as partes do serviço:
-![Secretary-Service](../images/architecture/secretary-service.png)
+![Secretary-Service](../images/architecture/secretary-service-updated.png)
 
 #### 5.2.1 Crawlers
 
-Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem. O mesmo acontece para extração de dados populacionais das cidades de cada estado.
+Para a extração dos dados das SSPs é usada uma [spider](https://docs.scrapy.org/en/latest/topics/spiders.html) pra cada secretaria, porém o resultado produzido é o mesmo, ou seja, a forma como os dados são obtidos podem variar entre as secretarias mas no banco eles não possuem diferença de modelagem, exceto nos tipos de crimes cujas nomeclaturas podem variar.
 
 Nesse módulo também há uso de crontab que é um agendador de tarefas baseado em tempo em sistemas operacionais tipo Unix.
 
 Os componentes desse módulo são descritos aqui de forma superficial: 
 
 * **crimes/** - Diretório que contém as spiders, utilitários e pipelines de extração de dados sobre crimes, que serão obtidos dos sites das SSPs.
-* **populations/** - Diretório com as spiders, utilitários e pipelines de extração de dados populacionais das cidades.
 * **sh_scripts/** - Diretório onde ficam os scripts shell que vão disparar os crawlers de forma programada com o uso de crontabs.
 
 O diagrama abaixo demonstra a interação entre esses componentes:
-![Crawlers](../images/architecture/crawlers.png)
+![Crawlers](../images/architecture/crawlers-without-populations.png)
 
 ### 5.3. Frontend
 
@@ -134,10 +134,12 @@ O frontend está sendo implementado com uma organização em que cada módulo po
 * **services/** - Diretório que contém os endpoints necessários para realizar as requisões feitas no app.
 * **components/** - Inclue os componentes que são comuns às telas da aplicação. Os componentes podem ser modals, inputs de formulários, botões, etc.
 * **utils/** - Armazena funções utilitárias reutilizáveis que serão disponibilizadas para todo o frontend. 
+* **hooks/** - Diretório onde estão os gerenciandores de estado do usuário
+* **@types/** - Onde ficam algumas tipagens internas customizadas 
 
 O diagrama abaixo mostra de forma mais clara a relação entre esses módulos:
 
-![Frontend](../images/architecture/frontend.png)
+![Frontend](../images/architecture/frontend-updated.png)
 
 ## 6. Dados 
 
@@ -190,7 +192,7 @@ Os objetos ou documentos na *collection* estão seguindo esse modelo com esses c
 
 #### 6.1.1 Evoluções
 
-Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo mais adequado foi proposto e poderá ser implementado em futuras evoluções do serviço:
+Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo mais adequado foi proposto e está sendo usado:
 
 ```
 {
@@ -206,7 +208,7 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
                     "quantity": 8
                 },
                 {
-                    "nature": "Roubo a Transeunte",
+                    "nature": "Roubo a Pedestre",
                     "quantity": 3
                 },
                 {
@@ -222,7 +224,7 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
                     "quantity": 9
                 },
                 {
-                    "nature": "Furto a Transeunte",
+                    "nature": "Furto a Pedestre",
                     "quantity": 8
                 },
                 {
@@ -236,24 +238,40 @@ Depois de usar o modelo acima, foi percebido pontos de melhoria e outro modelo m
 ```
 
 ### 6.2 Dados das populações das cidades
-Os dados populacionais das cidades também são armazenados no MongoDB em que cada estado é uma *collection*. Exemplo de nome para uma collection de população: `populations_df` para o Distrito Federal.
+Os dados populacionais das cidades de São Paulo são da [estimativa do IBGE para 2020](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads) e os das Regiões Administrativas do Distrito Federal são da [Companhia de Planejamendo do DF](http://www.codeplan.df.gov.br/wp-content/uploads/2019/05/Sum%C3%A1rio-Executivo-Proje%C3%A7%C3%B5es-Populacionais.pdf). Esses dados estão armazenados de forma estática no secretary-service em um arquivo `.json`. O `json` está nesse modelo:
 
-Os objetos ou documentos na *collection* estão seguindo esse modelo:
 ```
 {
-    "_id": 1,
-    "capture_data": "04/08/2020",
-    "year": 2020,
-    "cities": [
-        {
-            "name": "Águas Claras",
-			"population": 50000
-        },
-        {
-            "name": "Taguatinga",
-			"population": 150000
-        }
-    ]
+	"capture_data": "14/10/2020",
+	"census": 2020,
+	"populations": [
+		{
+			"state": "df",
+			"cities": [
+				{
+					"name": "Ceilândia",
+					"population": 443.824
+				},
+				{
+					"name": "Samambaia",
+					"population": 244.960
+				}
+			]
+		},
+		{
+			"state": "sp",
+			"cities": [
+				{
+					"name": "Adamantina",
+					"population": 35.111
+				},
+				{
+					"name": "Adolfo",
+					"population": 3.554
+				},
+			]
+		}
+	]
 }
 ```
 
@@ -266,18 +284,19 @@ Os dados do usuário estão sendo armazenados no PostgreSQL com a seguinte model
 
 #### 6.3.1 Diagrama Entidade-Relacionamento
 Esse diagrama mostra quais e como são as entidades e os relacionamentos entre elas. 
-![DE-R](../images/architecture/user-service-DER.jpg)
+![DE-R](../images/architecture/user-service-der-updated.png)
 
 #### 6.3.2 Diagrama Lógico
 O modelo lógico dá mais detalhes de como estão implementadas as tabelas no banco de dados.
-![Lógico](../images/architecture/user-service-logic.jpg)
+![Lógico](../images/architecture/user-service-logic-updated.png)
 
 Os campos do tipo *enum* tem os seguintes valores possíveis:
 
-* **detalhesAvaliacao (tabela avalia):** ("iluminação ruim", "pouca movimentação de pessoas", "poucas rondas policiais", "boa iluminação", "boa movimentação de pessoas", "rondas policiais frequentes")
 * **arma (tabela Ocorrencia)**: ("nenhuma", "de fogo", "branca")
-* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a transeunte", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Furto a Transeunte", "Furto de Veículo")
+* **tipoOcorrencia (tabela Ocorrencia)**: ("Latrocínio", "Roubo a Pedestre", "Roubo de Veículo", "Roubo de Residência" , "Estupro", "Furto a Pedestre", "Furto de Veículo")
 
+#### 6.3.3 Bairros
+A lista de bairros que está no banco do projeto foi encontrada neste [repositóro](https://github.com/chandez/Estados-Cidades-IBGE) cuja fonte é o [Sistema IBGE de Recuperação Automática](https://sidra.ibge.gov.br/territorio).
 
 ## 7. Referências
 
@@ -303,3 +322,4 @@ MIGUEL, Alexandre; ALVES, Davi; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 05/09/2020 | 1.1 | Adicionando modelagem dos dados | Sara e Renan |
 | 08/10/2020 | 2.0 | Revisão, correção e atualzação | Sara |
 | 12/10/2020 | 2.1 | Adição modelo de dados populacionais | Sara |
+| 03/12/2020 | 3.0 | Atualiza para arquitetura e modelagem que está sendo usada atualmente | Sara |
