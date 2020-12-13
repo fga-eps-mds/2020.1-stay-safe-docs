@@ -3,7 +3,7 @@
 ## 1. Visão Geral
 **Número da Sprint:** 15                  
 **Data de Início:** 29/11/2020  
-**Data de Término:** 05/11/2020   
+**Data de Término:** 05/12/2020   
 **Duração:** 7 dias  
 **Pontos Planejados:** 27 pontos  
 **Dívida Técnica:** 9 pontos  
