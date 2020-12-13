@@ -20,7 +20,7 @@
 ## 3. Objetivos
 Abaixo são detalhadas as histórias, os repositórios em que elas serão feitas e os objetivos que esperamos atingir com elas:
 
-* Configurar SonarQube para monitorar qualidade do produto (**Histórias:** #64 - User)
+* Configurar SonarQube para monitorar qualidade do produto (**História:** #64 - User)
 * Correções e ajustes no frontend para melhorar a usabilidade do aplicativo (**Histórias:** #89, #90, #91, #92, #93, #94 e #98 - Frontend)
 * Documentar planejamento e review da sprint (**História:** #100 - Docs)
 * Solucionar dívidas técnicas da sprint anterior (**Histórias:** #82 - Frontend, #95 e #97 - Docs, #59 - User e #44 - Secretary)
