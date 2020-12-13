@@ -237,7 +237,7 @@ Através da multiplicação entre as estimativas de impacto e probabilidade é p
 **Prioridade:** Muito Baixa - 5      
 
 ## 5. Comportamento dos Riscos
-Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados, ou não, de forma completa. Tendo em mãos toda a evolução ou involução desses riscos é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foram desenvolvidos gráficos de burndown de riscos para cada uma das quatro categorias pré-estabelecidas no tópico 2. 
+Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados(ou não) de forma completa. Tendo em mãos toda a evolução ou involução desses riscos, é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foram desenvolvidas tabelas das prioridades atribuidas a cada risco em cada sprint bem como seus respectivos gráficos de burndown de riscos.
 
 ### Técnico
 Período   | Dificuldades da equipe com novas tecnologias inseridas | Problemas com a estação de trabalho | Alteração das tecnologias
@@ -256,6 +256,7 @@ Sprint 13 |                           4                            |            
 Sprint 15 |                           4                            |                 12                  |              5
 Sprint 16 |                           4                            |                 12                  |              5
 
+![burndown](../images/risks/tecnicos.jpeg)
 
 ### Externo
 Período   | Problemas pessoais ou de saúde relacionados a pandemia da COVID-19 | Falta de direcionamento por não possuir cliente real | Dados deixarem de ser fornecidos pelas secretarias
@@ -274,6 +275,8 @@ Sprint 13 |                          12                                        |
 Sprint 15 |                          12                                        |                           4                          |              10
 Sprint 16 |                          12                                        |                           4                          |              10
 
+![burndown](../images/risks/externos.jpeg)
+
 ### Organizacional
 Período   | Conflito com outras atividades acadêmicas | Conflito de dependência entre atividades
 :--------:| :---------------------------------------: | :--------------------------------------:
@@ -291,6 +294,7 @@ Sprint 14 |                    12                     |                    12
 Sprint 15 |                    12                     |                    12                      
 Sprint 16 |                    9                      |                    9                      
 
+![burndown](../images/risks/organizacionais.jpeg)
 
 ### Gerência
 Período | Divergência de Horário Entre Membros da Equipe | Falta de comprometimento dos membros com o projeto | Erros durante o planejamento das atividades | Falta de foco dos membros nas reuniões | Descumprimento de alguma legislação | Alteração do escopo | Ausência de membros durante reuniões do grupo | Desistência da disciplina | Falta de interação entre a equipe          
@@ -309,7 +313,7 @@ Sprint 14 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4
 Sprint 15 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4                         
 Sprint 16 |    16| 8  | 8  | 6  | 15 | 8  | 9  | 5  | 4                
 
-
+![burndown](../images/risks/gerencia.jpeg)
 
 ## 6. Referências
 * RODRIGUES, Eli. EAR para projetos de software. Disponível em [https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/](https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/). Acesso em 9 set 2020.
