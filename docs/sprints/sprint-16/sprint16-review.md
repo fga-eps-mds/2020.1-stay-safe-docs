@@ -63,19 +63,19 @@ Duas dívidas técnicas foram herdadas de sprints anteriores:
 **Status:** Concluída    
 
 ## 3. Velocity
-![Velocity](../../images/sprints/sprint-15/Velocity.png "Velocity")
+![Velocity](../../images/sprints/sprint-16/Velocity.png "Velocity")
 
 ## 4. Burndown
-![Burndown](../../images/sprints/sprint-15/Burndown.png "Burndown")
+![Burndown](../../images/sprints/sprint-16/Burndown.png "Burndown")
 
 ### 4.1 Burndown Review/QA
-![Burndown](../../images/sprints/sprint-15/Burndown-Review.png "Burndown")
+![Burndown](../../images/sprints/sprint-16/Burndown-Review.png "Burndown")
 
 
 ## 5. Gráfico de Contribuições
 
 ### 5.1 Contribuições no Frontend
-![Histórico de Contribuição Frontend](../../images/sprints/sprint-15/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
+![Histórico de Contribuição Frontend](../../images/sprints/sprint-16/ContributionGraph-Frontend.png "Histórico de Contribuição Frontend")
 
 ## 6. Retrospectiva
 
@@ -101,4 +101,11 @@ Duas dívidas técnicas foram herdadas de sprints anteriores:
 ### Melhorias 
 
 ## 7. Quadro de Conhecimentos
-![Quadro de Conhecimentos](../../images/sprints/sprint-13/KnowledgeBoard.png "Quadro de Conhecimentos")
+![Quadro de Conhecimentos](../../images/sprints/sprint-16/KnowledgeBoard.png "Quadro de Conhecimentos")
+
+## 8. Análise do Scrum Master
+Última sprint do projeto, MVP finalizado, semestre se encerrando. Os pontos positivos resumem alguns sentimentos gerais e outros pessoais a respeito do trabalho feito. 
+
+Acredito que esse documento final deve valorizar mais as pessoas e a experiências que tiveram do que as poucas histórias dessa sprint ou as métricas observadas nesta. Para se ter noção desses pontos citados nesse estágio final é possível assistir nossa [apresentação da Release 2](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/releases/release-2/).
+
+Nessa documentação da sprint incluímos mais um [quadro de análise de saúde do time](https://fga-eps-mds.github.io/2020.1-stay-safe-docs/sprints/sprint-16/sprint16-healthcheck/) onde cada membro deu seu relato pessoal a respeito do projeto, um excelente feedback que mostra o sucesso com que tudo foi executado. A melhor análise possível do que ocorreu durante o projeto está nos relatos de quem participou dele, lá são abordados vários pontos como comunicação, conhecimento gerado, trabalho em equipe, amizade, entre outros e acredito que juntos compõem uma análise minunciosa, individual e muito superior ao que eu consigo escrever aqui.

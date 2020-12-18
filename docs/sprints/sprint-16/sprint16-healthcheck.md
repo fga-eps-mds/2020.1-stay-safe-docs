@@ -5,6 +5,8 @@ Para ter um panorama geral da saúde do time é utilizado o Squad Health Check M
 
 Em relação ao framework original o grupo aplicou algumas mudanças, como o maior número de cores para fazer a avaliação a fim de permitir uma visualização mais fidedigna de todos os parâmetros.
 
+Ao final do modelo de análise de saúde pedimos os relatos pessoais de cada membro e fizemos um gráfico da evolução de conhecimento de cada um dentro do projeto.
+
 ## 2. Atributos Avaliados
 
 Abaixo são fornecidos exemplos de avaliações boas e ruins de cada atributo disponibilizadas pelo próprio Spotify e traduzidas pelo [zup](https://www.zup.com.br/blog/health-check-saude-da-sua-equipe):
@@ -73,30 +75,36 @@ Aprendi bastante sobre os processos e as metodologias, e o quanto faz falta ter 
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Lucas Depois](../../images/sprints/sprint-16/Lucas-Depois.png "Lucas Depois")
 
-### 5.4 Luiz - MDS
+### 5.4 Ítalo - MDS
+Essa disciplina de MDS foi o que me trouxe mais segurança e certeza no que eu pensei em seguir em software até agora, com um grupo bastante diverso e mesmo assim bem unido. Consegui aprender e perceber bastante coisa nas tecnologias que usamos e na metodologia que a partir de agora e futuramente usaremos bastante.
 
-### 5.5 Ítalo - MDS
+Antes de estudar MDS, eu ouvia muito sobre essa disciplina e a importância que ela tinha na nossa carreira. Agora, depois de vivenciar por um semestre vejo que quem me falava isso estava 100% certo desses fatos e estou feliz de ter realizado ela junto com pessoas bem legais e espero que esse laço feito com a equipe não se desfaça tão cedo.
+
 **Nível de Conhecimento das Tecnologias na Sprint 0:**
 ![Italo Antes](../../images/sprints/sprint-16/Italo-Antes.png "Italo Antes")
 
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Italo Depois](../../images/sprints/sprint-16/Italo-Depois.png "Italo Depois")
 
-### 5.6 Hérick - MDS
+### 5.5 Hérick - MDS
+Eu sempre ouvia muita gente falar que MDS tinha sido um grande marco no curso, e pra mim não foi diferente, foi uma experiência incrível entender e fazer parte do ciclo de desenvolvimento de um software e encerro o projeto com um aprendizado muito grande. Sem dúvida foi a melhor experiência que tive até então na faculdade, e grande parte disso se deve ao nosso time fantástico de EPS e MDS, que durante todo o semestre manteve uma comunicação, interação e comprometimento incríveis, o que possibilitou uma enorme troca de conhecimentos e mais importante, a formação de laços de amizade.
+
 **Nível de Conhecimento das Tecnologias na Sprint 0:**
 ![Hérick Antes](../../images/sprints/sprint-16/Herick-Antes.png "Hérick Antes")
 
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Hérick Depois](../../images/sprints/sprint-16/Herick-Depois.png "Hérick Depois")
 
-### 5.7 Tiago - MDS
+### 5.6 Tiago - MDS
+Um dos melhores projetos que já participei. Gostei muito dos meus companheiros de time. A organização do meu time foi excepcional e por causa disso pude aprender muito sobre as metodologias utilizadas e sobre as tecnologias do projeto. Saio muito melhor do que entrei, tanto em conhecimento quanto em amizades. A matéria me abriu portas muito importantes para minha carreira profissional e nunca me esquecerei disso. Tive muito noção também sobre a minha área de atuação. Só tenho a agradecer.
+
 **Nível de Conhecimento das Tecnologias na Sprint 0:**
 ![Tiago Antes](../../images/sprints/sprint-16/Tiago-Antes.png "Tiago Antes")
 
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Tiago Depois](../../images/sprints/sprint-16/Tiago-Depois.png "Tiago Depois")
 
-### 5.8 Renan - EPS
+### 5.7 Renan - EPS
 Sem dúvida a melhor experiência que tive com trabalho em grupo e fico muito orgulhoso do excelente produto que pensamos e criamos juntos. Apesar do processo no geral ter corrido muito bem existiram alguns problemas no meio do caminho e acredito que eu poderia ter trabalho de maneira mais árdua na resolução desses, esse é meu único arrependimento.
 
 Com esse grupo maravilhoso de pessoas confesso que meu trabalho como scrum foi um pouco facilitado, kkkkkkk, fica aqui também o elogio aos meus colegas de EPS que levaram o trabalho com muito compromisso e seriedade e aos MDS que sempre conseguem fazer a issue da semana, não importa o tamanho do desafio, foi ótimo trabalhar com vocês. 
@@ -109,14 +117,24 @@ Um brinde aos laços que formamos e tudo que aprendemos no projeto, agora só pr
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Renan Depois](../../images/sprints/sprint-16/Renan-Depois.png "Renan Depois")
 
-### 5.9 Rossicler - EPS
+### 5.8 Rossicler - EPS
+EPS é uma matéria que sempre tive a vontade de fazer, mesmo com um certo medo por saber que é uma matéria muito puxada em que você depende muito da sua equipe para que tenha uma boa experiência. Com isso em mente eu só tenho a agradecer ao meu grupo, nessa matéria consegui conhecer pessoas que fizeram dessa matéria uma experiência incrível, onde consegui aprender e praticar conceitos que eu sempre tive a vontade de aplicar em um projeto real, além de conhecimentos que não tinha a mínima ideia de que iria adquirir. 
+
+Por fim, agradeço aos meus colegas de equipe de EPS pelo esforço e empenho dentro do nosso projeto e na disciplina como um todo, também agradeço a nossa equipe de MDS que conseguiram fazer tantas coisas que eu nem sonhava em fazer quando estava em MDS, do esforço, da boa comunicação (geralmente é algo bem complicado nessa interação entre MDS e EPS) e da vontade de aprender que com certeza foi essencial para chegarmos onde chegamos. Obrigado a todos.
+
 **Nível de Conhecimento das Tecnologias na Sprint 0:**
 ![Rossicler Antes](../../images/sprints/sprint-16/Rossicler-Antes.png "Rossicler Antes")
 
 **Nível de Conhecimento das Tecnologias na Sprint 16:**
 ![Rossicler Depois](../../images/sprints/sprint-16/Rossicler-Depois.png "Rossicler Depois")
 
-### 5.10 Sara - EPS
+### 5.9 Sara - EPS
+A matéria pra mim foi proveitosa, aprendi muito sobre arquitetura com a chance de aplicar em um projeto na prática.
+
+Além de ter o prazer de trabalhar com uma equipe compromissada e profissional, que se preocupa com a qualidade do produto desde a sua concepção, desenvolvimento até a finalização.
+
+Através da matéria consegui ter mais noção de projeto em seus vários aspectos, além de ter a oportunidade de trocar conhecimentos com os membros de EPS e MDS, valorizo essa oportunidade que as matérias proporcionam.
+
 **Nível de Conhecimento das Tecnologias na Sprint 0:**
 ![Sara Antes](../../images/sprints/sprint-16/Sara-Antes.png "Sara Antes")
 
