@@ -1,0 +1,132 @@
+.md-header {
+    background-color: #011640;
+}
+
+.md-tabs {
+    background-image: linear-gradient(to bottom, #011640, #E8333E);
+}
+
+
+.md-search__form {
+    background-color: #c8c8c8;
+}
+
+.md-footer {
+    background-color: #010A26;
+}
+
+.md-tabs__item a {
+    font-size: 16px;
+    font-weight: bold;
+    color: white
+}
+
+/* Customização das tabelas */
+.md-typeset table:not([class]) th {
+    background-color: #E8333E;
+}
+
+tr:nth-child(odd) {
+    background-color: #c8c8c8;
+}
+
+th {
+    font-weight: bold;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pessoa {
+    padding-bottom: 1rem;
+}
+
+.photo-border {
+    border-radius: 25px;
+    width: 12em;
+    height: 12em;
+    overflow: hidden;
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px #e83338;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e83338;
+    z-index: 3;
+    transition: opacity 0.5s !important;
+}
+
+.photo-border:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 10px #e83338;
+}
+
+.photo-border img {
+    overflow: hidden;
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+}
+
+.legenda {
+    color: #011640;
+    text-align: center;
+}
+
+.legenda:hover {
+    opacity: 0.6;
+}
+
+.repo-border {
+    border-radius: 25px;
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+	box-shadow: 0 0 5px #e83338;
+    border-style: solid;
+    border-width: 3px;
+	border-color: #e83338;
+    z-index: 3;
+    transition: opacity 0.5s !important;
+}
+
+.repo-border img {
+    width: 9em;
+    height: 9em;
+    object-fit: contain;
+}
+
+.repo-border:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 10px #e83338;
+}
+
+.link-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all;
+}
+
+.link-title:hover {
+    opacity: 0.6;
+}
+
+.video-container {
+    background-color: #E8333E;
+    padding: 2px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #e83338;
+}
+
+.release-video {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    border: 0;
+}
